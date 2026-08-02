@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="狙い目">
+<meta name="theme-color" content="#12151c">
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}</script>
+<title>明日の狙い目 8/3(月)</title>
+<style>
+  :root{
+    --bg:#f4f5f7; --card:#ffffff; --ink:#1a2333; --ink2:#5a6577; --ink3:#8a93a3;
+    --line:#e3e6ec; --accent:#c8102e; --gold:#d4a017; --chip:#eef1f6; --chipink:#33405c;
+    --s5:#c8102e; --s4:#e05c2a; --s3:#d4a017; --s2:#7a869c; --s1:#aab2bf;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#12151c; --card:#1c202a; --ink:#eef1f6; --ink2:#a8b0bf; --ink3:#7a8496;
+      --line:#2a2f3c; --chip:#262c3a; --chipink:#c6cede; --gold:#e0b13a;
+      --s5:#ff5a6e; --s4:#ff8a54; --s3:#e0b13a; --s2:#8b97ad; --s1:#5f6878;
+    }
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:"Hiragino Sans","Yu Gothic",-apple-system,sans-serif; background:var(--bg); color:var(--ink); padding:14px; max-width:620px; margin:0 auto; line-height:1.55;}
+  header{margin-bottom:14px;}
+  .date{font-size:22px; font-weight:800;}
+  .date small{font-size:13px; font-weight:600; color:var(--ink2); margin-left:8px;}
+  .updated{font-size:11px; color:var(--ink3); margin-top:2px;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px 14px 10px; margin-bottom:12px; box-shadow:0 1px 3px rgba(0,0,0,.05);}
+  .rowtop{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
+  .stars{font-size:15px; letter-spacing:1px; font-weight:700;}
+  .r5 .stars{color:var(--s5);} .r4 .stars{color:var(--s4);} .r3 .stars{color:var(--s3);} .r2 .stars{color:var(--s2);} .r1 .stars{color:var(--s1);}
+  .store{font-size:17px; font-weight:800;}
+  .tag{font-size:11px; font-weight:700; background:var(--chip); color:var(--chipink); border-radius:20px; padding:2px 10px;}
+  .ev{font-size:13px; color:var(--ink2); margin-top:6px; font-weight:600;}
+  .chips{display:flex; flex-wrap:wrap; gap:6px; margin-top:8px;}
+  .chip{font-size:12px; font-weight:700; background:var(--chip); color:var(--chipink); border-radius:8px; padding:3px 9px; border:1px solid var(--line);}
+  .chip.hot{background:rgba(200,16,46,.09); color:var(--s5); border-color:rgba(200,16,46,.25);}
+  details{margin-top:10px; border-top:1px dashed var(--line); padding-top:8px;}
+  summary{font-size:12px; font-weight:700; color:var(--ink2); cursor:pointer; list-style:none; display:flex; align-items:center; gap:6px;}
+  summary::before{content:"▸"; transition:transform .15s;}
+  details[open] summary::before{transform:rotate(90deg);}
+  .evbody{margin-top:8px; display:flex; flex-direction:column; gap:8px;}
+  .tw{background:var(--chip); border-left:3px solid var(--gold); border-radius:0 8px 8px 0; padding:8px 10px; font-size:12px; color:var(--ink);}
+  .tw .who{font-weight:800; font-size:11px; color:var(--ink2); margin-bottom:2px;}
+  .tw a{color:var(--accent); text-decoration:none; font-weight:700;}
+  .fact{font-size:12px; color:var(--ink2); padding-left:10px; border-left:3px solid var(--line);}
+  .fact b{color:var(--ink);}
+  .caution{font-size:11px; color:var(--ink3); margin-top:8px;}
+  h2{font-size:14px; color:var(--ink2); margin:20px 0 10px; font-weight:800;}
+  .week{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 14px; font-size:13px;}
+  .week .d{display:flex; gap:10px; padding:6px 0; border-bottom:1px dashed var(--line); align-items:baseline;}
+  .week .d:last-child{border-bottom:none;}
+  .week .dd{font-weight:800; min-width:64px; color:var(--accent);}
+  footer{font-size:10px; color:var(--ink3); margin-top:16px; text-align:center;}
+  a{color:var(--accent);}
+</style>
+</head>
+<body>
+<header>
+  <div class="date">8/3<small>(月) 明日の狙い目</small></div>
+  <div class="updated">更新: 8/2(日) 23:15 ｜ 11店舗DB v2 + X告知照合済み</div>
+</header>
+
+<div class="card r5">
+  <div class="rowtop"><span class="stars">★★★★★</span><span class="store">マルハン亀有</span><span class="tag">周年期間2日目</span></div>
+  <div class="ev">BIG THANK YOU × 日野共闘 ｜ 8/1〜8/10の10日間連続仕掛け中</div>
+  <div class="chips">
+    <span class="chip hot">炎炎ノ消防隊2</span><span class="chip hot">天膳</span><span class="chip hot">SBJ</span>
+    <span class="chip">3台並び×10箇所〜</span><span class="chip">9台並び</span><span class="chip">末尾③⑨起点</span>
+  </div>
+  <details><summary>根拠を見る(ツイート・過去実績)</summary><div class="evbody">
+    <div class="tw"><div class="who">ベルまる @berumaruberu(8/3朝メモ)</div>「マルハン亀有 BIG THANK YOU×日野共闘 ┗全体強化/合同/超優秀/3台並び×10〜/9台並び ┗末尾③⑨起点並び注目 ┗炎炎2/天膳/SBJ」 → <a href="https://x.com/berumaruberu">@berumaruberu</a></div>
+    <div class="tw"><div class="who">六道のスロット(8/3 都内本気店リスト)</div>「都内で本気で打ちに行ける店」にマルハン亀有を掲載</div>
+    <div class="fact"><b>過去の裏付け:</b> 8/1〜8/10は毎年恒例の連続仕掛け(初日激熱)。毎月1日平均<b>+289枚</b>・7のつく日<b>+331枚</b>。真骨超(21日)では北斗転生に<b>20/25台プラス+3,764枚</b>の実績。全力厳選ホールでカバネリ<b>13/13台全プラス+5,198枚</b>。</div>
+    <div class="caution">⚠ 非等価(5.2枚)なので現金投資は重め。抽選9:40、周年期間は並び大。</div>
+  </div></details>
+</div>
+
+<div class="card r5">
+  <div class="rowtop"><span class="stars">★★★★★</span><span class="store">新!ガーデン八潮</span><span class="tag">みんパチ予想SS</span></div>
+  <div class="ev">月初強化の流れ+第三者予想が最高評価</div>
+  <div class="chips">
+    <span class="chip hot">カバネリ(40台)</span><span class="chip hot">北斗転生2</span><span class="chip">鉄拳6</span><span class="chip">無職転生</span>
+  </div>
+  <details><summary>根拠を見る(ツイート・過去実績)</summary><div class="evbody">
+    <div class="tw"><div class="who">みんパチ南関東版 @minpachi_mkanto(8/3日刊予想)</div>「8/3 日刊みんパチ予想【埼玉東部版】新!ガーデン八潮店【SS】」(他店はC評価中心の中で唯一のSS) → <a href="https://x.com/minpachi_mkanto">@minpachi_mkanto</a></div>
+    <div class="tw"><div class="who">現地報告 @kimidori_oryoku(8/2)</div>「シャルさん来店(現役設定師2代目)。通路角スロット5スロ含めて全6。この店めっちゃ設定入れてて良い」→ 前日から投入意欲が高い状態</div>
+    <div class="fact"><b>過去の裏付け:</b> 直近180日で北斗転生2平均<b>+4,494枚</b>・鉄拳6<b>+4,007枚</b>。8のつく日のスロパチin埼玉ではカバネリ40台ベースアップ(7/18は21/40+1,000)。並び平均209人。</div>
+    <div class="caution">⚠ 軍団対策が弱いとの現地報告あり。抽選9:40。換金5.6枚非等価に変更報告(要確認)。</div>
+  </div></details>
+</div>
+
+<div class="card r4">
+  <div class="rowtop"><span class="stars">★★★★☆</span><span class="store">ピーアーク草加</span><span class="tag">サキドリ来店取材</span></div>
+  <div class="ev">先出し情報あり ｜ 周年月(7/28本周年)直後の月初</div>
+  <div class="chips">
+    <span class="chip hot">鉄拳(ニブイチ先出し)</span><span class="chip hot">モンキーV(新女王パネル)</span><span class="chip">ファンキー</span><span class="chip">SAO2</span><span class="chip">ユニバ系</span>
+  </div>
+  <details><summary>根拠を見る(ツイート・過去実績)</summary><div class="evbody">
+    <div class="tw"><div class="who">ダイヤ @daiya_saitama(8/3オススメ)</div>「ピーアーク草加・サキドリ来店取材 ┗先出しニブイチ 鉄拳/??? ┗先出しサブイチ モンキー新女王パネル ┗ファンキー/SAO2/ユニバ」 → <a href="https://x.com/daiya_saitama">@daiya_saitama</a></div>
+    <div class="fact"><b>過去の裏付け:</b> 4台島単位で複数島全台系を作る店。エラスロでは島<b>9/12+3,343枚</b>・<b>3/3+5,090枚</b>。2026年2月には喰種3島分・ヴヴヴ・北斗転生・カバネリの全台系(虹)報告が高頻度。</div>
+    <div class="caution">⚠ 小型店(スロ312台)でメイン機種は即埋まり。整理券9:30→9:50再整列。</div>
+  </div></details>
+</div>
+
+<div class="card r3">
+  <div class="rowtop"><span class="stars">★★★☆☆</span><span class="store">キコーナ松戸</span><span class="tag">3のつく日</span></div>
+  <div class="ev">旧イベ日(3・9のつく日、23日が月内最強)</div>
+  <div class="chips"><span class="chip hot">東京喰種(20台)</span><span class="chip">ジャグ/ファンキー3台並び</span><span class="chip">モンキーV</span></div>
+  <details><summary>根拠を見る(ツイート・過去実績)</summary><div class="evbody">
+    <div class="tw"><div class="who">まなスロ @surosuki272521(8/3千葉本命)</div>「キコーナ松戸・3のつく日」を千葉県の本命リストに掲載 → <a href="https://x.com/surosuki272521">@surosuki272521</a></div>
+    <div class="fact"><b>過去の裏付け:</b> 喰種インパクトで喰種<b>14/20台+1,858枚</b>(7/20)。口コミ「ファンキー2やマイジャグに3台並べてる」。モンキーターンV全台系実績。KO取材(13日・23日頃)では無職転生<b>3/3+9,087枚</b>。</div>
+    <div class="caution">⚠ 3のつく日でも旧イベ平均差枚は-213枚と過信禁物。強い日は500人超。</div>
+  </div></details>
+</div>
+
+<div class="card r3">
+  <div class="rowtop"><span class="stars">★★★☆☆</span><span class="store">エクスアリーナ松戸</span><span class="tag">TRIANGLE EYE取材</span></div>
+  <div class="ev">シーナ。来店 ｜ 3台並び最低9箇所の予告</div>
+  <div class="chips"><span class="chip">3台並び×9箇所〜</span><span class="chip">ディスクアップ系</span><span class="chip">ジャグラー(111台)</span><span class="chip">SAOII</span></div>
+  <details><summary>根拠を見る(ツイート・過去実績)</summary><div class="evbody">
+    <div class="tw"><div class="who">勝ち盛りパンダ @panpan_panda777(8/3特選ホール)</div>「エクスアリーナ松戸 TRIANGLE EYE徹底取材・シーナ。さん来店・抽選9:30。過去の傾向: 3台並び仕掛けあり⇒最低⑨箇所+単品仕掛け」 → <a href="https://x.com/panpan_panda777">@panpan_panda777</a></div>
+    <div class="tw"><div class="who">みんレポ関東(8/1実績)</div>「8/1千葉県スロット平均差枚ランキング ③エクスアリーナ松戸 +240」→ 直近の出玉状態は良好</div>
+    <div class="fact"><b>過去の裏付け:</b> 剛腕のリアルでディスクアップUR<b>7/8+2,073枚(R5)</b>。5/5にはジャグラー111台ほぼ全6(勝率96%)の破壊力実績。ただし0のつく日以外はムラあり。</div>
+    <div class="caution">⚠ 抽選に会員カードが必要になった報告あり。忘れずに。</div>
+  </div></details>
+</div>
+
+<div class="card r2">
+  <div class="rowtop"><span class="stars">★★☆☆☆</span><span class="store">パラッツォ三郷中央 / 馬橋駅前</span><span class="tag">通常日</span></div>
+  <div class="ev">3日は特定日に非該当。次は<b>8/8シン特定日(炎炎)</b>・馬橋は8/12(2の日=乙女5)</div>
+</div>
+
+<div class="card r2">
+  <div class="rowtop"><span class="stars">★★☆☆☆</span><span class="store">楽園南越谷</span><span class="tag">通常日</span></div>
+  <div class="ev">次の狙いは<b>8/8(月日ゾロ目=旧イベ最強★4.8)</b>。ジャグ・メイン機種限定で</div>
+</div>
+
+<div class="card r1">
+  <div class="rowtop"><span class="stars">★☆☆☆☆</span><span class="store">SAP草加 / やすだ三郷 / やすだ八潮</span><span class="tag">見送り</span></div>
+  <div class="ev">SAP草加は<b>8/11(四店傑集=月内最強)</b>まで温存。やすだ2店は<b>8/8(双乱ノ刻+8の日)</b>が本番 → 合同機種の紙上本命は<b>マギレコ</b>(当日朝のX照合で確定)</div>
+</div>
+
+<h2>今週の注目日カレンダー</h2>
+<div class="week">
+  <div class="d"><span class="dd">8/8(土)</span><span><b>最激戦日。</b>パラ三郷&馬橋=シン特定日(炎炎)/やすだ三郷&八潮=双乱ノ刻+月=日(本命マギレコ)/楽園南越谷=月ゾロ★4.8/新ガーデン八潮=スロパチin埼玉(カバネリ40台)</span></div>
+  <div class="d"><span class="dd">8/10(月)</span><span>エクス松戸=0のつく日/マルハン亀有=周年期間最終日</span></div>
+  <div class="d"><span class="dd">8/11(火)</span><span>SAP草加=四店傑集(吉宗・ビッグドリームR5連発の実績)/ピーアーク草加=11日(月内優位日)/楽園南越谷=旧イベ</span></div>
+  <div class="d"><span class="dd">8/12(水)</span><span>パラ2店=2のつく日(アンケ機種+乙女5、前夜@foxfoxslot告知)/やすだ三郷=ブラック独占(SAOII枠)</span></div>
+  <div class="d"><span class="dd">8/16(日)</span><span>パラ三郷=スロパチステーション来店取材(並び200〜400人)</span></div>
+</div>
+
+<footer>データ: hall-navi・みんパチ・slo-map・X告知網 ｜ 毎晩21時に自動更新 ｜ 評価は独自分析であり出玉を保証するものではありません</footer>
+</body>
+</html>
