@@ -26,6 +26,10 @@ footer{font-size:10px;color:var(--ink2);margin-top:14px;text-align:center}
 </style></head><body>
 <div class="nav"><a href="./">★ 明日の狙い目</a><a class="here" href="db.html">📚 法則データベース</a></div>
 <h1>法則データベース(11店舗)</h1>
+<input id="q" type="search" placeholder="検索: 店舗・イベント・機種 (例: カバネリ / 2のつく日 / パラ三郷)" style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font-size:13px;margin-bottom:8px">
+<div class="tabs" style="margin-bottom:4px" id="quick">
+<button class="tab" data-q="周年">周年</button><button class="tab" data-q="ゾロ目">ゾロ目</button><button class="tab" data-q="8のつく日">8の日</button><button class="tab" data-q="2のつく日">2の日</button><button class="tab" data-q="全台系">全台系</button><button class="tab" data-q="ジャグ">ジャグラー</button><button class="tab" data-q="カバネリ">カバネリ</button><button class="tab" data-q="喰種">喰種</button><button class="tab" data-q="">クリア</button>
+</div>
 <div class="tabs"><button class="tab on" data-t="sum">総合サマリ</button><button class="tab" data-t="law">イベント法則</button><button class="tab" data-t="koyaku">公約</button><button class="tab" data-t="narabi">並び</button><button class="tab" data-t="sns">告知網</button><button class="tab" data-t="log">実績ログ</button></div>
 <section id="sum" class="panel on"><div class="ttl">11店舗 予想DB 総合サマリ v2(2026/8/2 深掘り調査反映)</div>
 <div class="twrap"><table>
@@ -157,5 +161,12 @@ document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));
   b.classList.add('on'); document.getElementById(b.dataset.t).classList.add('on');
 }));
+const q=document.getElementById('q');
+function filt(){const v=q.value.trim().toLowerCase();
+ document.querySelectorAll('.panel table tbody tr').forEach(tr=>{ tr.style.display = (!v || tr.textContent.toLowerCase().includes(v)) ? '' : 'none'; });
+ document.querySelectorAll('.panel').forEach(p=>{const vis=[...p.querySelectorAll('tbody tr')].filter(t=>t.style.display!=='none').length; });
+}
+q.addEventListener('input',filt);
+document.querySelectorAll('#quick .tab').forEach(b=>b.addEventListener('click',()=>{q.value=b.dataset.q;filt();}));
 if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}
 </script></body></html>
