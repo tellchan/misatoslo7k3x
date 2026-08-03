@@ -20,7 +20,7 @@
     :root{ --bg:#101216; --card:#171a20; --ink:#f2f4f7; --ink2:#98a2b3; --ink3:#667085; --line:#23262e; --accent:#f04438; --chip:#1f232b; }
   }
   *{box-sizing:border-box; margin:0; padding:0;}
-  body{font-family:"Hiragino Sans","Yu Gothic",-apple-system,sans-serif; background:var(--bg); color:var(--ink); padding:20px 18px 32px; max-width:560px; margin:0 auto; line-height:1.6;}
+  body{font-family:"Hiragino Sans","Yu Gothic",-apple-system,sans-serif; background:var(--bg); color:var(--ink); padding:20px 18px 32px; max-width:560px; margin:0 auto; line-height:1.6; padding-bottom:76px;}
   a{color:inherit;}
   .nav{display:flex; gap:18px; margin-bottom:22px; font-size:13px; font-weight:700;}
   .nav a{text-decoration:none; color:var(--ink3); padding-bottom:2px;}
@@ -36,7 +36,7 @@
   .sec{font-size:12px; font-weight:800; color:var(--ink3); letter-spacing:1.5px; margin-bottom:14px;}
   .hero{background:var(--card); border-radius:20px; padding:26px 24px;}
   .hero .label{font-size:12px; font-weight:800; color:var(--accent); letter-spacing:1px;}
-  .hero .name{font-size:28px; font-weight:900; letter-spacing:-.5px; margin-top:6px; line-height:1.3;}
+  .hero .name{font-size:32px; font-weight:900; letter-spacing:-.5px; margin-top:6px; line-height:1.3;}
   .hero .scorewrap{display:flex; align-items:baseline; gap:10px; margin-top:4px;}
   .hero .score{font-size:46px; font-weight:900; color:var(--accent); letter-spacing:-2px; line-height:1;}
   .hero .scorelabel{font-size:13px; font-weight:700; color:var(--ink2);}
@@ -74,7 +74,7 @@
   .cal .txt{font-size:12px; color:var(--ink2); flex:1; text-align:left; line-height:1.5;}
   .refresh{background:var(--chip); border:none; color:var(--ink2); font-family:inherit; font-size:11px; font-weight:800; border-radius:8px; padding:4px 12px; cursor:pointer; margin-left:10px;}
   .refresh:active{opacity:.6;}
-  .evt{display:inline-block; font-size:11px; font-weight:800; color:var(--ink2); background:var(--chip); border-radius:8px; padding:3px 10px; margin:10px 6px 0 0; cursor:pointer;}
+  .evt{display:inline-block; font-size:12px; font-weight:800; color:var(--ink2); background:var(--chip); border-radius:10px; padding:10px 16px; margin:10px 6px 0 0; cursor:pointer;}
   .evt::after{content:" ›"; color:var(--ink3);}
   .evtlabel{font-size:10px; font-weight:800; color:var(--ink3); letter-spacing:1px; margin-top:14px;}
   .sheet-bg{display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:50;}
@@ -86,6 +86,17 @@
   .sheet dt{font-size:11px; font-weight:800; color:var(--ink3); letter-spacing:1px; margin-top:14px;}
   .sheet dd{margin:2px 0 0;}
   .sheet .close{position:absolute; top:14px; right:16px; background:var(--chip); border:none; border-radius:50%; width:30px; height:30px; font-size:14px; color:var(--ink2); cursor:pointer;}
+  .jisseki{background:var(--card); border-radius:14px; padding:14px 18px; margin-top:16px; display:flex; align-items:center; gap:16px; font-size:12px; font-weight:700; color:var(--ink2);}
+  .jisseki b{font-size:16px; color:var(--ink);}
+  .jisseki .maru{color:var(--accent);}
+  .fold{margin-top:36px;}
+  .fold > summary{font-size:12px; font-weight:800; color:var(--ink3); letter-spacing:1.5px; cursor:pointer; list-style:none; padding:4px 0;}
+  .fold > summary::after{content:" ▾";}
+  .fold[open] > summary::after{content:" ▴";}
+  .fold section{margin-top:14px;}
+  .bottomnav{position:fixed; left:0; right:0; bottom:0; background:var(--card); border-top:1px solid var(--line); display:flex; z-index:40; max-width:560px; margin:0 auto; border-radius:14px 14px 0 0;}
+  .bottomnav a{flex:1; text-align:center; padding:11px 0 max(11px, env(safe-area-inset-bottom)); font-size:11px; font-weight:800; color:var(--ink3); text-decoration:none;}
+  .bottomnav a.on{color:var(--accent);}
   footer{font-size:10px; color:var(--ink3); margin-top:40px; line-height:1.7;}
   footer a{color:var(--ink3);}
 </style>
@@ -99,6 +110,8 @@
   <div class="date">8/4<small>(火)</small></div>
   <div class="updated"><span class="dot"></span>8/3 21:15 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
 </header>
+
+<div class="jisseki" id="jisseki">検証実績(8/3開始): <span><b class="maru">◎0</b> 〇0 ×0</span><span style="margin-left:auto; font-weight:600; color:var(--ink3)">初回判定は8/4朝10時</span></div>
 
 <section>
   <div class="hero">
@@ -136,29 +149,35 @@
         <div>前日予想(じょにー): <b>戦国乙女5が1/2で上2つ</b>・Lカバネリ末尾仕掛け・10台以上機種が上2つ・<b>1/2機種×5機種以上</b>・カスタム機/BT機にも — と配分まで具体的。</div>
         <div>養分くんの過去傾向まとめでも「新台入替日は1/2機種複数+単品多数」(7/29参考データ)と一致。推し乙女5の1/2優先を推奨。</div>
         <div>注意: 平日火曜だが新台入替+来店で朝の抽選は混みやすい。軍団対策が弱いとの報告あり。</div>
-        <div class="src">出典: <a href="https://x.com/jonyyyyy0101/status/2084240760392794421">@jonyyyyy0101 前日予想</a> ・ <a href="https://x.com/youbun_help/status/2084249330895183887">@youbun_help 傾向まとめ</a> ・ スコア内訳 店格25+法則19.3+告知25+第三者8</div>
+        <div class="src">出典: <a href="https://x.com/jonyyyyy0101/status/2084240760392794421">@jonyyyyy0101 前日予想(8/3 20:31)</a> ・ <a href="https://x.com/youbun_help/status/2084249330895183887">@youbun_help 傾向まとめ(8/3 21:05)</a> ・ スコア内訳 店格25+法則19.3+告知25+第三者8</div>
       </div>
     </details>
   </div>
 </section>
 
+<span id="kekka-sec"></span>
 <section>
-  <div class="sec">対抗</div>
+  <div class="sec">昨日の答え合わせ</div>
+  <div class="kekka" id="kekka">8/3予想(本命ガーデン八潮89 ・ 対抗ピーアーク草加78)の判定は8/4(火)朝10時に表示します。毎朝、予想→実際どうだったか(◎○×)をここで検証します。</div>
+</section>
+
+<details class="fold"><summary>対抗を見る(1店)</summary><section>
+  
   <div class="row">
     <div class="top"><span class="name">マルハン亀有</span><span class="rscore">66</span></div>
     <div class="sub">末尾0・4の台 ・ 4台並び候補 ・ 北斗転生</div>
     <div class="sub" style="font-weight:600; color:var(--ink3); font-size:12px">並び予想 250〜350人(周年期間) ・ 9:00抽選</div>
     <div><span class="evt" data-evt="kame84">周年月間 8/1〜8/10 × ④の日</span></div>
     <details><summary>根拠の詳細</summary><div class="detail-body">
-      <div>周年月間(8/1〜8/10)の4日目。<a href="https://x.com/pachi_slohunter/status/2084249283390587273">@pachi_slohunter</a>が「④の日=4台並びが本命・7箇所以上の実績多数・末尾⓪❹を最優先」と前日予想。店公式も周年月間を告知。</div>
+      <div>周年月間(8/1〜8/10)の4日目。<a href="https://x.com/pachi_slohunter/status/2084249283390587273">@pachi_slohunter(8/3 21:05)</a>が「④の日=4台並びが本命・7箇所以上の実績多数・末尾⓪❹を最優先」と前日予想。店公式も周年月間を告知。</div>
       <div><b>機種の根拠:</b> 末尾0・4=④の日の末尾仕掛け予想を最優先と明記/4台並び=メインからバラまで幅広くの予想/北斗転生=周年・真骨超で18〜20/25台プラスの当店看板実績。</div>
       <div>注意: 非等価5.2枚交換・混雑大のため、スコアからおすすめ度は1段階控えめ(オーナー方針)。</div>
     </div></details>
   </div>
-</section>
+</section></details>
 
-<section>
-  <div class="sec">穴</div>
+<details class="fold"><summary>穴・様子見を見る(2店)</summary><section>
+  
   <div class="row">
     <div class="top"><span class="name">パラッツォ馬橋駅前</span><span class="rscore">61</span></div>
     <div class="sub">3台島の全台系候補 ・ メイン機種の並び/ニブイチ候補</div>
@@ -171,7 +190,7 @@
     <div><span class="evt" data-evt="misato84">ダイヤ 8/4 取材・来店まとめ掲載</span></div>
     <div class="note">ダイヤの8/4埼玉取材・来店まとめに掲載。詳細は画像のみで機種特定なし。強法則日ではないため様子見寄り</div>
   </div>
-</section>
+</section></details>
 
 <section>
   <div class="sec">その他</div>
@@ -186,12 +205,7 @@
   </div>
 </section>
 
-<section>
-  <div class="sec">昨日の答え合わせ</div>
-  <div class="kekka" id="kekka">8/3予想(本命ガーデン八潮89 ・ 対抗ピーアーク草加78)の判定は8/4(火)朝10時に表示します。毎朝、予想→実際どうだったか(◎○×)をここで検証します。</div>
-</section>
-
-<section>
+<section id="week">
   <div class="sec">今週の注目日</div>
   <div class="list cal">
     <div class="li"><span class="d hot">8/8 土</span><span class="txt">最激戦日 — パラ2店シン特定日(炎炎) ・ やすだ双乱ノ刻(本命マギレコ) ・ 楽園ゾロ目 ・ 新ガーデン八潮スロパチin埼玉</span></div>
@@ -206,6 +220,13 @@
 期待度は「店格・法則実績(ベイズ補正)・告知の具体性・第三者予想」の重み付き合成スコア(0〜100)。的中率は次の定義で毎朝集計します — メイン: 期待スコア80以上と判定した店舗・日のうち、店舗全体の平均差枚+100枚以上を公表データで確認できた割合/サブ: 配信時に指定した狙い機種上位2機種の平均差枚が+500枚以上だった割合(いずれも直近30日・データ確認可能店舗が対象・検証開始2026/8/3〜)。<br>
 当サービスは掲載店舗と一切の提携・協力・資金関係になく、店舗から対価を受領していない完全な第三者として運営しています。店舗権利者様からの掲載停止・訂正のご要請には確認の上速やかに応じます。<br>
 パチンコ・パチスロは適度に楽しむ遊技です。のめり込みにご注意ください(<a href="https://rsn-sakura.or.jp/">リカバリーサポート・ネットワーク</a>)</footer>
+
+<nav class="bottomnav">
+  <a class="on" href="#">本命</a>
+  <a href="#kekka-sec">結果</a>
+  <a href="#week">今週</a>
+  <a href="db.html">法則DB</a>
+</nav>
 
 <div class="sheet-bg" id="sheetbg" onclick="closeEvt()"></div>
 <div class="sheet" id="sheet">
