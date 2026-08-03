@@ -1,6 +1,6 @@
 {
-  "name": "明日の狙い目",
-  "short_name": "狙い目",
+  "name": "ツモナビAI",
+  "short_name": "ツモナビ",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#12151c",
