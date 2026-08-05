@@ -9,8 +9,10 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="ツモナビAI">
 <meta name="theme-color" content="#fafbfc">
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js');}</script>
-<title>ツモナビAI ｜ 明日の狙い目 8/4(火)</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta name="build" content="2026-08-05T21:40+09:00">
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').then(function(r){r.update();});}</script>
+<title>ツモナビAI ｜ 明日の狙い目 8/6(木)</title>
 <style>
   :root{
     --bg:#fafbfc; --card:#ffffff; --ink:#16181d; --ink2:#667085; --ink3:#98a2b3;
@@ -55,6 +57,9 @@
   .detail-body b{color:var(--ink);}
   .src{font-size:12px; color:var(--ink3);}
   .src a, .detail-body a{color:var(--accent); text-decoration:none; font-weight:700;}
+  .tw{margin-top:9px; font-size:11px; color:var(--ink3); font-weight:700; line-height:2.2;}
+  .tw a{color:var(--accent); text-decoration:none; font-weight:700; background:var(--chip); border-radius:99px; padding:3px 10px; margin:0 5px 0 0; white-space:nowrap; display:inline-block;}
+  .tw a::before{content:"𝕏 "; font-weight:400; opacity:.75;}
   .row{background:var(--card); border-radius:16px; padding:18px 20px; margin-bottom:10px;}
   .row .top{display:flex; align-items:baseline; justify-content:space-between; gap:12px;}
   .row .name{font-size:18px; font-weight:800;}
@@ -106,9 +111,9 @@
 
 <header>
   <div class="brand">ツモナビAI<small>TSUMONAVI AI ｜ β</small></div>
-  <div class="tagline">明日の店も、狙い目も。— AIが毎晩21時、根拠つきでナビ。</div>
+  <div class="tagline">明日の店も、狙い目も。— AIが毎晩22時、根拠つきでナビ。</div>
   <div class="date">8/6<small>(木)</small></div>
-  <div class="updated"><span class="dot"></span>8/5 21:20 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
+  <div class="updated"><span class="dot"></span>8/5 21:40 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
 </header>
 
 <div class="jisseki" id="jisseki">検証実績(8/3開始): <span><b class="maru">◎2</b> 〇0 ×0</span><span style="margin-left:auto; font-weight:600; color:var(--ink3)">毎朝10時判定・残りはレポ到着待ち</span></div>
@@ -148,10 +153,12 @@
 
     <div class="checks"><span>周年WEEK 6日目</span><span>⑥のつく日</span><span>前夜告知あり(信頼度A)</span></div>
 
+    <div class="tw">根拠にした呟き: <a href="https://x.com/pachi_slohunter/status/2084970989365154094" target="_blank" rel="noopener">@pachi_slohunter 8/5 20:53</a></div>
+
     <details>
       <summary>根拠の詳細</summary>
       <div class="detail-body">
-        <div><b>前夜告知の中身:</b> 信頼度Aの告知アカウントが8/5夜に「⑥の日はバラエティが本命 → 超優秀・全台系・1/2仕掛けに期待 → まずはバラコーナーを最優先でチェック」「ヴヴヴ2は⑥の日の鉄板候補、1/2の実績多数」と投稿。機種名と配分の両方に踏み込んだ告知のため、告知スコアを17点で計上しています。</div>
+        <div><b>前夜告知の中身:</b> 信頼度Aの告知アカウントが8/5夜に「⑥の日はバラエティが本命 → 超優秀・全台系・1/2仕掛けに期待 → まずはバラコーナーを最優先でチェック」「ヴヴヴ2は⑥の日の鉄板候補、1/2の実績多数」と投稿。機種名と配分の両方に踏み込んだ告知のため、告知スコアを17点で計上しています(<a href="https://x.com/pachi_slohunter/status/2084970989365154094" target="_blank" rel="noopener">呟きを見る</a>)。</div>
         <div><b>法則側の根拠:</b> 当店の日替わりテーマ(3の日/5の日/7の日)がベイズ勝率0.47(11回中6回成功)のTier2。⑥のつく日は法則DBに未登録の新規パターンのため、この日替わりテーマ枠の実績を代用しています。周年WEEK(8/1〜8/10)は3回中3回成功ですがサンプル不足のTier3で、スコアの主根拠にはしていません。</div>
         <div><b>ここが弱点:</b> ⑥のつく日という区分自体は、当店が公式に告知しているものではなく告知アカウント側の整理です。実績データがまだ薄い点はご承知おきください。今日の結果は明日の朝に法則DBへ反映します。</div>
         <div><b>次の勝負日:</b> 8/8(土)はパラッツォ2店のシン特定日(炎炎)、やすだ三郷の双乱ノ刻、楽園南越谷のゾロ目、新!ガーデン八潮のスロパチin埼玉が重なる今月最大の激戦日です。</div>
@@ -167,6 +174,7 @@
   <div class="kekka" id="kekka"><b>8/5(水)予想の答え合わせ ｜ 判定保留(レポ到着待ち)</b><br>
     ・★2 マルハン亀有(予想44)が最上位という「動かない日」の予想でした。全店★2以下のため的中の可否より、実際に閑散だったかを明日の朝に確認します<br>
     ・<b>新たに確定: 8/3 マルハン亀有(予想82) → <b style="color:var(--accent)">◎</b></b> 結果集計で全台系2機種(リオエース2・モンハン)・9台並び1箇所・6台並び1箇所・3台並び11箇所・ピック率12.3%(65/527台)。日替わりテーマ3の日の「3台並び10〜15箇所」という型どおりに着地しました<br>
+    <span class="tw" style="display:block">判定に使った呟き: <a href="https://x.com/eveshiru/status/2084969474613215243" target="_blank" rel="noopener">@eveshiru 8/5 20:50 結果集計</a></span>
     ・確定済み: 8/3 ピーアーク草加(予想78) → <b style="color:var(--accent)">◎</b> 鉄拳6が552・553の2台そろって差玉上位でニブイチ級。店舗全体もスロ最高+1万枚超<br>
     ・8/4の3店(新!ガーデン八潮77・マルハン亀有66・パラッツォ馬橋駅前61)は<b>判定保留</b>のままです。出玉データが未取得で◎○×を付けられていません<br>
     <span style="color:var(--ink3); font-size:12px">累積: 確定◎2 ○0 ×0 / 判定保留 8日分。母数が少ないため参考値です。なお8/3マルハン亀有は店舗平均差枚を取得できておらず、公約達成(全台系2機種+3台並び複数)を根拠とした判定です</span></div>
@@ -179,6 +187,7 @@
     <div class="sub">天草覇道ホール応援団 ・ 開催確定(主催アカウント告知)</div>
     <div><span class="evt" data-evt="yasu86">天草覇道ホール応援団</span></div>
     <div class="note">本命とほぼ同点です。取材主催アカウント本人が「明日8/6は来店、取材13店舗 — 天草覇道ホール応援団 やすだ八潮店」と告知しており、開催は確定。前回の同取材(7/5)は対象台平均+2,235枚で最高評価を獲得しています。狙いは<b>全台系と3台並び</b>。前回はアズレンと化物語が全台系で、アズレンは勝率100%・平均+5,271枚。喰種・GOD・マイジャグは並びが見えやすい機種と報告されています。前回の並びは3台以上が14箇所、明日は16箇所以上が目安。抽選は約154人</div>
+    <div class="tw">根拠にした呟き: <a href="https://x.com/amakusayasuwo/status/2084946359996530712" target="_blank" rel="noopener">@amakusayasuwo 19:15 開催確定</a><a href="https://x.com/hikari_pachi777/status/2084953697029951897" target="_blank" rel="noopener">@hikari_pachi777 19:44 狙い目</a><a href="https://x.com/onigiri_slot/status/2084959180465819863" target="_blank" rel="noopener">@onigiri_slot 20:06 埼玉まとめ</a></div>
   </div>
 </section></details>
 
@@ -188,6 +197,7 @@
     <div class="top"><span class="name">エクスアリーナ松戸</span><span class="rscore">39</span></div>
     <div class="sub">6の日 × 新生夏開幕 ・ 開催告知あり</div>
     <div class="note">前夜に「6の日×新生夏開幕/新台入替済み8.4/海シリーズおすすめWEEK/抽選9:30〜」の告知が出ています。ただし推しが海シリーズでパチンコ寄りの内容であること、6の日が当店の法則DBに実績として存在しない(強いのは0のつく日)ことから、スロット目的なら8/10の0のつく日を待つ方が期待値は上です</div>
+    <div class="tw">根拠にした呟き: <a href="https://x.com/ainavipachislot/status/2084974491332149291" target="_blank" rel="noopener">@ainavipachislot 21:07</a></div>
   </div>
   <div class="row">
     <div class="top"><span class="name">新!ガーデン八潮</span><span class="rscore">36</span></div>
@@ -224,7 +234,7 @@
   </div>
 </section>
 
-<footer>毎晩21時に自動更新 ｜ 本サービスの期待スコア・狙い機種等は過去の公表情報に基づく統計的予測であり、実際の設定状況・出玉・勝利を保証するものではありません。遊技の最終判断はご自身の責任で行ってください。<br>
+<footer>毎晩22時に更新 ｜ 本サービスの期待スコア・狙い機種等は過去の公表情報に基づく統計的予測であり、実際の設定状況・出玉・勝利を保証するものではありません。遊技の最終判断はご自身の責任で行ってください。<br>
 期待度は「店格・法則実績(ベイズ補正)・告知の具体性・第三者予想」の重み付き合成スコア(0〜100)。的中率は次の定義で毎朝集計します — メイン: 期待スコア80以上と判定した店舗・日のうち、店舗全体の平均差枚+100枚以上を公表データで確認できた割合/サブ: 配信時に指定した狙い機種上位2機種の平均差枚が+500枚以上だった割合(いずれも直近30日・データ確認可能店舗が対象・検証開始2026/8/3〜)。<br>
 当サービスは掲載店舗と一切の提携・協力・資金関係になく、店舗から対価を受領していない完全な第三者として運営しています。店舗権利者様からの掲載停止・訂正のご要請には確認の上速やかに応じます。<br>
 パチンコ・パチスロは適度に楽しむ遊技です。のめり込みにご注意ください(<a href="https://rsn-sakura.or.jp/">リカバリーサポート・ネットワーク</a>)</footer>
@@ -245,8 +255,21 @@
 </div>
 <script>
 function refreshApp(){
-  var done=function(){ location.reload(); };
-  if(window.caches){ caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); }).then(done,done); } else { done(); }
+  var done=function(){
+    // キャッシュを迂回するため毎回異なるURLで読み直す
+    var base=location.href.split('#')[0].split('?')[0];
+    location.replace(base+'?r='+Date.now());
+  };
+  var jobs=[];
+  if(window.caches){ jobs.push(caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k); })); })); }
+  if(navigator.serviceWorker){
+    if(navigator.serviceWorker.controller){ navigator.serviceWorker.controller.postMessage('purge'); }
+    jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){
+      return Promise.all(rs.map(function(r){ return r.update().catch(function(){}); }));
+    }).catch(function(){}));
+  }
+  Promise.all(jobs).then(done,done);
+  setTimeout(done,2500); // 何かが詰まっても必ず再読込する
 }
 var EVENTS={
  kame86:{t:"周年WEEK 8/1〜8/10 × ⑥のつく日 フリースタイル",s:"マルハン亀有 ｜ 8/6(木)",d:[
