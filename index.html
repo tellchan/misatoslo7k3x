@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-title" content="ツモナビAI">
 <meta name="theme-color" content="#fafbfc">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta name="build" content="2026-08-14T10:15+09:00">
+<meta name="build" content="2026-08-14T14:05+09:00">
 <script>
 if('serviceWorker' in navigator){
   window.addEventListener('load', function(){
@@ -27,7 +27,7 @@ if('serviceWorker' in navigator){
   });
 }
 </script>
-<title>ツモナビAI ｜ 明日の狙い目 8/15(土)</title>
+<title>ツモナビAI ｜ 今日と明日の狙い目</title>
 <style>
   :root{
     --bg:#fafbfc; --card:#ffffff; --ink:#16181d; --ink2:#667085; --ink3:#98a2b3;
@@ -135,6 +135,12 @@ if('serviceWorker' in navigator){
   .refresh:disabled{opacity:.55;}
   @keyframes flash{0%{background:var(--chip)}35%{background:rgba(217,45,32,.16)}100%{background:var(--chip)}}
   .jisseki.flash, .updated.flash{animation:flash 1.5s ease-out 1;}
+
+  /* 今日／明日の切り替え */
+  .dayswitch{display:flex; gap:8px; margin:0 0 18px;}
+  .dayswitch button{flex:1; background:var(--chip); border:1.5px solid transparent; color:var(--ink2); font-family:inherit; font-size:12.5px; font-weight:800; border-radius:11px; padding:10px 6px; cursor:pointer; transition:.15s;}
+  .dayswitch button.on{background:var(--card); border-color:var(--ink); color:var(--ink); box-shadow:0 1px 4px rgba(0,0,0,.06);}
+  .dayswitch button:active{opacity:.7;}
 </style>
 </head>
 <body>
@@ -144,11 +150,82 @@ if('serviceWorker' in navigator){
   <div class="brand">ツモナビAI<small>TSUMONAVI AI ｜ β</small></div>
   <div class="tagline">明日の店も、狙い目も。— AIが毎晩22時、根拠つきでナビ。</div>
   <div class="date">8/15<small>(土)</small></div>
-  <div class="updated"><span class="dot"></span>8/14 10:15 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
+  <div class="updated"><span class="dot"></span>8/14 14:05 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
 </header>
 
 <div class="jisseki" id="jisseki">検証実績(8/3開始): <span><b class="maru">◎2</b> 〇0 ×0</span><span style="margin-left:auto; font-weight:600; color:var(--ink3)">77件中75件が判定待ち</span></div>
 
+<div class="dayswitch">
+  <button id="btn-today" onclick="showDay('today')">今日 8/14(金)</button>
+  <button id="btn-tomorrow" onclick="showDay('tomorrow')">明日 8/15(土)</button>
+</div>
+
+<div id="day-today">
+<section>
+  <div class="hero">
+    <div class="label">今日の本命 ｜ 埼玉県のトップ3入り</div>
+    <div class="name">新!ガーデン八潮</div>
+    <div class="scorewrap"><span class="score">76</span><span class="scorelabel">期待度: 高い</span></div>
+    <div class="block">
+      <div class="blocklabel">結論</div>
+      <div class="why" style="margin-top:0">ホールナビの今日の評価が<b>S(15.6点)で11店中いちばん高く、埼玉県全体のトップ3</b>にも入っています。取材は天草ヤスヲ来店(パーフェクトリサーチ)。全国のベースラインは確認66件/実施149件(44.3%)で平均+48枚と、突出はしないものの<b>プラス方向を持つ取材</b>です。<b>すでに開店から時間が経っているので、良番の全台系は埋まっている前提</b>で、空いている並びを拾う立ち回りに切り替えてください。</div>
+    </div>
+    <div class="block">
+      <div class="blocklabel">狙い機種</div>
+      <div class="kishu">
+        <div><span class="n">1</span>カバネリ海門決戦</div>
+        <div class="why">当店は40台規模で設置していて、来店取材の日はここのベースが上がる型です。夕方からでも当たりやすい狙い方です</div>
+        <div><span class="n">2</span>ジャグラーコーナー</div>
+        <div class="why">8/9のスロパチ青の日に「丸ごとジャグ」の示唆が出ていた店です。島単位で動かす形が定着しているなら、合算の良い台が残っている可能性があります</div>
+        <div><span class="n">3</span>無職転生</div>
+        <div class="why">当店の来店取材で3台中3台プラス+7,030枚という記録があります。少数台なので早い時間に埋まりますが、空きがあれば優先度は高いです</div>
+      </div>
+    </div>
+    <div class="block"><div class="blocklabel">イベント</div><div><span class="evt" data-evt="gard814">天草ヤスヲ来店(パーフェクトリサーチ)</span></div></div>
+    <div class="checks"><span>ホールナビ S 15.6 で11店中最高</span><span>埼玉県トップ3</span><span>全国平均 +48枚</span><span>出遅れ前提の立ち回りで</span></div>
+    <div class="tw">この評価はホールナビの当日評価にもとづきます。<b>Xの当日告知は未収集</b>で、抽選規模と来店時刻は未確認です</div>
+  </div>
+</section>
+
+<details class="fold" open><summary>今日の対抗を見る(2店)</summary><section>
+  <div class="row">
+    <div class="top"><span class="name">マルハン亀有</span><span class="rscore">76</span></div>
+    <div class="sub">4のつく日 ・ 差枚プラス★5</div>
+    <div class="note"><b>本命と同点です。</b>ホールナビ評価S(15.1)で、根拠は「4のつく日の差枚プラス★5」。<b>直近6ヶ月で18回中17回、スロット出率10割超え</b>という判定で、サンプル数がしっかりしています。八潮とどちらかなら、<b>店全体の出率を取りにいくなら亀有、機種の並びを取りにいくなら八潮</b>という選び方になります。なお明日8/15も評価S(14.8)で連続します</div>
+    <div class="tw">ホールナビの当日評価にもとづきます。Xの当日告知は未収集</div>
+  </div>
+  <div class="row">
+    <div class="top"><span class="name">ピーアーク草加</span><span class="rscore">66</span></div>
+    <div class="sub">スロパチガール来店S ・ ホールナビ S 13.2</div>
+    <div class="note">スロパチガールの来店Sです。ホールナビの説明では<b>平均稼働が1000G近く上がり、スロットコーナーから平均10箇所程度の仕掛け</b>が入る取材とされています。当店は<b>当サービスが唯一◎を確定できている店</b>(8/3のサキドリ取材、推奨機種の鉄拳6が平均+4,326枚)。台番を揃えた並びを作るのが型なので、末尾や連番を見てください</div>
+    <div class="tw">ホールナビの当日評価にもとづきます。Xの当日告知は未収集</div>
+  </div>
+</section></details>
+
+<details class="fold"><summary>今日のその他(8店)</summary><section>
+  <div class="list">
+    <div class="li"><span class="name">キコーナ松戸</span><span class="next">おゆん来店 ・ A 12.7</span><span class="lscore">63</span>
+      <div class="tw">来店取材。当店の法則は当サービスでまだ1件も検証できていません</div></div>
+    <div class="li"><span class="name">パラッツォ三郷中央</span><span class="next">MONSTER ・ C 9.1</span><span class="lscore">50</span>
+      <div class="tw">MONSTERは全国平均-137枚の弱い取材です。当店の本命は8/16(日)と8/18(火)</div></div>
+    <div class="li"><span class="name">パラッツォ馬橋駅前</span><span class="next">MONSTER ・ C 6.1</span><span class="lscore">37</span>
+      <div class="tw">同じくMONSTER。当店は8/17(月)がスロパチ青×月周年日でA(11.1)</div></div>
+    <div class="li"><span class="name">やすだ八潮</span><span class="next">LIMIT BREAK ・ 無印 6.8</span><span class="lscore">36</span>
+      <div class="tw">LIMIT BREAK(BEACON)はデータ不足で分析不能。8/18(火)の天草極上ホール応援団がA(11.5)</div></div>
+    <div class="li"><span class="name">やすだ三郷</span><span class="next">パセリ取材 ・ C 5.8</span><span class="lscore">32</span>
+      <div class="tw">11店中最下位。8/18(火)の極誓取材がA(9.4)</div></div>
+    <div class="li"><span class="name">SAP草加</span><span class="next">情報なし</span><span class="lscore">30</span>
+      <div class="tw">今日の取材/独自予想の情報がありません。主軸は毎月28日のSAP取材(ベイズ0.545・Tier2)</div></div>
+    <div class="li"><span class="name">エクスアリーナ松戸</span><span class="next">情報なし</span><span class="lscore">30</span>
+      <div class="tw">今日の情報なし。明日8/15が5のつく日でA(13.1)</div></div>
+    <div class="li"><span class="name">楽園南越谷</span><span class="next">情報なし</span><span class="lscore">30</span>
+      <div class="tw">今日の情報なし。8/21(金)が機種仕掛け★4でA(14.6)</div></div>
+  </div>
+</section></details>
+
+</div>
+
+<div id="day-tomorrow" style="display:none">
 <section>
   <div class="hero">
     <div class="label">明日の本命 ｜ 毎週土曜の機種仕掛け</div>
@@ -196,28 +273,6 @@ if('serviceWorker' in navigator){
       </div>
     </details>
   </div>
-</section>
-
-<span id="kekka-sec"></span>
-<section>
-  <div class="sec">昨日の答え合わせ</div>
-  <div class="kekka" id="kekka"><b>答え合わせ ｜ 77件中75件がまだ判定できていません</b><br>
-    ・8/3〜8/9に出した予測77件のうち、結果を確認できたのは<b>2件だけ</b>です(判定率2.6%)。★4以上を13件出して、判定済みは1件。<b>★5は3件出して全て未判定</b>のままです<br>
-    ・止まっている理由は3つです。ホールナビの結果レポートが数日から数週間おくれること(20件)、ブラウザ接続が切れて巡回できなかったこと(33件)、収集の途中で切れたこと(11件)<br>
-    ・確定済み: 8/3 ピーアーク草加(予想78) → <b style="color:var(--accent)">◎</b> ／ 8/3 マルハン亀有(予想82) → <b style="color:var(--accent)">◎</b><br>
-    ・<b>代理の検証として、ホールナビの当日評価との順位相関を出しました。</b>ホールナビを見てから作った8/7〜8/8は+0.50でしたが、Xの告知だけで作った8/9は、ホールナビが11店中トップ3に置いた3店を当サービスは★1〜★3に置いていました。<b>そこで8/10から、Xより先にホールナビを見る順番に変えています</b><br>
-    <span style="color:var(--ink3); font-size:12px">累積: 確定◎2 〇0 ×0 / 判定待ち75件。母数が少ないため参考値です</span></div>
-</section>
-
-<section>
-  <div class="sec">今日(8/14 金)の状況 ｜ 参考</div>
-  <div class="kekka" style="background:var(--chip)"><b>今日いちばん強いのは新!ガーデン八潮です(ホールナビ S 15.6)</b><br>
-    ・<b>新!ガーデン八潮 S 15.6</b> 天草ヤスヲ来店(パーフェクトリサーチ)。全国ベースラインは確認66件/実施149件(44.3%)・平均+48枚。<b>埼玉県全体のトップ3にも入っています</b>。11店中で最高評価<br>
-    ・<b>マルハン亀有 S 15.1</b> 4のつく日の差枚プラス★5。直近6ヶ月で<b>18回中17回</b>スロット出率10割超えという判定です<br>
-    ・<b>ピーアーク草加 S 13.2</b> スロパチガール来店S。平均稼働が1000G近く上がる取材で、スロットコーナーから平均10箇所程度の仕掛け<br>
-    ・キコーナ松戸 A 12.7(おゆん来店) ／ パラッツォ三郷中央 C 9.1(MONSTER・全国平均-137枚) ／ やすだ八潮 7.3・(LIMIT BREAK/分析不能) ／ パラッツォ馬橋 C 6.1 ／ やすだ三郷 C 5.8(パセリ取材)<br>
-    ・SAP草加・エクスアリーナ松戸・楽園南越谷は<b>今日の取材/独自予想の情報がありません</b><br>
-    <span style="color:var(--ink3); font-size:12px">今から動くなら新!ガーデン八潮かマルハン亀有。ただしXの当日告知は未収集で、抽選規模と来店演者は未確認です</span></div>
 </section>
 
 <details class="fold" open><summary>対抗を見る(2店)</summary><section>
@@ -276,6 +331,19 @@ if('serviceWorker' in navigator){
   </div>
 </section>
 
+</div>
+
+<span id="kekka-sec"></span>
+<section>
+  <div class="sec">昨日の答え合わせ</div>
+  <div class="kekka" id="kekka"><b>答え合わせ ｜ 77件中75件がまだ判定できていません</b><br>
+    ・8/3〜8/9に出した予測77件のうち、結果を確認できたのは<b>2件だけ</b>です(判定率2.6%)。★4以上を13件出して、判定済みは1件。<b>★5は3件出して全て未判定</b>のままです<br>
+    ・止まっている理由は3つです。ホールナビの結果レポートが数日から数週間おくれること(20件)、ブラウザ接続が切れて巡回できなかったこと(33件)、収集の途中で切れたこと(11件)<br>
+    ・確定済み: 8/3 ピーアーク草加(予想78) → <b style="color:var(--accent)">◎</b> ／ 8/3 マルハン亀有(予想82) → <b style="color:var(--accent)">◎</b><br>
+    ・<b>代理の検証として、ホールナビの当日評価との順位相関を出しました。</b>ホールナビを見てから作った8/7〜8/8は+0.50でしたが、Xの告知だけで作った8/9は、ホールナビが11店中トップ3に置いた3店を当サービスは★1〜★3に置いていました。<b>そこで8/10から、Xより先にホールナビを見る順番に変えています</b><br>
+    <span style="color:var(--ink3); font-size:12px">累積: 確定◎2 〇0 ×0 / 判定待ち75件。母数が少ないため参考値です</span></div>
+</section>
+
 <section id="week">
   <div class="sec">今週の注目日</div>
   <div class="list cal">
@@ -314,6 +382,26 @@ if('serviceWorker' in navigator){
   <dl id="sh-body"></dl>
 </div>
 <script>
+
+function showDay(k){
+  var t=k==='today';
+  document.getElementById('day-today').style.display    = t?'':'none';
+  document.getElementById('day-tomorrow').style.display = t?'none':'';
+  document.getElementById('btn-today').classList.toggle('on', t);
+  document.getElementById('btn-tomorrow').classList.toggle('on', !t);
+  var d=document.querySelector('header .date');
+  if(d){ d.innerHTML = t ? '8/14<small>(金)</small>' : '8/15<small>(土)</small>'; }
+  var l=document.querySelector('header .tagline');
+  if(l){ l.textContent = t ? '今日の狙い目 — 開いた時間に合わせて表示しています' : '明日の店も、狙い目も。— AIが毎晩22時、根拠つきでナビ。'; }
+  try{ sessionStorage.setItem('tn_day', k); }catch(e){}
+}
+(function(){
+  var k;
+  try{ k = sessionStorage.getItem('tn_day'); }catch(e){}
+  if(!k){ k = (new Date().getHours() >= 21) ? 'tomorrow' : 'today'; }
+  window.addEventListener('load', function(){ showDay(k); });
+})();
+
 function buildStamp(){
   var m = document.querySelector('meta[name="build"]');
   return m ? (m.getAttribute('content') || '') : '';
