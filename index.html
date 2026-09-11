@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fafbfc">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="ツモナビAI">
-<meta name="theme-color" content="#fafbfc">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta name="build" content="2026-09-06T23:40+09:00">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="ツモナビ">
 <script>
 if('serviceWorker' in navigator){
   window.addEventListener('load', function(){
@@ -61,7 +59,6 @@ if('serviceWorker' in navigator){
   .blocklabel{font-size:11px; font-weight:800; color:var(--ink3); letter-spacing:1px; margin-bottom:6px;}
   .kishu{font-size:17px; font-weight:800; line-height:1.9;}
   .kishu .n{color:var(--ink3); font-weight:700; font-size:13px; margin-right:8px;}
-  .why{font-size:12px; color:var(--ink3); font-weight:600; margin:0 0 8px 21px; line-height:1.5;}
   .meta{font-size:14px; font-weight:600; color:var(--ink2);}
   .checks{display:flex; flex-wrap:wrap; gap:14px; margin-top:20px; font-size:12px; font-weight:700; color:var(--ink2);}
   .checks span::before{content:"✓ "; color:var(--accent); font-weight:900;}
@@ -70,6 +67,7 @@ if('serviceWorker' in navigator){
   summary::after{content:" ▾";}
   .detail-body{margin-top:14px; font-size:13px; color:var(--ink2); display:flex; flex-direction:column; gap:12px;}
   .detail-body b{color:var(--ink);}
+  .detail-body .quote{white-space:pre-wrap; background:var(--chip); border-radius:10px; padding:10px 12px; font-size:12px; line-height:1.6; word-break:break-word;}
   .src{font-size:12px; color:var(--ink3);}
   .src a, .detail-body a{color:var(--accent); text-decoration:none; font-weight:700;}
   .tw{margin-top:9px; font-size:11px; color:var(--ink3); font-weight:700; line-height:2.2;}
@@ -89,25 +87,10 @@ if('serviceWorker' in navigator){
   .li .next{font-size:11px; color:var(--ink3); flex:1; text-align:right;}
   .li .lscore{font-size:15px; font-weight:800; color:var(--ink3); min-width:2em; text-align:right;}
   .kekka{background:var(--card); border-radius:16px; padding:18px 20px; font-size:13px; color:var(--ink2);}
-  .cal .li{align-items:center;}
-  .cal .d{font-size:13px; font-weight:900; min-width:64px;}
-  .cal .hot{color:var(--accent);}
-  .cal .txt{font-size:12px; color:var(--ink2); flex:1; text-align:left; line-height:1.5;}
   .refresh{background:var(--chip); border:none; color:var(--ink2); font-family:inherit; font-size:11px; font-weight:800; border-radius:8px; padding:4px 12px; cursor:pointer; margin-left:10px;}
   .refresh:active{opacity:.6;}
-  .evt{display:inline-block; font-size:12px; font-weight:800; color:var(--ink2); background:var(--chip); border-radius:10px; padding:10px 16px; margin:10px 6px 0 0; cursor:pointer;}
-  .evt::after{content:" ›"; color:var(--ink3);}
-  .evtlabel{font-size:10px; font-weight:800; color:var(--ink3); letter-spacing:1px; margin-top:14px;}
-  .sheet-bg{display:none; position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:50;}
-  .sheet{position:fixed; left:0; right:0; bottom:-100%; max-width:560px; margin:0 auto; background:var(--card); border-radius:20px 20px 0 0; padding:24px 22px 34px; z-index:51; transition:bottom .25s ease; max-height:75vh; overflow-y:auto;}
-  .sheet.open{bottom:0;}
-  .sheet h3{font-size:17px; font-weight:900; margin-bottom:2px;}
-  .sheet .store{font-size:12px; color:var(--ink3); font-weight:700; margin-bottom:14px;}
-  .sheet dl{font-size:13px; color:var(--ink2); line-height:1.7;}
-  .sheet dt{font-size:11px; font-weight:800; color:var(--ink3); letter-spacing:1px; margin-top:14px;}
-  .sheet dd{margin:2px 0 0;}
-  .sheet .close{position:absolute; top:14px; right:16px; background:var(--chip); border:none; border-radius:50%; width:30px; height:30px; font-size:14px; color:var(--ink2); cursor:pointer;}
-  .jisseki{background:var(--card); border-radius:14px; padding:14px 18px; margin-top:16px; display:flex; align-items:center; gap:16px; font-size:12px; font-weight:700; color:var(--ink2);}
+  .refresh:disabled{opacity:.55;}
+  .jisseki{background:var(--card); border-radius:14px; padding:14px 18px; margin-top:16px; display:flex; align-items:center; gap:16px; font-size:12px; font-weight:700; color:var(--ink2); flex-wrap:wrap;}
   .jisseki b{font-size:16px; color:var(--ink);}
   .jisseki .maru{color:var(--accent);}
   .fold{margin-top:36px;}
@@ -120,8 +103,7 @@ if('serviceWorker' in navigator){
   .bottomnav a.on{color:var(--accent);}
   footer{font-size:10px; color:var(--ink3); margin-top:40px; line-height:1.7;}
   footer a{color:var(--ink3);}
-
-  /* 更新中のオーバーレイと、更新結果のトースト */
+  .empty{background:var(--card); border-radius:16px; padding:22px; font-size:13px; color:var(--ink2); line-height:1.7;}
   .ovl{position:fixed; inset:0; background:rgba(250,251,252,.94); display:none; align-items:center; justify-content:center; flex-direction:column; gap:16px; z-index:200;}
   @media (prefers-color-scheme: dark){ .ovl{background:rgba(16,18,22,.94);} }
   .ovl.on{display:flex;}
@@ -132,11 +114,6 @@ if('serviceWorker' in navigator){
   .toast.on{transform:translateX(-50%) translateY(0);}
   .toast.ok{background:var(--accent); color:#fff;}
   .toast small{display:block; font-weight:700; opacity:.78; font-size:11px; margin-top:2px;}
-  .refresh:disabled{opacity:.55;}
-  @keyframes flash{0%{background:var(--chip)}35%{background:rgba(217,45,32,.16)}100%{background:var(--chip)}}
-  .jisseki.flash, .updated.flash{animation:flash 1.5s ease-out 1;}
-
-  /* 今日／明日の切り替え */
   .dayswitch{display:flex; gap:8px; margin:0 0 18px;}
   .dayswitch button{flex:1; background:var(--chip); border:1.5px solid transparent; color:var(--ink2); font-family:inherit; font-size:12.5px; font-weight:800; border-radius:11px; padding:10px 6px; cursor:pointer; transition:.15s;}
   .dayswitch button.on{background:var(--card); border-color:var(--ink); color:var(--ink); box-shadow:0 1px 4px rgba(0,0,0,.06);}
@@ -148,359 +125,233 @@ if('serviceWorker' in navigator){
 
 <header>
   <div class="brand">ツモナビAI<small>TSUMONAVI AI ｜ β</small></div>
-  <div class="tagline">明日の店も、狙い目も。— AIが毎晩22時、根拠つきでナビ。</div>
-  <div class="date">8/15<small>(土)</small></div>
-  <div class="updated"><span class="dot"></span>8/14 14:05 更新<button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
+  <div class="tagline" id="tagline">明日の店も、狙い目も。— AIが毎晩21時、根拠つきでナビ。</div>
+  <div class="date" id="hdate">—</div>
+  <div class="updated"><span class="dot"></span><span id="hupdated">読み込み中</span><button class="refresh" onclick="refreshApp()">↻ 更新</button></div>
 </header>
 
-<div class="jisseki" id="jisseki">検証実績(8/3開始): <span><b class="maru">◎2</b> 〇0 ×0</span><span style="margin-left:auto; font-weight:600; color:var(--ink3)">77件中75件が判定待ち</span></div>
+<div class="jisseki" id="jisseki"></div>
 
 <div class="dayswitch">
-  <button id="btn-today" onclick="showDay('today')">今日 8/14(金)</button>
-  <button id="btn-tomorrow" onclick="showDay('tomorrow')">明日 8/15(土)</button>
+  <button id="btn-today" onclick="showDay('today')">今日</button>
+  <button id="btn-tomorrow" onclick="showDay('tomorrow')">明日</button>
 </div>
 
-<div id="day-today">
-<section>
-  <div class="hero">
-    <div class="label">今日の本命 ｜ 埼玉県のトップ3入り</div>
-    <div class="name">新!ガーデン八潮</div>
-    <div class="scorewrap"><span class="score">76</span><span class="scorelabel">期待度: 高い</span></div>
-    <div class="block">
-      <div class="blocklabel">結論</div>
-      <div class="why" style="margin-top:0">第三者評価(当日)が<b>S(15.6点)で11店中いちばん高く、埼玉県全体のトップ3</b>にも入っています。取材は天草ヤスヲ来店(パーフェクトリサーチ)。全国のベースラインは確認66件/実施149件(44.3%)で平均+48枚と、突出はしないものの<b>プラス方向を持つ取材</b>です。<b>すでに開店から時間が経っているので、良番の全台系は埋まっている前提</b>で、空いている並びを拾う立ち回りに切り替えてください。</div>
-    </div>
-    <div class="block">
-      <div class="blocklabel">狙い機種</div>
-      <div class="kishu">
-        <div><span class="n">1</span>カバネリ海門決戦</div>
-        <div class="why">当店は40台規模で設置していて、来店取材の日はここのベースが上がる型です。夕方からでも当たりやすい狙い方です</div>
-        <div><span class="n">2</span>ジャグラーコーナー</div>
-        <div class="why">8/9のスロパチ青の日に「丸ごとジャグ」の示唆が出ていた店です。島単位で動かす形が定着しているなら、合算の良い台が残っている可能性があります</div>
-        <div><span class="n">3</span>無職転生</div>
-        <div class="why">当店の来店取材で3台中3台プラス+7,030枚という記録があります。少数台なので早い時間に埋まりますが、空きがあれば優先度は高いです</div>
-      </div>
-    </div>
-    <div class="block"><div class="blocklabel">イベント</div><div><span class="evt" data-evt="gard814">天草ヤスヲ来店(パーフェクトリサーチ)</span></div></div>
-    <div class="checks"><span>第三者評価 S 15.6 で11店中最高</span><span>埼玉県トップ3</span><span>全国平均 +48枚</span><span>出遅れ前提の立ち回りで</span></div>
-    <div class="tw">この評価は第三者評価(当日)にもとづきます。<b>Xの当日告知は未収集</b>で、抽選規模と来店時刻は未確認です</div>
-  </div>
-</section>
+<div id="day-today"></div>
+<div id="day-tomorrow" style="display:none"></div>
 
-<details class="fold" open><summary>今日の対抗を見る(2店)</summary><section>
-  <div class="row">
-    <div class="top"><span class="name">マルハン亀有</span><span class="rscore">76</span></div>
-    <div class="sub">4のつく日 ・ 差枚プラス★5</div>
-    <div class="note"><b>本命と同点です。</b>第三者評価はS(15.1)で、根拠は「4のつく日の差枚プラス★5」。<b>直近6ヶ月で18回中17回、スロット出率10割超え</b>という判定で、サンプル数がしっかりしています。八潮とどちらかなら、<b>店全体の出率を取りにいくなら亀有、機種の並びを取りにいくなら八潮</b>という選び方になります。なお明日8/15も評価S(14.8)で連続します</div>
-    <div class="tw">第三者評価(当日)にもとづきます。Xの当日告知は未収集</div>
-  </div>
-  <div class="row">
-    <div class="top"><span class="name">ピーアーク草加</span><span class="rscore">66</span></div>
-    <div class="sub">スロパチガール来店S ・ 第三者評価 S 13.2</div>
-    <div class="note">スロパチガールの来店Sです。第三者評価の注記では<b>平均稼働が1000G近く上がり、スロットコーナーから平均10箇所程度の仕掛け</b>が入る取材とされています。当店は<b>当サービスが唯一◎を確定できている店</b>(8/3のサキドリ取材、推奨機種の鉄拳6が平均+4,326枚)。台番を揃えた並びを作るのが型なので、末尾や連番を見てください</div>
-    <div class="tw">第三者評価(当日)にもとづきます。Xの当日告知は未収集</div>
-  </div>
-</section></details>
-
-<details class="fold"><summary>今日のその他(8店)</summary><section>
-  <div class="list">
-    <div class="li"><span class="name">キコーナ松戸</span><span class="next">おゆん来店 ・ A 12.7</span><span class="lscore">63</span>
-      <div class="tw">来店取材。当店の法則は当サービスでまだ1件も検証できていません</div></div>
-    <div class="li"><span class="name">パラッツォ三郷中央</span><span class="next">MONSTER ・ C 9.1</span><span class="lscore">50</span>
-      <div class="tw">MONSTERは全国平均-137枚の弱い取材です。当店の本命は8/16(日)と8/18(火)</div></div>
-    <div class="li"><span class="name">パラッツォ馬橋駅前</span><span class="next">MONSTER ・ C 6.1</span><span class="lscore">37</span>
-      <div class="tw">同じくMONSTER。当店は8/17(月)がスロパチ青×月周年日でA(11.1)</div></div>
-    <div class="li"><span class="name">やすだ八潮</span><span class="next">LIMIT BREAK ・ 無印 6.8</span><span class="lscore">36</span>
-      <div class="tw">LIMIT BREAK(BEACON)はデータ不足で分析不能。8/18(火)の天草極上ホール応援団がA(11.5)</div></div>
-    <div class="li"><span class="name">やすだ三郷</span><span class="next">パセリ取材 ・ C 5.8</span><span class="lscore">32</span>
-      <div class="tw">11店中最下位。8/18(火)の極誓取材がA(9.4)</div></div>
-    <div class="li"><span class="name">SAP草加</span><span class="next">情報なし</span><span class="lscore">30</span>
-      <div class="tw">今日の取材/独自予想の情報がありません。主軸は毎月28日のSAP取材(ベイズ0.545・Tier2)</div></div>
-    <div class="li"><span class="name">エクスアリーナ松戸</span><span class="next">情報なし</span><span class="lscore">30</span>
-      <div class="tw">今日の情報なし。明日8/15が5のつく日でA(13.1)</div></div>
-    <div class="li"><span class="name">楽園南越谷</span><span class="next">情報なし</span><span class="lscore">30</span>
-      <div class="tw">今日の情報なし。8/21(金)が機種仕掛け★4でA(14.6)</div></div>
-  </div>
-</section></details>
-
-</div>
-
-<div id="day-tomorrow" style="display:none">
-<section>
-  <div class="hero">
-    <div class="label">明日の本命 ｜ 毎週土曜の機種仕掛け</div>
-    <div class="name">マルハン亀有</div>
-    <div class="scorewrap"><span class="score">75</span><span class="scorelabel">期待度: 高い</span></div>
-
-    <div class="block">
-      <div class="blocklabel">結論</div>
-      <div class="why" style="margin-top:0">第三者評価(明日)が<b>S(14.8点)で11店中いちばん高い</b>店です。中身は「差枚プラス★3」と「<b>機種仕掛け★5+</b>」の2本で、どちらも<b>毎週土曜という曜日の法則</b>として出ています。当店は7のつく日と月ゾロ日が看板ですが、<b>土曜そのものが強い日として立っている</b>のは当サービスがこれまで拾えていなかった型です。少数台の全台系を連発するのが当店の形なので、朝から機種単位の並びを探す立ち回りが合います。</div>
-    </div>
-
-    <div class="block">
-      <div class="blocklabel">狙い機種</div>
-      <div class="kishu">
-        <div><span class="n">1</span>機種単位の全台系を朝イチで探す</div>
-        <div class="why">機種仕掛け★5+は「これ以上ないほど強い機種単位の仕掛け」の判定です。当店は少数台(3〜6台)の全台系が複数入る型なので、機種を決め打つより<b>並びを見つけてから入る</b>ほうが噛み合います</div>
-        <div><span class="n">2</span>絆2天膳BLACK / ゴッドイーターR</div>
-        <div class="why">直近の7のつく日で絆2天膳BLACKが3/3台+8,482枚、ゴッドイーターRが6/6台+10,301枚。当店で全台系が入りやすい少数台機種です</div>
-        <div><span class="n">3</span>炎炎2 / カバネリ / 新ハナビ</div>
-        <div class="why">同じく直近実績で炎炎2が9台中7台+3,073枚(ランク5)、カバネリ4/4台、新ハナビ3/3台。いずれも少数台で並びが作られています</div>
-      </div>
-    </div>
-
-    <div class="block">
-      <div class="blocklabel">イベント</div>
-      <div><span class="evt" data-evt="kame815">毎週土曜 ・ 差枚プラス★3 × 機種仕掛け★5+</span></div>
-    </div>
-
-    <div class="block">
-      <div class="blocklabel">抽選</div>
-      <div class="meta">明日ぶんの抽選時刻の告知はまだ確認できていません</div>
-    </div>
-
-    <div class="checks"><span>第三者評価 S 14.8 で11店中最高</span><span>機種仕掛け★5+</span><span>曜日法則(毎週土曜)</span><span>X告知は未収集</span></div>
-
-    <div class="tw">この版は第三者評価を主軸に組んでいます。<b>Xの前夜告知はまだ収集していません</b>(21時の定例で反映します)</div>
-
-    <details>
-      <summary>根拠の詳細</summary>
-      <div class="detail-body">
-        <div><b>なぜ本命なのか:</b> 明日の第三者評価が11店中トップです(亀有14.8 S ＞ エクス松戸13.1 ＞ キコーナ松戸12.7 ＞ 新!ガーデン八潮12.6)。しかも中身が「機種仕掛け★5+」で、これは当サービスが8/8にパラッツォ三郷中央を本命にしたときと同じ判定です。</div>
-        <div><b>これは当サービスの取りこぼしでした:</b> 「毎週土曜」という曜日ベースの強日は、Xの告知には出てきません。8/9も同じ理由でマルハン亀有(第三者評価S15.3)を★3に置いて外しています。<b>曜日要因を法則DBに持っていないのが原因</b>なので、今回あらためて新規法則として登録します。ただしまだ未検証(N=0)なので、スコアは控えめに置いています。</div>
-        <div><b>ここが弱点:</b> Xの前夜告知をまだ見ていないため、抽選規模も来店演者も分かりません。また当店は8/14(金)も評価S(15.1・4のつく日)で、<b>2日連続の強日の2日目</b>にあたります。前日の結果を朝に確認できるなら見てから決めてください。</div>
-        <div class="src">スコア内訳 当サービスv1=51.3 と 第三者評価14.8(=98.7換算) の平均で75.0 ｜ 通常のv1/v2ではなく、第三者評価主軸の暫定式です</div>
-      </div>
-    </details>
-  </div>
-</section>
-
-<details class="fold" open><summary>対抗を見る(2店)</summary><section>
-
-  <div class="row">
-    <div class="top"><span class="name">新!ガーデン八潮</span><span class="rscore">74</span></div>
-    <div class="sub">スロパチ来店取材(匠) ・ 第三者評価 A 12.6</div>
-    <div><span class="evt" data-evt="gard815">スロパチ来店取材(匠)</span></div>
-    <div class="note"><b>今回は「匠」です。</b>8/9に来たのは青でしたが、匠は一段上の公約で、<b>全台系と1/2機種が複数</b>入る形です。青の「6台並びが8箇所以上」より、全台系を1つ引き当てにいく立ち回りが噛み合います。当店はスロパチ来店in埼玉が18回中12回成功(ベイズ勝率0.59)で、当サービスの法則DBでTier2に乗っている数少ない法則です。週刊りみっとくんと連日リザルトも同時開催ですが、この2つは全国平均が+22枚と-31枚で弱いので、匠だけを根拠として見てください。本命の亀有とは1点差なので、<b>抽選規模で選ぶなら当店</b>です</div>
-    <div class="tw">Xの前夜告知は未収集です(21時の定例で反映します)。この評価は第三者評価(明日)にもとづきます</div>
-  </div>
-  <div class="row">
-    <div class="top"><span class="name">ピーアーク草加</span><span class="rscore">65</span></div>
-    <div class="sub">スロパチ来店取材(青)＋(黒) ・ 取材5本立て</div>
-    <div><span class="evt" data-evt="pia815">スロパチ青＋黒 × 全力埼塊取材NEXT</span></div>
-    <div class="note">明日は<b>取材が5本重なります</b>。スロパチ来店取材の青と黒、エラスロ、かにみそ、全力埼塊取材NEXT来店取材。第三者評価はA(11.0)で本命2店には届きませんが、<b>当店は当サービスが唯一◎を確定できている店</b>です(8/3のサキドリ取材、鉄拳6が552・553の2台そろって差玉上位、推奨機種平均+4,326枚)。台番を揃えた並びを作るのが当店の型なので、青の6台並びと相性がいいはずです。なお8/16(日)はスロパチガール来店Sで評価S(12.5)と明日より上です</div>
-    <div class="tw">Xの前夜告知は未収集です(21時の定例で反映します)。この評価は第三者評価(明日)にもとづきます</div>
-  </div>
-</section></details>
-
-<details class="fold"><summary>穴・様子見を見る(3店)</summary><section>
-
-  <div class="row">
-    <div class="top"><span class="name">エクスアリーナ松戸</span><span class="rscore">64</span></div>
-    <div class="sub">5のつく日 × 機種仕掛け★3 ・ 第三者評価 A 13.1</div>
-    <div class="note"><b>第三者評価だけなら11店中2位</b>です(13.1)。旧イベの5のつく日に機種仕掛け★3が乗ります。当店は8/9の調査で「心を燃やせ」(大王系列のポスター)の全国平均が<b>+303枚・上位3.7%</b>と判明した、当サービスの法則DBで最強クラスの数字を持つ店です。明日は心を燃やせではないので満点はつけませんが、<b>この店を軽く見るのは8/9で一度失敗しています</b>。第三者評価を信じるなら本命候補に入れてよい位置です</div>
-    <div class="tw">Xの前夜告知は未収集です(21時の定例で反映します)。この評価は第三者評価(明日)にもとづきます</div>
-  </div>
-  <div class="row">
-    <div class="top"><span class="name">キコーナ松戸</span><span class="rscore">63</span></div>
-    <div class="sub">LINO来店 ・ 第三者評価 A 12.7</div>
-    <div class="note">来店取材が入ります。第三者評価はA(12.7)で11店中3位。ただし当サービスは当店の法則をまだ1件も検証できておらず、<b>来店取材の質を判断する材料がありません</b>。8/16(日)がヤルヲ来店でA(12.2)、8/20(木)が東京喰種インパクト来店取材12でB(11.0)と続くので、週末を通して動きのある店です</div>
-    <div class="tw">Xの前夜告知は未収集です(21時の定例で反映します)。この評価は第三者評価(明日)にもとづきます</div>
-  </div>
-  <div class="row">
-    <div class="top"><span class="name">パラッツォ三郷中央</span><span class="rscore">56</span></div>
-    <div class="sub">覇王のリアル × ホスピタリティ調査団 ・ 第三者評価 B 10.1</div>
-    <div class="note">明日はB評価どまりです。<b>当店の本命は8/16(日)と8/18(火)</b>で、16日はスロパチ来店取材(青)＋機種仕掛け★4でA(13.1)、<b>18日は機種仕掛け★5+×必勝本ライター来店×月周年日×シン特定日でS(15.3)</b>。当店は毎週日曜に機種仕掛け★5が26回中25回という曜日法則を持っているので、明日を見送って16日か18日に回すほうが筋が通ります</div>
-    <div class="tw">Xの前夜告知は未収集です(21時の定例で反映します)。この評価は第三者評価(明日)にもとづきます</div>
-  </div>
-</section></details>
-
-<section>
-  <div class="sec">その他</div>
-  <div class="list">
-    <div class="li"><span class="name">SAP草加</span><span class="next">8/15 屋台来店</span><span class="lscore">52</span>
-      <div class="tw">第三者評価は無印(10.4)。当店の主軸は毎月28日のSAP取材(ベイズ0.545・Tier2)です。Xの前夜告知は未収集</div></div>
-    <div class="li"><span class="name">楽園南越谷</span><span class="next">8/15 極・表裏一体取材</span><span class="lscore">51</span>
-      <div class="tw">第三者評価は無印(10.1)。8/21(金)が機種仕掛け★4でA(14.6)と月内では上位です。Xの前夜告知は未収集</div></div>
-    <div class="li"><span class="name">やすだ八潮</span><span class="next">8/15 埼玉やすだ合同取材</span><span class="lscore">37</span>
-      <div class="tw">第三者評価はC(7.3)。当店は8/18(火)の天草極上ホール応援団来店がA(11.5)で上です。Xの前夜告知は未収集</div></div>
-    <div class="li"><span class="name">パラッツォ馬橋駅前</span><span class="next">8/15 パーフェクトクイーン</span><span class="lscore">37</span>
-      <div class="tw">第三者評価はC(6.1)。8/17(月)がスロパチ青×でちゃう編集部×月周年日でA(11.1)と月内最上位。Xの前夜告知は未収集</div></div>
-    <div class="li"><span class="name">やすだ三郷</span><span class="next">8/15 埼玉やすだ合同取材</span><span class="lscore">30</span>
-      <div class="tw">第三者評価はC(5.3)で11店中最下位。8/18(火)の極誓取材がA(9.4)。Xの前夜告知は未収集</div></div>
-  </div>
-</section>
-
-</div>
-
-<span id="kekka-sec"></span>
 <section>
   <div class="sec">昨日の答え合わせ</div>
-  <div class="kekka" id="kekka"><b>答え合わせ ｜ 77件中75件がまだ判定できていません</b><br>
-    ・8/3〜8/9に出した予測77件のうち、結果を確認できたのは<b>2件だけ</b>です(判定率2.6%)。★4以上を13件出して、判定済みは1件。<b>★5は3件出して全て未判定</b>のままです<br>
-    ・止まっている理由は3つです。第三者取材の結果レポートが数日から数週間おくれること(20件)、ブラウザ接続が切れて巡回できなかったこと(33件)、収集の途中で切れたこと(11件)<br>
-    ・確定済み: 8/3 ピーアーク草加(予想78) → <b style="color:var(--accent)">◎</b> ／ 8/3 マルハン亀有(予想82) → <b style="color:var(--accent)">◎</b><br>
-    ・<b>代理の検証として、第三者評価(当日)との順位相関を出しました。</b>第三者評価を見てから作った8/7〜8/8は+0.50でしたが、Xの告知だけで作った8/9は、第三者評価が11店中トップ3に置いた3店を当サービスは★1〜★3に置いていました。<b>そこで8/10から、Xより先に第三者評価を見る順番に変えています</b><br>
-    <span style="color:var(--ink3); font-size:12px">累積: 確定◎2 〇0 ×0 / 判定待ち75件。母数が少ないため参考値です</span></div>
+  <div class="kekka" id="kekka">読み込み中</div>
 </section>
 
-<section id="week">
-  <div class="sec">今週の注目日</div>
-  <div class="list cal">
-    <div class="li"><span class="d hot">8/15 土</span><span class="txt">マルハン亀有が毎週土曜の機種仕掛け★5+(S14.8) ・ 新!ガーデン八潮がスロパチ匠(A12.6) ・ エクスアリーナ松戸が5のつく日(A13.1) ・ ピーアーク草加が取材5本(A11.0)</span></div>
-    <div class="li"><span class="d">8/16 日</span><span class="txt">新!ガーデン八潮 オクトパスデー×ぺこぱPREMIUM(S15.3) ・ パラッツォ三郷中央 スロパチ青×機種仕掛け★4(A13.1) ・ ピーアーク草加 スロパチガール来店S(S12.5)</span></div>
-    <div class="li"><span class="d">8/17 月</span><span class="txt">マルハン亀有 7のつく日で差枚★5×機種仕掛け★5+(S14.8) ・ パラッツォ馬橋 スロパチ青×月周年日(A11.1)</span></div>
-    <div class="li"><span class="d hot">8/18 火</span><span class="txt">パラッツォ三郷中央 機種仕掛け★5+×必勝本ライター×月周年日×シン特定日(S15.3) ・ やすだ八潮 天草極上ホール応援団(A11.5)</span></div>
-    <div class="li"><span class="d">8/21 金</span><span class="txt">楽園南越谷 機種仕掛け★4(A14.6) ・ マルハン亀有 1のつく日×真骨超(S14.9) ・ 新!ガーデン八潮 スロパチ青(A12.6)</span></div>
-  </div>
-</section>
+<footer>
+  ツモナビAI β ｜ 予測は店舗公式Xの告知・過去の開催実績（法則DB）・第三者評価から機械的に採点しています。<a href="db.html">法則データベース</a><br>
+  遊技はご自身の判断と責任で。結果を保証するものではありません。
+</footer>
 
-
-
-
-
-<footer>毎晩22時に更新 ｜ 本サービスの期待スコア・狙い機種等は過去の公表情報に基づく統計的予測であり、実際の設定状況・出玉・勝利を保証するものではありません。遊技の最終判断はご自身の責任で行ってください。<br>
-期待度は「店格・法則実績(ベイズ補正)・告知の具体性・第三者予想」の重み付き合成スコア(0〜100)。的中率は次の定義で毎朝集計します — メイン: 期待スコア80以上と判定した店舗・日のうち、店舗全体の平均差枚+100枚以上を公表データで確認できた割合/サブ: 配信時に指定した狙い機種上位2機種の平均差枚が+500枚以上だった割合(いずれも直近30日・データ確認可能店舗が対象・検証開始2026/8/3〜)。<br>
-当サービスは掲載店舗と一切の提携・協力・資金関係になく、店舗から対価を受領していない完全な第三者として運営しています。店舗権利者様からの掲載停止・訂正のご要請には確認の上速やかに応じます。<br>
-パチンコ・パチスロは適度に楽しむ遊技です。のめり込みにご注意ください(<a href="https://rsn-sakura.or.jp/">リカバリーサポート・ネットワーク</a>)</footer>
-
-<nav class="bottomnav">
-  <a class="on" href="#">本命</a>
-  <a href="#kekka-sec">結果</a>
-  <a href="#week">今週</a>
-  <a href="db.html">法則DB</a>
-</nav>
-
-<div class="ovl" id="ovl"><div class="spin"></div><p>最新の情報を取得しています…</p></div>
+<div class="bottomnav"><a class="on" href="./">狙い目</a><a href="db.html">法則DB</a></div>
+<div class="ovl" id="ovl"><div class="spin"></div><p>最新の情報を取りにいっています…</p></div>
 <div class="toast" id="toast"></div>
 
-<div class="sheet-bg" id="sheetbg" onclick="closeEvt()"></div>
-<div class="sheet" id="sheet">
-  <button class="close" onclick="closeEvt()">✕</button>
-  <h3 id="sh-title"></h3>
-  <div class="store" id="sh-store"></div>
-  <dl id="sh-body"></dl>
-</div>
 <script>
+// ---------------------------------------------------------------------------
+// データ: data/day/<YYYY-MM-DD>.json（公開版）と <YYYY-MM-DD>-member.json（根拠つき）
+// tsumonavi-data の predict.yml が毎晩21時(JST)にここへ配信する。
+// このページは描画するだけ。予測ロジックは持たない。
+// ---------------------------------------------------------------------------
+var DATA_BASE = 'data/day/';
+var STATE = { today: null, tomorrow: null, dates: {} };
+
+function jstDate(offsetDays){
+  var d = new Date(Date.now() + 9*3600*1000 + (offsetDays||0)*86400*1000);
+  return d.toISOString().slice(0,10);
+}
+function jstHour(){ return new Date(Date.now() + 9*3600*1000).getUTCHours(); }
+function label(iso){
+  var p = iso.split('-'); var d = new Date(Date.UTC(+p[0], +p[1]-1, +p[2]));
+  return (+p[1]) + '/' + (+p[2]) + '<small>(' + '日月火水木金土'[d.getUTCDay()] + ')</small>';
+}
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+function linkify(s){
+  return esc(s).replace(/https?:\/\/[^\s]+/g, function(u){ return '<a href="' + u + '" target="_blank" rel="noopener">' + u.replace(/^https?:\/\//,'').slice(0,40) + '</a>'; });
+}
+
+function fetchJSON(url){
+  return fetch(url + '?t=' + Math.floor(Date.now()/60000), {cache:'no-store'}).then(function(r){
+    if(!r.ok) throw new Error(r.status); return r.json();
+  });
+}
+function loadDay(iso){
+  return fetchJSON(DATA_BASE + iso + '-member.json').catch(function(){
+    return fetchJSON(DATA_BASE + iso + '.json');      // 会員版が無ければ公開版
+  }).catch(function(){ return null; });
+}
+
+function breakdownText(p){
+  var b = p.breakdown; if(!b) return '';
+  return '店格' + b.rank + ' + 法則' + b.rule + ' + 告知' + b.kokuchi + ' + 第三者' + b.third + ' = ' + p.score;
+}
+
+function renderHero(p, kind){
+  var h = '<section><div class="hero">';
+  h += '<div class="label">' + (kind==='today'?'今日':'明日') + 'の本命 ｜ ' + esc(p.area || '') + '</div>';
+  h += '<div class="name">' + esc(p.storeName) + '</div>';
+  h += '<div class="scorewrap"><span class="score">' + Math.round(p.score) + '</span><span class="scorelabel">' + esc(p.scoreLabel) + '</span></div>';
+  if(p.kishu && p.kishu.length){
+    h += '<div class="block"><div class="blocklabel">告知に出ている機種</div><div class="kishu">';
+    p.kishu.forEach(function(k,i){ h += '<div><span class="n">' + (i+1) + '</span>' + esc(k) + '</div>'; });
+    h += '</div></div>';
+  }
+  if(p.chusen){ h += '<div class="block"><div class="blocklabel">抽選</div><div class="meta">' + esc(p.chusen) + '</div></div>'; }
+  if(p.checks && p.checks.length){
+    h += '<div class="checks">' + p.checks.map(function(c){ return '<span>' + esc(c) + '</span>'; }).join('') + '</div>';
+  }
+  if(p.basis && p.basis.length){
+    h += '<details><summary>根拠の詳細</summary><div class="detail-body">';
+    p.basis.forEach(function(b){
+      if(b.title.indexOf('告知:') === 0){
+        h += '<div><b>' + esc(b.title) + '</b><div class="quote">' + linkify(b.body) + '</div></div>';
+      }else{
+        h += '<div><b>' + esc(b.title) + ':</b> ' + esc(b.body) + '</div>';
+      }
+    });
+    if(p.breakdown){ h += '<div class="src">スコア内訳 ' + esc(breakdownText(p)) + '</div>'; }
+    h += '</div></details>';
+  }
+  if(p.sources && p.sources.length){
+    h += '<div class="tw">' + p.sources.map(function(s){ return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>'; }).join('') + '</div>';
+  }
+  h += '</div></section>';
+  return h;
+}
+
+function renderRow(p){
+  var h = '<div class="row"><div class="top"><span class="name">' + esc(p.storeName) + '</span><span class="rscore">' + Math.round(p.score) + '</span></div>';
+  h += '<div class="sub">' + esc(p.scoreLabel) + (p.chusen ? ' ・ ' + esc(p.chusen) : '') + '</div>';
+  if(p.checks && p.checks.length){ h += '<div class="note">' + p.checks.map(esc).join(' ／ ') + '</div>'; }
+  if(p.breakdown){ h += '<div class="note">' + esc(breakdownText(p)) + '</div>'; }
+  if(p.sources && p.sources.length){
+    h += '<div class="tw">' + p.sources.map(function(s){ return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>'; }).join('') + '</div>';
+  }
+  return h + '</div>';
+}
+
+function renderList(items){
+  var h = '<div class="list">';
+  items.forEach(function(p){
+    h += '<div class="li"><span class="name">' + esc(p.storeName) + '</span><span class="next">' + esc((p.checks||[])[0] || '') + '</span><span class="lscore">' + Math.round(p.score) + '</span></div>';
+  });
+  return h + '</div>';
+}
+
+function renderDay(kind, iso, data){
+  var el = document.getElementById('day-' + kind);
+  if(!data){
+    el.innerHTML = '<div class="empty">' + (kind==='tomorrow' ? '明日の予測はまだ出ていません。毎晩21時ごろに更新されます。' : '今日の予測データが見つかりません。') + '</div>';
+    return;
+  }
+  var ps = data.predictions || [];
+  var main = ps.filter(function(p){ return p.rank === '本命'; })[0];
+  var sub  = ps.filter(function(p){ return p.rank === '対抗' || p.rank === '穴'; });
+  var rest = ps.filter(function(p){ return p.rank === 'その他'; });
+  var h = '';
+  if(main) h += renderHero(main, kind);
+  if(sub.length){
+    h += '<details class="fold" open><summary>' + (kind==='today'?'今日':'明日') + 'の対抗・穴(' + sub.length + '店)</summary><section>' + sub.map(renderRow).join('') + '</section></details>';
+  }
+  if(rest.length){
+    h += '<details class="fold"><summary>その他(' + rest.length + '店)</summary><section>' + renderList(rest) + '</section></details>';
+  }
+  var noThird = ps.every(function(p){ return !p.breakdown || p.breakdown.third === 0; });
+  if(noThird){ h += '<div class="tw" style="margin-top:14px">第三者評価（ホールナビ等）は未反映。店格・法則・公式Xの告知で採点しています</div>'; }
+  el.innerHTML = h;
+}
 
 function showDay(k){
-  var t=k==='today';
+  var t = k==='today';
   document.getElementById('day-today').style.display    = t?'':'none';
   document.getElementById('day-tomorrow').style.display = t?'none':'';
   document.getElementById('btn-today').classList.toggle('on', t);
   document.getElementById('btn-tomorrow').classList.toggle('on', !t);
-  var d=document.querySelector('header .date');
-  if(d){ d.innerHTML = t ? '8/14<small>(金)</small>' : '8/15<small>(土)</small>'; }
-  var l=document.querySelector('header .tagline');
-  if(l){ l.textContent = t ? '今日の狙い目 — 開いた時間に合わせて表示しています' : '明日の店も、狙い目も。— AIが毎晩22時、根拠つきでナビ。'; }
+  var iso = STATE.dates[k]; var data = STATE[k];
+  document.getElementById('hdate').innerHTML = label(iso);
+  document.getElementById('hupdated').textContent = data ? data.updatedAt : '未更新';
+  document.getElementById('tagline').textContent = t ? '今日の狙い目 — 開いた時間に合わせて表示しています' : '明日の店も、狙い目も。— AIが毎晩21時、根拠つきでナビ。';
   try{ sessionStorage.setItem('tn_day', k); }catch(e){}
 }
-(function(){
-  var k;
-  try{ k = sessionStorage.getItem('tn_day'); }catch(e){}
-  if(!k){ k = (new Date().getHours() >= 21) ? 'tomorrow' : 'today'; }
-  window.addEventListener('load', function(){ showDay(k); });
+
+function renderMeta(data){
+  var j = (data && data.jisseki) || {maru:0, maru2:0, batsu:0, since:''};
+  var a = (data && data.analysis) || {};
+  var el = document.getElementById('jisseki');
+  el.innerHTML = '検証実績' + (j.since ? '(' + esc(j.since) + '開始)' : '') + ': <span><b class="maru">◎' + (j.maru||0) + '</b> 〇' + (j.maru2||0) + ' ×' + (j.batsu||0) + '</span>'
+    + '<span style="margin-left:auto; font-weight:600; color:var(--ink3)">法則' + (a.laws||0) + '件 ・ 店舗' + (a.stores||0) + '店 ・ 公式X ' + (a.accounts||0) + '件</span>';
+  var k = document.getElementById('kekka');
+  var kk = (data && data.kekka) || [];
+  if(!kk.length){
+    k.innerHTML = '<b>まだ判定できた予測がありません。</b><br>予測を出した翌日以降に、店舗の公表データや第三者の結果レポートと突き合わせて ◎/〇/× を付けます。';
+  }else{
+    k.innerHTML = kk.map(function(x){ return '・' + esc(x.storeName) + '(予想' + esc(x.predicted) + ') → <b style="color:var(--accent)">' + esc(x.result) + '</b>' + (x.note ? ' ' + esc(x.note) : ''); }).join('<br>');
+  }
+}
+
+(function init(){
+  STATE.dates = { today: jstDate(0), tomorrow: jstDate(1) };
+  document.getElementById('btn-today').textContent = '今日 ' + label(STATE.dates.today).replace(/<[^>]+>/g,'');
+  document.getElementById('btn-tomorrow').textContent = '明日 ' + label(STATE.dates.tomorrow).replace(/<[^>]+>/g,'');
+  Promise.all([loadDay(STATE.dates.today), loadDay(STATE.dates.tomorrow)]).then(function(r){
+    STATE.today = r[0]; STATE.tomorrow = r[1];
+    renderDay('today', STATE.dates.today, STATE.today);
+    renderDay('tomorrow', STATE.dates.tomorrow, STATE.tomorrow);
+    renderMeta(STATE.tomorrow || STATE.today);
+    var k;
+    try{ k = sessionStorage.getItem('tn_day'); }catch(e){}
+    if(!k){ k = (jstHour() >= 21 || !STATE.today) && STATE.tomorrow ? 'tomorrow' : 'today'; }
+    showDay(k);
+    afterRefresh();
+  });
 })();
 
-function buildStamp(){
-  var m = document.querySelector('meta[name="build"]');
-  return m ? (m.getAttribute('content') || '') : '';
-}
 function showToast(msg, ms, ok){
-  var t = document.getElementById('toast');
-  if(!t) return;
-  t.innerHTML = msg;
-  t.classList.toggle('ok', !!ok);
-  t.classList.add('on');
+  var t = document.getElementById('toast'); if(!t) return;
+  t.innerHTML = msg; t.classList.toggle('ok', !!ok); t.classList.add('on');
   setTimeout(function(){ t.classList.remove('on'); }, ms || 3800);
 }
+function currentStamp(){ var d = STATE.tomorrow || STATE.today; return d ? d.targetDate + ' ' + d.updatedAt : ''; }
 function refreshApp(){
   var btn = document.querySelector('.refresh');
   if(btn){ btn.disabled = true; btn.textContent = '更新中…'; }
-  var ovl = document.getElementById('ovl');
-  if(ovl){ ovl.classList.add('on'); }
-  try{ sessionStorage.setItem('tn_prev_build', buildStamp()); }catch(e){}
-
-  var fired = false;
-  var started = Date.now();
+  var ovl = document.getElementById('ovl'); if(ovl){ ovl.classList.add('on'); }
+  try{ sessionStorage.setItem('tn_prev_build', currentStamp()); }catch(e){}
+  var fired = false, started = Date.now();
   var done = function(){
     if(fired) return; fired = true;
-    var go = function(){
-      var base = location.href.split('#')[0].split('?')[0];
-      location.replace(base + '?r=' + Date.now());
-    };
-    // 一瞬で終わるとボタンを押せたのか分からないので、最低0.7秒は見せる
-    var wait = Math.max(0, 700 - (Date.now() - started));
-    setTimeout(go, wait);
+    var go = function(){ var base = location.href.split('#')[0].split('?')[0]; location.replace(base + '?r=' + Date.now()); };
+    setTimeout(go, Math.max(0, 700 - (Date.now() - started)));
   };
-
   var jobs = [];
-  // Service Workerは update ではなく unregister する。
-  // update だと古いWorkerがページを掴んだまま居座り、アプリを終了するまで交代しないため。
   if(navigator.serviceWorker && navigator.serviceWorker.getRegistrations){
-    jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){
-      return Promise.all(rs.map(function(r){ return r.unregister().catch(function(){}); }));
-    }).catch(function(){}));
+    jobs.push(navigator.serviceWorker.getRegistrations().then(function(rs){ return Promise.all(rs.map(function(r){ return r.unregister().catch(function(){}); })); }).catch(function(){}));
   }
   if(window.caches && caches.keys){
-    jobs.push(caches.keys().then(function(ks){
-      return Promise.all(ks.map(function(k){ return caches.delete(k).catch(function(){}); }));
-    }).catch(function(){}));
+    jobs.push(caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){ return caches.delete(k).catch(function(){}); })); }).catch(function(){}));
   }
   if(jobs.length === 0){ done(); return; }
   Promise.all(jobs).then(done, done);
-  setTimeout(done, 4000); // 何かに詰まっても必ず再読み込みする
+  setTimeout(done, 4000);
 }
-
-// 更新ボタン経由で戻ってきたときだけ、結果を知らせる
-(function(){
+function afterRefresh(){
   if(!/[?&]r=/.test(location.search)) return;
   var prev = '';
-  try{ prev = sessionStorage.getItem('tn_prev_build') || ''; }catch(e){}
-  try{ sessionStorage.removeItem('tn_prev_build'); }catch(e){}
-  var now = buildStamp();
-  var label = now ? now.replace('T',' ').replace(/\+09:00$/,'') : '';
-  var changed = prev && now && prev !== now;
-  // アドレスから ?r= を消して、次の再読み込みで二重に出ないようにする
+  try{ prev = sessionStorage.getItem('tn_prev_build') || ''; sessionStorage.removeItem('tn_prev_build'); }catch(e){}
+  var now = currentStamp();
   try{ history.replaceState(null, '', location.pathname); }catch(e){}
-  window.addEventListener('load', function(){
-    setTimeout(function(){
-      var d = document.querySelector('header .date');
-      var day = d ? d.textContent.replace(/\s+/g,'') : '';
-      if(changed){
-        showToast('✓ 新しい情報に更新しました<small>' + day + ' の狙い目 ・ ' + label + ' 版</small>', 4600, true);
-      }else{
-        showToast('すでに最新の状態です<small>' + day + ' の狙い目 ・ ' + label + ' 版</small>', 3800, false);
-      }
-      var a = document.getElementById('jisseki'), b = document.querySelector('.updated');
-      if(changed){
-        if(a){ a.classList.add('flash'); }
-        if(b){ b.classList.add('flash'); }
-      }
-    }, 260);
-  });
-})();
-var EVENTS={
- gard89:{t:"スロパチ来店取材(青) × 週末 × 丸ごとジャグ/海門末尾",s:"新!ガーデン八潮 ｜ 8/9(日)",d:[
-  ["傾向","当店の本命法則。カバネリ40台のベースアップに加えてピンポイントで全台系が入る型。無職転生が3台中3台プラス+7,030枚という記録がある"],
-  ["公約","スロパチの色別公約は、青=6台並びが8箇所以上、匠=全台系と1/2機種が複数。明日は青なので、全台系を1つ引き当てにいくより6台並びを複数拾う立ち回りが公約に沿う"],
-  ["示唆","埼玉の情報アカウントが「丸ごとジャグ」「海門末尾」と明記。ジャグラーコーナーを島単位で動かす形と、カバネリ海門決戦を台番末尾で揃える形の2本立て"],
-  ["過去実績","スロパチ来店in埼玉はベイズ勝率0.59(18回中12回成功・Tier2)。当店の並びは平均207人、範囲52〜840人で、スロパチin埼玉の日は182〜326人"],
-  ["注意","8/8にも来店取材(週刊りみっとくん)を開催しており連投明け。加えて当サービスは8/8の当店を84点(★5)と評価したが第三者評価(当日)は8.3の無印だった。過大評価の癖を織り込んで一段下げている"]]},
- pia89:{t:"スロパチガールPS × 9の日強化",s:"ピーアーク草加 ｜ 8/9(日)",d:[
-  ["傾向","当店は台番を揃えた並びを作る型。8/3のサキドリ取材では鉄拳6が552・553の2台そろって差玉上位に入り、スロット差玉上位10台が全て+3,700枚超だった"],
-  ["公約","スロパチガールの公約は非公表。グレードはPS>S>無印の順で、明日はPS(最上位)"],
-  ["9の日","ピーアーク系列は9のつく日を強化する動きがあり、同系列の朝霞店は明日「9の日強化」と告知されている。草加店の9の日単体の実績はまだサンプルが足りない"],
-  ["過去実績","8/3に当サービス予想78点に対して◎。当サービスの検証実績で確定している2件のうちの1件"]]},
- kame89:{t:"日曜(特段の取材告知なし)",s:"マルハン亀有 ｜ 8/9(日)",d:[
-  ["傾向","当店は7のつく日と月ゾロ日に機種単位の仕掛けを入れる型。少数台の全台系が連発する"],
-  ["公約","明日は取材・特定日の告知が出ていない。東京のまとめアカウントの注目店リストには入っているが、根拠は週末という以上のものがない"],
-  ["第三者","みんパチの日刊予想は23区東エリアでB。同エリアではAION西葛西・アミューズ浅草・エクスアリーナ東京・ジャラン水元がAで、当店はその下"],
-  ["注意","8/8に月ゾロ・リニューアル2日目・東日本マルハン全店合同を重ねた大型日を通過した直後で反動が出やすい。周年WEEKは8/10まで続くので最終日のほうが筋が通る"]]}
-};
-function openEvt(k){var e=EVENTS[k];if(!e)return;document.getElementById('sh-title').textContent=e.t;document.getElementById('sh-store').textContent=e.s;document.getElementById('sh-body').innerHTML=e.d.map(function(x){return '<dt>'+x[0]+'</dt><dd>'+x[1]+'</dd>';}).join('');document.getElementById('sheet').classList.add('on');document.getElementById('sheetbg').classList.add('on');}
-function closeEvt(){document.getElementById('sheet').classList.remove('on');document.getElementById('sheetbg').classList.remove('on');}
-document.querySelectorAll('.evt').forEach(function(el){el.addEventListener('click',function(){openEvt(el.dataset.evt);});});
+  setTimeout(function(){
+    if(prev && now && prev !== now){ showToast('✓ 新しい情報に更新しました<small>' + esc(now) + '</small>', 4600, true); }
+    else{ showToast('すでに最新の状態です<small>' + esc(now) + '</small>', 3800, false); }
+  }, 260);
+}
 </script>
 </body>
 </html>

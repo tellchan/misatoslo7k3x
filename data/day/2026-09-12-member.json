@@ -1,0 +1,438 @@
+{
+ "targetDate": "2026-09-12",
+ "targetDateLabel": "9/12(土)",
+ "updatedAt": "9/12 03:53 更新",
+ "model": "v1",
+ "jisseki": {
+  "maru": 0,
+  "maru2": 0,
+  "batsu": 0,
+  "since": ""
+ },
+ "analysis": {
+  "stores": 11,
+  "laws": 62,
+  "accounts": 64,
+  "years": 6
+ },
+ "kekka": [],
+ "locked": false,
+ "predictions": [
+  {
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 71.3,
+   "scoreLabel": "期待度 高い",
+   "rank": "本命",
+   "kishu": [],
+   "checks": [
+    "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
+    "公式Xで収録、降臨（抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 特定日/BIGBOSS",
+     "body": "開催パターン「2のつく日」。日付で該当。15回適用して8回成功、ベイズ勝率 0.474（Tier2）。"
+    },
+    {
+     "title": "告知: @palazzo_misato 09/11 18:22",
+     "body": "9/12土10時開店\nなちゅ様収録降臨👼💛\n👉 @pochanachu\n\n食欲の秋じゃぁーー🍁\nわいはまだチーズ月見喰べとらん😗\nチーチー倍月見は究極過ぎー💕\n\nそんなこと考えてたら\nオイラのアンケート集計...\nいつもの\"倍\"終わってないにょネン😢\n\n明日\"も\"早めにお越しください🚙\n抽選⇒9:40🕘\n\n#パラミサ覚書 "
+    }
+   ],
+   "chusen": "入場抽選 9:40",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@palazzo_misato 09/11 18:22",
+     "url": "https://x.com/palazzo_misato/status/2098341276441551319"
+    }
+   ],
+   "scores": {
+    "v1": 71.3,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 4
+   },
+   "breakdown": {
+    "rank": 25,
+    "rule": 21.3,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "para-mabashi",
+   "storeName": "パラッツォ馬橋駅前",
+   "area": "馬橋・車25分",
+   "score": 68.0,
+   "scoreLabel": "期待度 高い",
+   "rank": "対抗",
+   "kishu": [],
+   "checks": [
+    "周年月間（ベイズ勝率 0.56・5回中4回）",
+    "公式Xで取材、来店、応援団（抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 周年月間",
+     "body": "開催パターン「9月(周年9/17)」。日付で該当。5回適用して4回成功、ベイズ勝率 0.556（Tier2）。"
+    },
+    {
+     "title": "告知: @palazzo_mabashi 09/11 20:00",
+     "body": "🌈9月12日(土)🌈\nパラッツォ全店一斉\n馬橋駅前店10時開店!\n\n🟥🟧🟨🟩🟦🟪 \n🔥天草ヤスヲさん\n🔰天草極上ホール応援団\n🔰ちゅんげー玉\n 🟥🟧🟨🟩🟦🟪\n来店取材!\n\n🔥周年月間🔥を\n天草ヤスヲさんが盛り上げる⤴⤴⤴\n\n抽選9:45⏰\n#天草ヤスヲ さん\n#天草極上ホール応援団\n#ちゅんげー玉 "
+    }
+   ],
+   "chusen": "入場抽選 9:45",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@palazzo_mabashi 09/11 20:00",
+     "url": "https://x.com/palazzo_mabashi/status/2098365947622924517"
+    }
+   ],
+   "scores": {
+    "v1": 68.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 4
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 25.0,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
+   "score": 65.5,
+   "scoreLabel": "期待度 高い",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "KO取材（ベイズ勝率 0.50・6回中4回）",
+    "公式Xで来店（抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: KO取材",
+     "body": "開催パターン「13日・23日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
+    },
+    {
+     "title": "告知: @kicona_matsudo 09/11 20:39",
+     "body": "こんばんは✨\n松戸市にあるパチンコ店✨\nキコーナ松戸店です✨\n\n==========\n\n✨9月12日✨\n🌈もうちゃん来店🌈\n\n==========\n\n✨朝の入場抽選は✨\n⌚9時30分⌚より\n正面入り口にて行います\n\n是非ともお越しください✨\n\n#今日も感謝を込めて\n#キコーナ松戸\n@mowmow4276_ver2 "
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@kicona_matsudo 09/11 20:39",
+     "url": "https://x.com/kicona_matsudo/status/2098375753398374714"
+    }
+   ],
+   "scores": {
+    "v1": 65.5,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 4
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 22.5,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 54.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [
+    "リコリコ"
+   ],
+   "checks": [
+    "ガブっとセブン取材（ベイズ勝率 0.40・1回中1回）",
+    "公式Xで取材（台数・抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: ガブっとセブン取材",
+     "body": "開催パターン「12日・2日頃」。日付で該当。1回適用して1回成功、ベイズ勝率 0.400（Tier3）。"
+    },
+    {
+     "title": "告知: @yasuda_yashio 09/11 18:00",
+     "body": "こんばんは🌙\nやすだ八潮店です✋\n\n明日\n9月12日(土)10時開店(予定)\n\n💥💥💥💥💥💥💥💥\n ガブっとセブン取材\n💥💥💥💥💥💥💥💥\n✨✨✨✨✨✨✨✨\n フードロス販売会\n 🍖鶏の炭火焼き🍖\n✨✨✨✨✨✨✨✨\n\nスマスロ💥リコリコも地域最大の\n🔥🔥40台設置中🔥🔥\n\n入場順番の抽選は9:30~⏰\n\n#ガブっとセブン取材\n#フードロスプロジェクト\n#地域最大\n#リコリコ"
+    }
+   ],
+   "chusen": "入場抽選 9:30",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@yasuda_yashio 09/11 18:00",
+     "url": "https://x.com/yasuda_yashio/status/2098335751318667567"
+    }
+   ],
+   "scores": {
+    "v1": 54.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 18.0,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 52.9,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "ブラック独占取材（ベイズ勝率 0.38・12回中5回）",
+    "公式Xで取材（台数・抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: ブラック独占取材",
+     "body": "開催パターン「2日・12日」。日付で該当。12回適用して5回成功、ベイズ勝率 0.375（Tier2）。"
+    },
+    {
+     "title": "告知: @yasuda_misato 09/11 20:35",
+     "body": "こんばんは😉\n\n明日9月12日\n😈ブラック独占取材😈(予定)\n \n😈タノシクナイナンテユルサナイ😈\n\n最新機種全11機種を\n導入しております😍\n\n更にオススメ機種もしっかりと\n準備しておりますよ🥳\n\n最新機種・オススメ機種打つなら\n是非ヤスミサへご来店下さい🤩\n\n抽選9:40~⏰\n \n#オススメ\n#ブラック独占取材"
+    }
+   ],
+   "chusen": "入場抽選 9:40",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@yasuda_misato 09/11 20:35",
+     "url": "https://x.com/yasuda_misato/status/2098374747658797213"
+    }
+   ],
+   "scores": {
+    "v1": 52.9,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 16.9,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "公式Xで取材、来店（抽選時刻・時差開放）"
+   ],
+   "basis": [
+    {
+     "title": "告知: @g_yashio 09/11 18:05",
+     "body": "9月12日(土)\n10時OPEN(予定) !!\n\n🏵シャルの優良店舗徹底取材\n ↓シャルさんのXはこちら↓\n @p_tenChar \n\n👸PS応援女子来店\n🔴パチンコISLAND【時差開放】\n\n先月に引き続き今月もこの日がやってきた!\nシャルの優良店舗徹底取材&パチンコISLAND\n同時開催✨\nさらに今回はPS応援女子も来店予定🔥\n\nオンライン抽選締め切りは\n朝9時30分となります!\n混雑が予想されるため、\n公共交通機関もご利用の上ご来"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@g_yashio 09/11 18:05",
+     "url": "https://x.com/g_yashio/status/2098337115058946398"
+    }
+   ],
+   "scores": {
+    "v1": 50.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 25,
+    "rule": 0.0,
+    "kokuchi": 25,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
+   "area": "草加・車20分",
+   "score": 38.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "公式Xで取材、調査の告知あり"
+   ],
+   "basis": [
+    {
+     "title": "告知: @SAPsouka 09/11 19:00",
+     "body": "🔥土曜日のSAP草加🔥\n\n✨9月12日(土)✨\n🔍「PS調査員」取材予定🔍\n\n何を見て、どこを調査するのか...👀\n\"徹底取材\"のその先に注目です👊\n\n週末のSAP草加店、\nぜひ取材内容にもご注目ください🔥 "
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@SAPsouka 09/11 19:00",
+     "url": "https://x.com/SAPsouka/status/2098350854080430331"
+    }
+   ],
+   "scores": {
+    "v1": 38.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 20,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 31.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "公式Xで取材、来店、スロパチの告知あり"
+   ],
+   "basis": [
+    {
+     "title": "告知: @XAmatsudo 09/11 21:00",
+     "body": "こんばんは👓\n明日9月12日土曜日の\nエクス松戸店の情報は...\n\n🟦🟦🟦スロパチステーション来店取材『青』🟦🟦🟦\n\nすげぇ!今月もう3回も取材受けてる🪼\nその取材の期待に応えるべく毎回エクスは\n頑張るのです💎💎💎\n\nご来店お待ち致しております🌀 "
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@XAmatsudo 09/11 21:00",
+     "url": "https://x.com/XAmatsudo/status/2098381043095290169"
+    }
+   ],
+   "scores": {
+    "v1": 31.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 20,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 18.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "rakuen",
+   "storeName": "楽園南越谷",
+   "area": "南越谷・車20分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 18.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 11.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 11.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  }
+ ],
+ "weekly": []
+}
