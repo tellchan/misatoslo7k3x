@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-13",
  "targetDateLabel": "9/13(日)",
- "updatedAt": "9/12 04:21 更新",
+ "updatedAt": "9/12 23:34 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,226 +22,503 @@
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
-   "score": 43.0,
-   "scoreLabel": "様子見",
+   "score": 76.0,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
    "kishu": [],
    "checks": [
-    "周年月間（ベイズ勝率 0.56・5回中4回）"
+    "周年月間（ベイズ勝率 0.56・5回中4回）",
+    "公式Xで取材、来店、周年（抽選時刻）",
+    "第三者評価 B 6.7（hall-navi）",
+    "Xの第三者1アカウントが言及（@chiba_pachislo）"
    ],
    "basis": [
     {
      "title": "法則: 周年月間",
      "body": "開催パターン「9月(周年9/17)」。日付で該当。5回適用して4回成功、ベイズ勝率 0.556（Tier2）。"
+    },
+    {
+     "title": "告知: @palazzo_mabashi 09/12 20:00",
+     "body": "足立区北綾瀬駅近くにある超名店\n「じゃっくぽっと」さん🍜\n二郎系ラーメンです\nヤサイは炒めているのでとても香ばしい🥰\n初めて来たお店だったのでビビッてしまい\nヤサイの量を増しにしなかったことを後悔...\nコシのある麺がgood👍\n今まで食べた二郎系ラーメンでも上位のウマさ!\n次回は絶対ヤサイマシで頼みます(*‘ω‘ *)\n\n9月13日のパラッツォ馬橋駅前店は\n🎖🎖🎖🎖🎖🎖\n#でちゃう!\n🎖🎖🎖🎖🎖🎖\n来店取材!\n抽選9:45⏰\n開店10"
+    },
+    {
+     "title": "第三者評価: B 6.7",
+     "body": "hall-navi の9/13の評価。対象: でちゃう！取材（金）。出典: でちゃう！"
+    },
+    {
+     "title": "第三者X: @chiba_pachislo 09/12 21:54（信頼度A）",
+     "body": "【全系×並び×ニブイチ複数】\n\n明日9月13日(日)の注目ホール\n『パラッツォ馬橋駅前』\n\n周年月間\nでちゃう!取材 金・ボーダー\n\n✅パラッツォ馬橋駅前の傾向\n・全系×❸機種以上\n・3台島に全系有\n・メインは並び・ニブイチ\n\n最近の傾向は3or4台島に全系とメインにニブイチが有\nつまり3台島から全系を探すべき\n↪︎周年月間なので配分⤴\nハッピーはよくやるので最優先\n\nGOD・東京喰種・Lカバネリ"
     }
    ],
-   "chusen": "",
+   "chusen": "入場抽選 9:45",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_mabashi 09/12 20:00",
+     "url": "https://x.com/palazzo_mabashi/status/2098728339381113194"
+    },
+    {
+     "label": "@chiba_pachislo 09/12 21:54",
+     "url": "https://x.com/chiba_pachislo/status/2098757180522635391"
+    }
+   ],
    "scores": {
-    "v1": 43.0,
-    "v1_third_avg": null,
+    "v1": 76.0,
+    "v1_third_avg": 64.7,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 18,
     "rule": 25.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 25,
+    "third": 8
    }
   },
   {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 40.5,
-   "scoreLabel": "様子見",
+   "score": 73.5,
+   "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [],
    "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）"
+    "KO取材（ベイズ勝率 0.50・6回中4回）",
+    "公式Xで取材（抽選時刻）",
+    "第三者評価 B 12.0（hall-navi）",
+    "Xの第三者1アカウントが言及（@chiba_pachislo）"
    ],
    "basis": [
     {
      "title": "法則: KO取材",
      "body": "開催パターン「13日・23日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
+    },
+    {
+     "title": "告知: @kicona_matsudo 09/12 20:39",
+     "body": "こんばんは✨\n松戸市にあるパチンコ店✨\nキコーナ松戸店です✨\n\n✨✨✨✨✨\n✨サンキュー✨\n✨9月13日✨\n🌈KO取材🌈\n✨✨✨✨✨\n\n✨朝の入場抽選は✨\n⌚9時30分⌚より\n正面入り口にて行います\n\n是非ともお越しください ✨\n\n#今日も感謝を込めて\n#キコーナ松戸 "
+    },
+    {
+     "title": "第三者評価: B 12.0",
+     "body": "hall-navi の9/13の評価。対象: ナビ子AI予想【機種仕掛け】★2 (3のつく日)。"
+    },
+    {
+     "title": "第三者X: @chiba_pachislo 09/12 19:00（信頼度A）",
+     "body": "🥜明日9/13(日) 千葉注目ホールまとめ🎰\n📅=3のつく日/毎月13日/毎週日曜日 📸=取材来店\n\n━━━━━━━━━━━\n📍柏エリア\n━━━━━━━━━━━\n\n🎯 エクス・アリーナ柏\n📸 スロパチステーション来店取材(青)\n🚉 東武アーバンパークライン 柏駅 近く\n\n┈┈┈┈┈┈┈┈┈┈\n\n🎯 PIA柏店\n📸 スロミュー七福神(調査隊来店)\n🚉 柏駅 近く\n\n┈┈┈┈┈┈┈┈┈┈\n\n🎯 マルハ"
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@kicona_matsudo 09/12 20:39",
+     "url": "https://x.com/kicona_matsudo/status/2098738141351850056"
+    },
+    {
+     "label": "@chiba_pachislo 09/12 19:00",
+     "url": "https://x.com/chiba_pachislo/status/2098713231317757955"
+    }
+   ],
    "scores": {
-    "v1": 40.5,
-    "v1_third_avg": null,
+    "v1": 73.5,
+    "v1_third_avg": 63.4,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 18,
     "rule": 22.5,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "para-misato",
-   "storeName": "パラッツォ三郷中央",
-   "area": "三郷・車10分",
-   "score": 34.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "ナビ子AI予想【機種仕掛け】★5(毎週日曜日)（未実測・事前確率 0.20）"
-   ],
-   "basis": [
-    {
-     "title": "法則: ナビ子AI予想【機種仕掛け】★5(毎週日曜日)",
-     "body": "開催パターン「毎週日曜」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 34.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 25,
-    "rule": 9.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 32.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 日替わりテーマ",
-     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 32.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 21.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 29.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "ガブっとセブン取材（ベイズ勝率 0.40・1回中1回）"
-   ],
-   "basis": [
-    {
-     "title": "法則: ガブっとセブン取材",
-     "body": "開催パターン「12日・2日頃」。日付で該当。1回適用して1回成功、ベイズ勝率 0.400（Tier3）。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 29.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 18.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 25,
+    "third": 8
    }
   },
   {
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+   "score": 65.0,
+   "scoreLabel": "期待度 高い",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "リコリス",
+    "ジャグラー",
+    "甲鉄城"
    ],
-   "basis": [],
+   "checks": [
+    "公式Xで取材、来店の告知あり",
+    "第三者評価 S 15.6（hall-navi）",
+    "Xの第三者1アカウントが言及（@daiya_saitama）"
+   ],
+   "basis": [
+    {
+     "title": "告知: @g_yashio 09/12 19:58",
+     "body": "9月13日(日)10時OPEN(予定)!!\n\n✨✨PREMIUM✨✨\nパチンコ&スロット取材\nネクストクレイジー\n 取材班来店\n✨✨✨✨✨✨✨\n\n📣PS応援女子様来店(予定)\n🤡丸ごとジャグラー\n\n🎊新台🎊\n🎰パチンコ🎰\n・e アサルトリリィ\n・e魔女と野獣\n・eタクトオーパス デスティニー\n・e 甲鉄城のカバネリ2 輪廻の果報119ver.\n・eシン・ウルトラマン 79ver.\n\n🎰スロット🎰\n・スマスロ リコリス・リコイル\n・L青春"
+    },
+    {
+     "title": "第三者評価: S 15.6",
+     "body": "hall-navi の9/13の評価。対象: オクトパスデー。出典: サプライズ調査隊"
+    },
+    {
+     "title": "第三者X: @daiya_saitama 09/12 20:56（信頼度B）",
+     "body": "🔍9/13 埼玉 取材&来店まとめ\n\n⚽新!ガーデン北戸田駅前\n⚽パラッツォ鳩ヶ谷\n⚽第一プラザ坂戸1000\n⚽メガガーデン所沢スロット館\n⚽楽園大宮\n⚽ジャムフレンドクラブ朝霞\n⚽ガーデン東大宮\n⚽ダイエー鷲宮\n⚽メガガイア岩槻 など\n\n👇詳細は画像にて \n⚽新!ガーデン八潮"
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@g_yashio 09/12 19:58",
+     "url": "https://x.com/g_yashio/status/2098727909892452612"
+    },
+    {
+     "label": "@daiya_saitama 09/12 20:56",
+     "url": "https://x.com/daiya_saitama/status/2098742633984319881"
+    }
+   ],
    "scores": {
-    "v1": 25.0,
-    "v1_third_avg": null,
+    "v1": 65.0,
+    "v1_third_avg": 82.5,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 25,
     "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 25,
+    "third": 15
    }
   },
   {
-   "storeId": "sap-soka",
-   "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 62.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
    "kishu": [],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "ナビ子AI予想【機種仕掛け】★5(毎週日曜日)（未実測・事前確率 0.20）",
+    "公式Xで取材の告知あり",
+    "第三者評価 B 9.2（hall-navi）"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "title": "法則: ナビ子AI予想【機種仕掛け】★5(毎週日曜日)",
+     "body": "開催パターン「毎週日曜」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+    },
+    {
+     "title": "告知: @palazzo_misato 09/12 18:22",
+     "body": "9/13日10時開店⏰\nフェスメディア取材\n#四賢者 \nさとりの書👉 \n\n夢はいいね。\n夢は心を潤してくれる。\n\n💭ほゎ~ん、ほぁ~ん...\n\n絶景を求めて弾丸のように\n上空へ飛び出した!!\nう...浮いてる🪽\nこれまさに奇跡✨\n\nってとこで目が覚めた👀\n\n明日\"も\"10時開店♻なのは現実にゃ😎✨\nマッテルZE🎁\n\n#パラミサ覚書"
+    },
+    {
+     "title": "第三者評価: B 9.2",
+     "body": "hall-navi の9/13の評価。対象: 四賢者。出典: DMMぱちタウン"
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_misato 09/12 18:22",
+     "url": "https://x.com/palazzo_misato/status/2098703664214942058"
+    }
+   ],
    "scores": {
-    "v1": 18.0,
-    "v1_third_avg": null,
+    "v1": 62.0,
+    "v1_third_avg": 57.6,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
+    "rank": 25,
+    "rule": 9.0,
+    "kokuchi": 20,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 57.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "ゴッド",
+    "喰種"
+   ],
+   "checks": [
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
+    "@slo1_tyousataiZ（第三者・信頼度B）で強化（並び・台数）",
+    "第三者評価 single",
+    "Xの第三者1アカウントが言及（@slo1_tyousataiZ）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 日替わりテーマ",
+     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
+    },
+    {
+     "title": "非公式告知: @slo1_tyousataiZ 09/12 19:57",
+     "body": "9/13\n🌈 マルハン亀有\n\n➤明日のポイント\n✅39の日→BIG THANK YOU\n✅週末強化\n\n➤傾向📌\n🎯3台並び×10本以上&9台並び×1本以上\n🎯末尾39絡みに注目\n🎯毎日“超優秀”機種あり\n🎯店長ポスト:機種連想あり\n\n➤毎日オススメ機種\nスロ:ゴッド/東京喰種/Lカバネリ/北斗シリーズ/ヴヴヴ2\n\n➤期間オススメ機種\nスロ:バラミックス30機種\n\nBIG THANK YOU=並びを軸に立ち回る日✍\n\n前回の週末開催時(8"
+    },
+    {
+     "title": "第三者X: @slo1_tyousataiZ 09/12 19:57（信頼度B）",
+     "body": "9/13\n🌈 マルハン亀有\n\n➤明日のポイント\n✅39の日→BIG THANK YOU\n✅週末強化\n\n➤傾向📌\n🎯3台並び×10本以上&9台並び×1本以上\n🎯末尾39絡みに注目\n🎯毎日“超優秀”機種あり\n🎯店長ポスト:機種連想あり\n\n➤毎日オススメ機種\nスロ:ゴッド/東京喰種/Lカバネリ/北斗シリーズ/ヴヴヴ2\n\n➤期間オススメ機種\nスロ:バラミックス30機種\n\nBIG THANK YOU=並びを"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 09/12 19:57",
+     "url": "https://x.com/slo1_tyousataiZ/status/2098727755601092861"
+    },
+    {
+     "label": "@slo1_tyousataiZ 09/12 19:57",
+     "url": "https://x.com/slo1_tyousataiZ/status/2098727755601092861"
+    }
+   ],
+   "scores": {
+    "v1": 57.0,
+    "v1_third_avg": 55.1,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 21.0,
+    "kokuchi": 17,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 54.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [
+    "リコリス"
+   ],
+   "checks": [
+    "ガブっとセブン取材（ベイズ勝率 0.40・1回中1回）",
+    "公式Xで取材（台数）"
+   ],
+   "basis": [
+    {
+     "title": "法則: ガブっとセブン取材",
+     "body": "開催パターン「12日・2日頃」。日付で該当。1回適用して1回成功、ベイズ勝率 0.400（Tier3）。"
+    },
+    {
+     "title": "告知: @yasuda_yashio 09/12 18:00",
+     "body": "明日のやすだ八潮店は!!\n\n🌺🌺🌺🌺🌺🌺🌺\n 沖 ド キ ! 取材\n🌺🌺🌺🌺🌺🌺🌺\n\n☁天気が悪い日🌧が続いていると\n🌞太陽🌞が恋しくなりますね~💖\n\n✨ 最 新 台 ✨\n スマスロ リコリス・リコイル\n===地域最大40台導入済===\n\n9月13日(日)10:00オープン(予定)\n明日のご来店もお待ちしてます💨💨💨"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@yasuda_yashio 09/12 18:00",
+     "url": "https://x.com/yasuda_yashio/status/2098698140731973752"
+    }
+   ],
+   "scores": {
+    "v1": 54.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 18.0,
+    "kokuchi": 25,
     "third": 0
    }
   },
   {
    "storeId": "peark-soka",
    "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "リコリコ",
+    "ミリオンゴッド"
+   ],
+   "checks": [
+    "@slot_channel_（第三者・信頼度B）で取材、来店、強化（台数・抽選時刻）",
+    "第三者評価 S 12.5（hall-navi）",
+    "Xの第三者3アカウントが言及（@slot_channel_・@daiya_saitama・@slotchousatai）"
+   ],
+   "basis": [
+    {
+     "title": "非公式告知: @slot_channel_ 09/12 21:41",
+     "body": "📍9/13(日) ピーアーク草加\n|スロパチガール来店PS\n|全力来店取材\n\n【過去傾向/狙い目】\n🚩仕掛け\n・4台並び×9箇所以上\n・単品あり\n\n🚩オススメ\n・東京喰種\n・Lカバネリ\n・マイV\n・ミリオンゴッド\n\n🚩週末強化\n・ミリオンゴッド\n・からくり2\n\n▼前回9/6スロパチガール来店PSデータ\n🎯全台系候補\n・モンハン:平均+620枚 2/2台\n🎯5台並び候補\n・戦国乙女5\n🎯4台並び候補\n・東京喰種×2\n・ビックドリーム~真打"
+    },
+    {
+     "title": "第三者評価: S 12.5",
+     "body": "hall-navi の9/13の評価。対象: スロパチガール来店S。出典: スロパチステーション"
+    },
+    {
+     "title": "第三者X: @slot_channel_ 09/12 21:41（信頼度B）",
+     "body": "📍9/13(日) ピーアーク草加\n|スロパチガール来店PS\n|全力来店取材\n\n【過去傾向/狙い目】\n🚩仕掛け\n・4台並び×9箇所以上\n・単品あり\n\n🚩オススメ\n・東京喰種\n・Lカバネリ\n・マイV\n・ミリオンゴッド\n\n🚩週末強化\n・ミリオンゴッド\n・からくり2\n\n▼前回9/6スロパチガール来店PSデータ\n🎯全台系候補\n・モンハン:平均+620枚 2/2台\n🎯5台並び候補\n・戦国乙女5\n🎯4台並び候補"
+    },
+    {
+     "title": "第三者X: @daiya_saitama 09/12 20:56（信頼度B）",
+     "body": "🔍9/13 埼玉 取材&来店まとめ\n\n⚽新!ガーデン北戸田駅前\n⚽パラッツォ鳩ヶ谷\n⚽第一プラザ坂戸1000\n⚽メガガーデン所沢スロット館\n⚽楽園大宮\n⚽ジャムフレンドクラブ朝霞\n⚽ガーデン東大宮\n⚽ダイエー鷲宮\n⚽メガガイア岩槻 など\n\n👇詳細は画像にて \n⚽ピーアーク草加"
+    },
+    {
+     "title": "第三者X: @slotchousatai 09/12 19:30（信頼度A）",
+     "body": "9/13 まとめ1~5(5)\n\n【埼玉】\n✅スロパチ来店for埼玉\nジャムフレンドクラブ朝霞\n8/30\n塊Av+2,590枚/全体Av+252枚🔥\n\n一番舘川越ふじみ野\n8/23\n塊Av+1,520枚\n\nパラッツォ鳩ヶ谷\n9/6\n塊Av+1,510枚\n\n✅スロぱちガールPS\nピーアーク草加\n9/6\nP)☆3✨+2.5pt\nS)塊Av+1,870枚✨\n\n✅スロパチガールS\n第一プラザ坂戸1000\n8"
+    }
+   ],
+   "chusen": "入場抽選 9:30",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slot_channel_ 09/12 21:41",
+     "url": "https://x.com/slot_channel_/status/2098753819668840922"
+    },
+    {
+     "label": "@slot_channel_ 09/12 21:41",
+     "url": "https://x.com/slot_channel_/status/2098753819668840922"
+    },
+    {
+     "label": "@daiya_saitama 09/12 20:56",
+     "url": "https://x.com/daiya_saitama/status/2098742633984319881"
+    },
+    {
+     "label": "@slotchousatai 09/12 19:30",
+     "url": "https://x.com/slotchousatai/status/2098720778371907976"
+    }
+   ],
+   "scores": {
+    "v1": 50.0,
+    "v1_third_avg": 75.0,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 17,
+    "third": 15
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 39.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "公式Xで来店の告知あり",
+    "第三者評価 single",
+    "Xの第三者1アカウントが言及（@chiba_pachislo）"
+   ],
+   "basis": [
+    {
+     "title": "告知: @XAmatsudo 09/12 21:00",
+     "body": "こんばんは🪐\n明日9月13日日曜日の\nエクス松戸店は...\n\n👁👁👁TRIANGLE EYE👁👁👁\n真実を見抜く3つの目...3つ...フゥン🤔\n\nそして\n💛💛💛すずかさん来店予定💛💛💛\n\nうまい台が打ちたいんだよーーー🐹\n\nご来店お待ち致しております☺ "
+    },
+    {
+     "title": "第三者X: @chiba_pachislo 09/12 19:00（信頼度A）",
+     "body": "🥜明日9/13(日) 千葉注目ホールまとめ🎰\n📅=3のつく日/毎月13日/毎週日曜日 📸=取材来店\n\n━━━━━━━━━━━\n📍柏エリア\n━━━━━━━━━━━\n\n🎯 エクス・アリーナ柏\n📸 スロパチステーション来店取材(青)\n🚉 東武アーバンパークライン 柏駅 近く\n\n┈┈┈┈┈┈┈┈┈┈\n\n🎯 PIA柏店\n📸 スロミュー七福神(調査隊来店)\n🚉 柏駅 近く\n\n┈┈┈┈┈┈┈┈┈┈\n\n🎯 マルハ"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@XAmatsudo 09/12 21:00",
+     "url": "https://x.com/XAmatsudo/status/2098743428972749176"
+    },
+    {
+     "label": "@chiba_pachislo 09/12 19:00",
+     "url": "https://x.com/chiba_pachislo/status/2098713231317757955"
+    }
+   ],
+   "scores": {
+    "v1": 39.0,
+    "v1_third_avg": 46.1,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 20,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "ゴッド",
+    "エヴァ"
+   ],
+   "checks": [
+    "@PAA_pmportal（第三者・信頼度A）で取材、来店、収録の告知あり",
+    "第三者評価 無印 4.8（hall-navi）",
+    "Xの第三者1アカウントが言及（@PAA_pmportal）"
+   ],
+   "basis": [
+    {
+     "title": "非公式告知: @PAA_pmportal 09/12 22:16",
+     "body": "🚨🚨🚨🚨🚨🚨🚨🚨\n🍀明日 2026/09/13(日)\n🏃‍♂来店/収録情報🏃‍♀81件\n✏取材情報📱63件 #PMP\n✅✅✅✅✅✅✅✅\n👇各県詳細&検索はリプ欄から👇\n\n──🌏宮城県🌏──\n🌟オータ古川店🟣七海ありさ\n\n──🌏栃木県🌏──\n🌟DELGRAND上横田店🟣KEN蔵\n\n──🌏群馬県🌏──\n🌟Super D’STATION大間々店🎬パチさんぽLIVE🟣ドテチン\n\n──🌏埼玉県🌏──\n🌟SLOTスマートガーデン武蔵浦和331🟣レビ"
+    },
+    {
+     "title": "第三者評価: 無印 4.8",
+     "body": "hall-navi の9/13の評価。対象: YASUDAリポート。出典: パチ7"
+    },
+    {
+     "title": "第三者X: @PAA_pmportal 09/12 22:16（信頼度A）",
+     "body": "🚨🚨🚨🚨🚨🚨🚨🚨\n🍀明日 2026/09/13(日)\n🏃‍♂来店/収録情報🏃‍♀81件\n✏取材情報📱63件 #PMP\n✅✅✅✅✅✅✅✅\n👇各県詳細&検索はリプ欄から👇\n\n──🌏宮城県🌏──\n🌟オータ古川店🟣七海ありさ\n\n──🌏栃木県🌏──\n🌟DELGRAND上横田店🟣KEN蔵\n\n──🌏群馬県🌏──\n🌟Super D’STATION大間々店🎬パチさんぽLIVE🟣ドテチン\n\n──🌏埼玉県🌏──\n🌟SL"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@PAA_pmportal 09/12 22:16",
+     "url": "https://x.com/PAA_pmportal/status/2098762658371748291"
+    },
+    {
+     "label": "@PAA_pmportal 09/12 22:16",
+     "url": "https://x.com/PAA_pmportal/status/2098762658371748291"
+    }
+   ],
+   "scores": {
+    "v1": 36.0,
+    "v1_third_avg": 44.6,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 17,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
    "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
@@ -290,62 +567,6 @@
    },
    "breakdown": {
     "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 11.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 11.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
     "third": 0
