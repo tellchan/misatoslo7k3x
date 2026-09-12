@@ -211,14 +211,10 @@ function renderHero(p, kind){
   if(p.basis && p.basis.length){
     h += '<details><summary>根拠の詳細</summary><div class="detail-body">';
     p.basis.forEach(function(b){
-      var isTweet = b.kind === 'tweet' || b.title.indexOf('告知:') === 0 || b.title.indexOf('非公式告知:') === 0 || b.title.indexOf('第三者X:') === 0;
-      if(isTweet){
-        h += '<div><b>' + esc(b.title) + '</b>';
-        if(b.nerai){ h += '<div class="nerai">🎯 ' + esc(b.nerai) + '</div>'; }
-        h += '<div class="quote">' + linkify(b.body) + '</div></div>';
-      }else{
-        h += '<div><b>' + esc(b.title) + ':</b> ' + esc(b.body) + '</div>';
-      }
+      var isTweet = b.kind === 'tweet';
+      h += '<div><b>' + esc(b.title) + (isTweet ? '' : ':') + '</b> ' + esc(b.body || '');
+      if(isTweet && b.kishu && b.kishu.length){ h += '<div class="nerai">🎯 狙い機種: ' + b.kishu.map(esc).join('・') + '</div>'; }
+      h += '</div>';
     });
     if(p.breakdown){ h += '<div class="src">スコア内訳 ' + esc(breakdownText(p)) + '</div>'; }
     h += '</div></details>';
