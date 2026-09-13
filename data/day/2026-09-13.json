@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-13",
  "targetDateLabel": "9/13(日)",
- "updatedAt": "9/13 00:21 更新",
+ "updatedAt": "9/13 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -37,7 +37,7 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 73.5,
+   "score": 75.5,
    "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [],
@@ -45,7 +45,7 @@
     "KO取材（ベイズ勝率 0.50・6回中4回）",
     "公式Xで取材（抽選時刻）",
     "第三者評価 B 12.0（hall-navi）",
-    "Xの第三者1アカウントが言及（@chiba_pachislo）"
+    "Xの第三者2アカウントが言及（@chiba_pachislo・@slo1_tyousataiZ）"
    ]
   },
   {
@@ -64,7 +64,7 @@
    "checks": [
     "公式Xで取材、来店の告知あり",
     "第三者評価 S 15.6（hall-navi）",
-    "Xの第三者1アカウントが言及（@daiya_saitama）"
+    "Xの第三者2アカウントが言及（@slo1_tyousataiZ・@daiya_saitama）"
    ]
   },
   {
@@ -89,14 +89,12 @@
    "scoreLabel": "期待度 やや高い",
    "rank": "その他",
    "kishu": [
-    "カバネリ",
-    "北斗",
-    "ゴッド",
-    "喰種"
+    "喰種",
+    "エヴァ"
    ],
    "checks": [
     "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
-    "@slo1_tyousataiZ（第三者・信頼度B）で強化（並び・台数）",
+    "@slo1_tyousataiZ（第三者・信頼度B）で取材、来店、収録の告知あり",
     "第三者評価 single",
     "Xの第三者1アカウントが言及（@slo1_tyousataiZ）"
    ]
