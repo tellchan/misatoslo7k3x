@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-14",
  "targetDateLabel": "9/14(月)",
- "updatedAt": "9/13 21:00 更新",
+ "updatedAt": "9/14 00:24 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -36,7 +36,7 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 67.5,
+   "score": 72.5,
    "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [
@@ -47,7 +47,7 @@
     "KO取材（ベイズ勝率 0.50・6回中4回）",
     "@slo1_tyousataiZ（第三者・信頼度B）で取材、来店、収録の告知あり",
     "第三者評価 A 13.3（hall-navi）",
-    "Xの第三者2アカウントが言及（@chiba_pachislo・@slo1_tyousataiZ）"
+    "Xの第三者3アカウントが言及（@chiba_pachislo・@slo1_tyousataiZ・@PAA_pmportal）"
    ]
   },
   {
@@ -66,22 +66,20 @@
    "checks": [
     "公式Xで取材、来店の告知あり",
     "第三者評価 S 15.8（hall-navi）",
-    "Xの第三者2アカウントが言及（@slo1_tyousataiZ・@surotore8192）"
+    "Xの第三者3アカウントが言及（@slo1_tyousataiZ・@daiya_saitama・@surotore8192）"
    ]
   },
   {
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 57.3,
+   "score": 60.3,
    "scoreLabel": "期待度 やや高い",
    "rank": "穴",
-   "kishu": [
-    "リオ"
-   ],
+   "kishu": [],
    "checks": [
     "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
-    "@chiba_pachislo（第三者・信頼度A）で取材、来店、収録の告知あり",
+    "公式Xで来店の告知あり",
     "第三者評価 medium",
     "Xの第三者2アカウントが言及（@chiba_pachislo・@ainavipachislot）"
    ]
@@ -103,6 +101,20 @@
     "@slot_channel_（第三者・信頼度B）で取材、来店、サキドリ（台数・抽選時刻）",
     "第三者評価 無印 6.2（hall-navi）",
     "Xの第三者2アカウントが言及（@slot_channel_・@slo1_tyousataiZ）"
+   ]
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "公式Xで取材（抽選時刻）",
+    "第三者評価 無印 4.8（hall-navi）",
+    "Xの第三者1アカウントが言及（@PAA_pmportal）"
    ]
   },
   {
@@ -162,18 +174,6 @@
    "storeId": "yasuda-yashio",
    "storeName": "やすだ八潮",
    "area": "八潮・車15分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
