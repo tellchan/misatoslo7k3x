@@ -69,6 +69,13 @@ if('serviceWorker' in navigator){
   .detail-body b{color:var(--ink);}
   .detail-body .quote{white-space:pre-wrap; background:var(--chip); border-radius:10px; padding:10px 12px; font-size:12px; line-height:1.6; word-break:break-word;}
   .detail-body .nerai{font-size:12.5px; font-weight:800; color:var(--accent); margin:6px 0 4px;}
+  .detail-body .posts{margin:6px 0 2px 0; padding-left:1.1em; font-size:11.5px; color:var(--ink2); line-height:1.75;}
+  .detail-body .posts li{margin:2px 0;}
+  .detail-body .posts a{color:var(--accent); text-decoration:none; margin-left:4px;}
+  details.basis{margin-top:12px;}
+  details.basis > summary{font-size:12px; font-weight:800; color:var(--ink3); cursor:pointer; list-style:none;}
+  details.basis > summary::after{content:" ▾";}
+  details.basis[open] > summary::after{content:" ▴";}
   .src{font-size:12px; color:var(--ink3);}
   .src a, .detail-body a{color:var(--accent); text-decoration:none; font-weight:700;}
   .tw{margin-top:9px; font-size:11px; color:var(--ink3); font-weight:700; line-height:2.2;}
@@ -194,6 +201,35 @@ function breakdownText(p){
   return '店格' + b.rank + ' + 法則' + b.rule + ' + 告知' + b.kokuchi + ' + 第三者' + b.third + ' = ' + p.score;
 }
 
+function renderBasis(p){
+  if(!p.basis || !p.basis.length){ return ''; }
+  var h = '<details class="basis"><summary>根拠の詳細</summary><div class="detail-body">';
+  p.basis.forEach(function(b){
+    if(b.kind === 'tweets'){
+      h += '<div><b>' + esc(b.title) + '</b> ' + esc(b.body || '');
+      if(b.kishu && b.kishu.length){ h += '<div class="nerai">🎯 狙い機種: ' + b.kishu.map(esc).join('・') + '</div>'; }
+      if(b.posts && b.posts.length){
+        h += '<ul class="posts">';
+        b.posts.forEach(function(q){
+          h += '<li>' + esc(q.who) + '：' + esc(q.text || '');
+          if(q.url){ h += ' <a href="' + esc(q.url) + '" target="_blank" rel="noopener">𝕏</a>'; }
+          h += '</li>';
+        });
+        h += '</ul>';
+      }
+      h += '</div>';
+    } else if(b.kind === 'tweet'){
+      h += '<div><b>' + esc(b.title) + '</b> ' + esc(b.body || '');
+      if(b.kishu && b.kishu.length){ h += '<div class="nerai">🎯 狙い機種: ' + b.kishu.map(esc).join('・') + '</div>'; }
+      h += '</div>';
+    } else {
+      h += '<div><b>' + esc(b.title) + ':</b> ' + esc(b.body || '') + '</div>';
+    }
+  });
+  if(p.breakdown){ h += '<div class="src">スコア内訳 ' + esc(breakdownText(p)) + '</div>'; }
+  return h + '</div></details>';
+}
+
 function renderHero(p, kind){
   var h = '<section><div class="hero">';
   h += '<div class="label">' + (kind==='today'?'今日':'明日') + 'の本命 ｜ ' + esc(p.area || '') + '</div>';
@@ -208,17 +244,7 @@ function renderHero(p, kind){
   if(p.checks && p.checks.length){
     h += '<div class="checks">' + p.checks.map(function(c){ return '<span>' + esc(c) + '</span>'; }).join('') + '</div>';
   }
-  if(p.basis && p.basis.length){
-    h += '<details><summary>根拠の詳細</summary><div class="detail-body">';
-    p.basis.forEach(function(b){
-      var isTweet = b.kind === 'tweet';
-      h += '<div><b>' + esc(b.title) + (isTweet ? '' : ':') + '</b> ' + esc(b.body || '');
-      if(isTweet && b.kishu && b.kishu.length){ h += '<div class="nerai">🎯 狙い機種: ' + b.kishu.map(esc).join('・') + '</div>'; }
-      h += '</div>';
-    });
-    if(p.breakdown){ h += '<div class="src">スコア内訳 ' + esc(breakdownText(p)) + '</div>'; }
-    h += '</div></details>';
-  }
+  h += renderBasis(p);
   if(p.sources && p.sources.length){
     h += '<div class="tw">' + p.sources.map(function(s){ return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>'; }).join('') + '</div>';
   }
@@ -230,7 +256,7 @@ function renderRow(p){
   var h = '<div class="row"><div class="top"><span class="name">' + esc(p.storeName) + '</span><span class="rscore">' + Math.round(p.score) + '</span></div>';
   h += '<div class="sub">' + esc(p.scoreLabel) + (p.chusen ? ' ・ ' + esc(p.chusen) : '') + '</div>';
   if(p.checks && p.checks.length){ h += '<div class="note">' + p.checks.map(esc).join(' ／ ') + '</div>'; }
-  if(p.breakdown){ h += '<div class="note">' + esc(breakdownText(p)) + '</div>'; }
+  h += renderBasis(p);
   if(p.sources && p.sources.length){
     h += '<div class="tw">' + p.sources.map(function(s){ return '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>'; }).join('') + '</div>';
   }
@@ -261,7 +287,7 @@ function renderDay(kind, iso, data){
     h += '<details class="fold" open><summary>' + (kind==='today'?'今日':'明日') + 'の対抗・穴(' + sub.length + '店)</summary><section>' + sub.map(renderRow).join('') + '</section></details>';
   }
   if(rest.length){
-    h += '<details class="fold"><summary>その他(' + rest.length + '店)</summary><section>' + renderList(rest) + '</section></details>';
+    h += '<details class="fold"><summary>その他(' + rest.length + '店)</summary><section>' + rest.map(renderRow).join('') + '</section></details>';
   }
   var noThird = ps.every(function(p){ return !p.breakdown || p.breakdown.third === 0; });
   if(noThird){ h += '<div class="tw" style="margin-top:14px">第三者評価（ホールナビ等）は未反映。店格・法則・公式Xの告知で採点しています</div>'; }
