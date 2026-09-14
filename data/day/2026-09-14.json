@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-14",
  "targetDateLabel": "9/14(月)",
- "updatedAt": "9/14 15:51 更新",
+ "updatedAt": "9/14 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -36,7 +36,7 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 72.5,
+   "score": 75.5,
    "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [
@@ -46,9 +46,27 @@
    ],
    "checks": [
     "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、収録の告知あり",
+    "公式Xで収録の告知あり",
     "晒し屋3件が言及（@slo1_tyousataiZ・@chiba_pachislo・@PAA_pm）",
     "第三者評価 A 13.5（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 65.3,
+   "scoreLabel": "期待度 高い",
+   "rank": "穴",
+   "kishu": [
+    "リオ",
+    "ジャグラー"
+   ],
+   "checks": [
+    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
+    "公式Xで来店の告知あり",
+    "晒し屋3件が言及（@chiba_pachislo・@ainavipachislot・@slo1_t）",
+    "第三者評価 strong"
    ]
   },
   {
@@ -67,25 +85,7 @@
    "checks": [
     "公式Xで取材、来店の告知あり",
     "晒し屋3件が言及（@surotore8192・@slo1_tyousataiZ・@daiya_sa）",
-    "第三者評価 A 13.6（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 60.3,
-   "scoreLabel": "期待度 やや高い",
-   "rank": "穴",
-   "kishu": [
-    "リオ",
-    "ジャグラー"
-   ],
-   "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
-    "公式Xで来店の告知あり",
-    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
-    "第三者評価 medium"
+    "第三者評価 S 15.8（hall-navi）"
    ]
   },
   {
@@ -103,7 +103,7 @@
    ],
    "checks": [
     "晒し屋@slot_channel_（信頼度B）で取材、来店、サキドリ（台数・抽選時刻）",
-    "晒し屋2件が言及（@slot_channel_・@slo1_tyousataiZ）",
+    "晒し屋3件が言及（@slot_channel_・@slo1_tyousataiZ・@slo1_ty）",
     "第三者評価 無印 6.2（hall-navi）"
    ]
   },
