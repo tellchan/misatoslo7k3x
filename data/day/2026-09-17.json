@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-17",
  "targetDateLabel": "9/17(木)",
- "updatedAt": "9/16 21:00 更新",
+ "updatedAt": "9/17 00:53 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -73,12 +73,48 @@
    ]
   },
   {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "リオ",
+    "ゴッド"
+   ],
+   "checks": [
+    "公式Xで取材、降臨の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 C 9.1（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "ゴッド",
+    "マイジャグ"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、サキドリ（台数・抽選時刻・時差開放）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 無印 6.2（hall-navi）"
+   ]
+  },
+  {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
    "score": 43.0,
    "scoreLabel": "様子見",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [
     "リオ"
    ],
@@ -89,29 +125,15 @@
    ]
   },
   {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 36.0,
-   "scoreLabel": "様子見",
-   "rank": "その他",
-   "kishu": [
-    "リオ"
-   ],
-   "checks": [
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 C 9.1（hall-navi）"
-   ]
-  },
-  {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
    "score": 25.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "喰種"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
@@ -119,18 +141,6 @@
   {
    "storeId": "sap-soka",
    "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
    "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",

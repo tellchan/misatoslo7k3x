@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-17",
  "targetDateLabel": "9/17(木)",
- "updatedAt": "9/16 21:00 更新",
+ "updatedAt": "9/17 00:53 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -263,12 +263,154 @@
    }
   },
   {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "リオ",
+    "ゴッド"
+   ],
+   "checks": [
+    "公式Xで取材、降臨の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 C 9.1（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 2件／晒し屋 1件 が 取材・来店・調査・周年、抽選時刻。",
+     "kishu": [
+      "リオ",
+      "ゴッド"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@chiba_pachislo(A) 09/16 19:00",
+       "text": "取材・来店・調査の情報「明日9/17(木) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
+      },
+      {
+       "who": "公式@XAmatsudo 09/16 21:00",
+       "text": "取材・降臨を告知「明日9月17日木曜日の」",
+       "url": "https://x.com/XAmatsudo/status/2100192981336629461"
+      },
+      {
+       "who": "公式@XAmatsudo 09/16 22:20",
+       "text": "「本日e牙狼黄金騎士極限コーナー354番台からコンプリート機能が発動いたしました!!」。抽選時刻",
+       "url": "https://x.com/XAmatsudo/status/2100213230610333988"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: C 9.1",
+     "body": "hall-navi の9/17の評価。対象: パセリ取材。出典: ナナテンガール"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@chiba_pachislo 09/16 19:00",
+     "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
+    },
+    {
+     "label": "@XAmatsudo 09/16 21:00",
+     "url": "https://x.com/XAmatsudo/status/2100192981336629461"
+    },
+    {
+     "label": "@XAmatsudo 09/16 22:20",
+     "url": "https://x.com/XAmatsudo/status/2100213230610333988"
+    }
+   ],
+   "scores": {
+    "v1": 44.0,
+    "v1_third_avg": 48.6,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 25,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "ゴッド",
+    "マイジャグ"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、サキドリ（台数・抽選時刻・時差開放）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 無印 6.2（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "晒し屋 1件 が 取材・来店・サキドリ、台数・抽選時刻・時差開放。",
+     "kishu": [
+      "カバネリ",
+      "リコリコ",
+      "ゴッド",
+      "マイジャグ",
+      "乙女",
+      "喰種"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 09/16 20:35",
+       "text": "取材・来店・サキドリの情報「9/17」。台数・抽選時刻・時差開放",
+       "url": "https://x.com/slo1_tyousataiZ/status/2100186864221409710"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: 無印 6.2",
+     "body": "hall-navi の9/17の評価。対象: サキドリ来店取材。出典: サキドリ来店取材"
+    }
+   ],
+   "chusen": "入場抽選 18:15分",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 09/16 20:35",
+     "url": "https://x.com/slo1_tyousataiZ/status/2100186864221409710"
+    }
+   ],
+   "scores": {
+    "v1": 43.0,
+    "v1_third_avg": 48.1,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 17,
+    "third": 8
+   }
+  },
+  {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
    "score": 43.0,
    "scoreLabel": "様子見",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [
     "リオ"
    ],
@@ -316,84 +458,36 @@
    }
   },
   {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 36.0,
-   "scoreLabel": "様子見",
-   "rank": "その他",
-   "kishu": [
-    "リオ"
-   ],
-   "checks": [
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 C 9.1（hall-navi）"
-   ],
-   "basis": [
-    {
-     "kind": "tweets",
-     "title": "X告知・示唆まとめ（1件）",
-     "body": "晒し屋 1件 が 取材・来店・調査・周年。",
-     "kishu": [
-      "リオ"
-     ],
-     "posts": [
-      {
-       "who": "晒し屋@chiba_pachislo(A) 09/16 19:00",
-       "text": "取材・来店・調査の情報「明日9/17(木) 千葉注目ホールまとめ」",
-       "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
-      }
-     ]
-    },
-    {
-     "title": "第三者評価: C 9.1",
-     "body": "hall-navi の9/17の評価。対象: パセリ取材。出典: ナナテンガール"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [
-    {
-     "label": "@chiba_pachislo 09/16 19:00",
-     "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
-    }
-   ],
-   "scores": {
-    "v1": 36.0,
-    "v1_third_avg": 44.6,
-    "v2": null,
-    "star_v1": 2
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 17,
-    "third": 8
-   }
-  },
-  {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
    "score": 25.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "喰種"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（1件）",
-     "body": "公式X 1件 が言及。",
-     "kishu": [],
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 2件 が 台数。",
+     "kishu": [
+      "喰種"
+     ],
      "posts": [
       {
        "who": "公式@palazzo_misato 09/16 20:22",
        "text": "「次回、パラミサセブン参上!?」",
        "url": "https://x.com/palazzo_misato/status/2100183414590648678"
+      },
+      {
+       "who": "公式@palazzo_misato 09/16 22:02",
+       "text": "「やってきたZO」。台数",
+       "url": "https://x.com/palazzo_misato/status/2100208651000746313"
       }
      ]
     }
@@ -404,6 +498,10 @@
     {
      "label": "@palazzo_misato 09/16 20:22",
      "url": "https://x.com/palazzo_misato/status/2100183414590648678"
+    },
+    {
+     "label": "@palazzo_misato 09/16 22:02",
+     "url": "https://x.com/palazzo_misato/status/2100208651000746313"
     }
    ],
    "scores": {
@@ -422,34 +520,6 @@
   {
    "storeId": "sap-soka",
    "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 18.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
    "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
