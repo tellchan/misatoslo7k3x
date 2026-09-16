@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-17",
  "targetDateLabel": "9/17(木)",
- "updatedAt": "9/16 01:00 更新",
+ "updatedAt": "9/16 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -30,7 +30,8 @@
    ],
    "checks": [
     "周年月間（ベイズ勝率 0.56・5回中4回）",
-    "公式Xで取材、来店、周年（抽選時刻）",
+    "公式Xで取材、来店（抽選人数・抽選時刻）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 S 14.5（hall-navi）"
    ]
   },
@@ -38,13 +39,69 @@
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 53.0,
-   "scoreLabel": "期待度 やや高い",
+   "score": 70.0,
+   "scoreLabel": "期待度 高い",
    "rank": "対抗",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "SAO",
+    "リコリコ"
+   ],
    "checks": [
     "7のつく日（ベイズ勝率 0.60・6回中5回）",
-    "第三者評価 S 14.8（hall-navi）"
+    "晒し屋@slo1_tyousataiZ（信頼度B）で新台入替（並び・台数）",
+    "晒し屋3件が言及（@kata_sainokuni・@kata_sainokuni・@slo1_ty）",
+    "第三者評価 S 14.9（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "リコリス",
+    "甲鉄城",
+    "e魔女"
+   ],
+   "checks": [
+    "公式Xで来店の告知あり"
+   ]
+  },
+  {
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "リオ"
+   ],
+   "checks": [
+    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 single"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リオ"
+   ],
+   "checks": [
+    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 C 9.1（hall-navi）"
    ]
   },
   {
@@ -53,19 +110,7 @@
    "area": "三郷・車10分",
    "score": 25.0,
    "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "garden-yashio",
-   "storeName": "新!ガーデン八潮",
-   "area": "八潮・車15分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
@@ -96,34 +141,10 @@
    ]
   },
   {
-   "storeId": "kicona-matsudo",
-   "storeName": "キコーナ松戸",
-   "area": "松戸・車25分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
    "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],

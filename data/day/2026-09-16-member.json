@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-16",
  "targetDateLabel": "9/16(水)",
- "updatedAt": "9/16 01:00 更新",
+ "updatedAt": "9/16 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,7 +22,7 @@
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
-   "score": 78.0,
+   "score": 76.0,
    "scoreLabel": "期待度 高い",
    "rank": "本命",
    "kishu": [
@@ -35,7 +35,7 @@
     "周年月間（ベイズ勝率 0.56・5回中4回）",
     "公式Xで取材、来店、周年（抽選時刻）",
     "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 A 9.9（hall-navi）"
+    "第三者評価 B 6.7（hall-navi）"
    ],
    "basis": [
     {
@@ -68,7 +68,7 @@
      ]
     },
     {
-     "title": "第三者評価: A 9.9",
+     "title": "第三者評価: B 6.7",
      "body": "hall-navi の9/16の評価。対象: でちゃう！取材（金）。出典: でちゃう！"
     }
    ],
@@ -85,8 +85,8 @@
     }
    ],
    "scores": {
-    "v1": 78.0,
-    "v1_third_avg": 72.3,
+    "v1": 76.0,
+    "v1_third_avg": 64.7,
     "v2": null,
     "star_v1": 4
    },
@@ -94,7 +94,7 @@
     "rank": 18,
     "rule": 25.0,
     "kokuchi": 25,
-    "third": 10
+    "third": 8
    }
   },
   {
@@ -113,8 +113,8 @@
    "checks": [
     "6の日/新生夏開幕（未実測・事前確率 0.20）",
     "公式Xで来店の告知あり",
-    "晒し屋3件が言及（@slo1_tyousataiZ・@chiba_pachislo・@ainavi）",
-    "第三者評価 A 11.8（hall-navi）"
+    "晒し屋4件が言及（@slo1_tyousataiZ・@chiba_pachislo・@ainavi）",
+    "第三者評価 A 11.9（hall-navi）"
    ],
    "basis": [
     {
@@ -123,8 +123,8 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（4件）",
-     "body": "公式X 1件／晒し屋 3件 が 取材・来店・応援団・調査、抽選時刻。",
+     "title": "X告知・示唆まとめ（6件）",
+     "body": "公式X 2件／晒し屋 4件 が 取材・来店・応援団・調査、抽選時刻。",
      "kishu": [
       "ジャグラー",
       "リオ",
@@ -150,14 +150,24 @@
        "url": "https://x.com/ainavipachislot/status/2099824645050642821"
       },
       {
+       "who": "晒し屋@chiba_pachislo(A) 09/16 19:00",
+       "text": "取材・来店・調査の情報「明日9/17(木) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
+      },
+      {
        "who": "公式@XAmatsudo 09/15 21:00",
        "text": "来店を告知「明日9月16日水曜日の」",
        "url": "https://x.com/XAmatsudo/status/2099830594339569824"
+      },
+      {
+       "who": "公式@XAmatsudo 09/16 07:30",
+       "text": "来店を告知「このあと9時30分抽選開始予定」",
+       "url": "https://x.com/XAmatsudo/status/2099989135151013899"
       }
      ]
     },
     {
-     "title": "第三者評価: A 11.8",
+     "title": "第三者評価: A 11.9",
      "body": "hall-navi の9/16の評価。対象: 感激。出典: セブンラッシュ"
     }
    ],
@@ -177,8 +187,16 @@
      "url": "https://x.com/ainavipachislot/status/2099824645050642821"
     },
     {
+     "label": "@chiba_pachislo 09/16 19:00",
+     "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
+    },
+    {
      "label": "@XAmatsudo 09/15 21:00",
      "url": "https://x.com/XAmatsudo/status/2099830594339569824"
+    },
+    {
+     "label": "@XAmatsudo 09/16 07:30",
+     "url": "https://x.com/XAmatsudo/status/2099989135151013899"
     }
    ],
    "scores": {
@@ -213,8 +231,8 @@
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（2件）",
-     "body": "公式X 2件 が 来店。",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 3件 が 来店。",
      "kishu": [
       "カバネリ",
       "リコリス",
@@ -232,6 +250,11 @@
        "who": "公式@g_yashio 09/15 20:03",
        "text": "「9月15日(火)のランキング発表」",
        "url": "https://x.com/g_yashio/status/2099816378459185408"
+      },
+      {
+       "who": "公式@g_yashio 09/16 20:08",
+       "text": "「9月16日(水)のランキング発表」",
+       "url": "https://x.com/g_yashio/status/2100180007578632258"
       }
      ]
     }
@@ -246,6 +269,10 @@
     {
      "label": "@g_yashio 09/15 20:03",
      "url": "https://x.com/g_yashio/status/2099816378459185408"
+    },
+    {
+     "label": "@g_yashio 09/16 20:08",
+     "url": "https://x.com/g_yashio/status/2100180007578632258"
     }
    ],
    "scores": {
@@ -432,14 +459,14 @@
    ],
    "checks": [
     "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（1件）",
-     "body": "晒し屋 1件 が 取材・来店・調査・周年。",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "晒し屋 2件 が 取材・来店・調査・周年。",
      "kishu": [
       "ジャグラー",
       "リオ"
@@ -449,6 +476,11 @@
        "who": "晒し屋@chiba_pachislo(A) 09/15 20:00",
        "text": "取材・来店・調査の情報「明日9/16(水) 千葉注目ホールまとめ」",
        "url": "https://x.com/chiba_pachislo/status/2099815506098430219"
+      },
+      {
+       "who": "晒し屋@chiba_pachislo(A) 09/16 19:00",
+       "text": "取材・来店・調査の情報「明日9/17(木) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
       }
      ]
     }
@@ -459,6 +491,10 @@
     {
      "label": "@chiba_pachislo 09/15 20:00",
      "url": "https://x.com/chiba_pachislo/status/2099815506098430219"
+    },
+    {
+     "label": "@chiba_pachislo 09/16 19:00",
+     "url": "https://x.com/chiba_pachislo/status/2100162788496966025"
     }
    ],
    "scores": {

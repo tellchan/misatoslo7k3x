@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-16",
  "targetDateLabel": "9/16(水)",
- "updatedAt": "9/16 01:00 更新",
+ "updatedAt": "9/16 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,7 +22,7 @@
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
-   "score": 78.0,
+   "score": 76.0,
    "scoreLabel": "期待度 高い",
    "rank": "本命",
    "kishu": [
@@ -35,7 +35,7 @@
     "周年月間（ベイズ勝率 0.56・5回中4回）",
     "公式Xで取材、来店、周年（抽選時刻）",
     "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 A 9.9（hall-navi）"
+    "第三者評価 B 6.7（hall-navi）"
    ]
   },
   {
@@ -54,8 +54,8 @@
    "checks": [
     "6の日/新生夏開幕（未実測・事前確率 0.20）",
     "公式Xで来店の告知あり",
-    "晒し屋3件が言及（@slo1_tyousataiZ・@chiba_pachislo・@ainavi）",
-    "第三者評価 A 11.8（hall-navi）"
+    "晒し屋4件が言及（@slo1_tyousataiZ・@chiba_pachislo・@ainavi）",
+    "第三者評価 A 11.9（hall-navi）"
    ]
   },
   {
@@ -127,7 +127,7 @@
    ],
    "checks": [
     "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ]
   },
