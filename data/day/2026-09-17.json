@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-17",
  "targetDateLabel": "9/17(木)",
- "updatedAt": "9/17 00:53 更新",
+ "updatedAt": "9/17 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -52,7 +52,7 @@
     "7のつく日（ベイズ勝率 0.60・6回中5回）",
     "晒し屋@slo1_tyousataiZ（信頼度B）で新台入替（並び・台数）",
     "晒し屋3件が言及（@kata_sainokuni・@kata_sainokuni・@slo1_ty）",
-    "第三者評価 S 14.9（hall-navi）"
+    "第三者評価 S 14.8（hall-navi）"
    ]
   },
   {
@@ -86,7 +86,7 @@
    "checks": [
     "公式Xで取材、降臨の告知あり",
     "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 C 9.1（hall-navi）"
+    "第三者評価 C 9.0（hall-navi）"
    ]
   },
   {
@@ -128,32 +128,34 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 25.0,
+   "score": 33.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [
     "喰種"
    ],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "sap-soka",
-   "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
    ]
   },
   {
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
+   "score": 26.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
+   ]
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
+   "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
