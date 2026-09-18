@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-18",
  "targetDateLabel": "9/18(金)",
- "updatedAt": "9/18 00:59 更新",
+ "updatedAt": "9/18 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -35,7 +35,27 @@
     "スロパチ来店in埼玉（ベイズ勝率 0.59・18回中12回）",
     "公式Xで来店、スロパチの告知あり",
     "晒し屋4件が言及（@slotchousatai・@kata_sainokuni・@slotchou）",
-    "第三者評価 A 12.5（hall-navi）"
+    "第三者評価 A 13.0（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 84.0,
+   "scoreLabel": "期待度 非常に高い",
+   "rank": "対抗",
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "鉄拳",
+    "SAO"
+   ],
+   "checks": [
+    "月周年日（ベイズ勝率 0.60・6回中5回）",
+    "晒し屋@kata_sainokuni（信頼度A）で取材、来店、周年（並び・台数・抽選人数）",
+    "晒し屋4件が言及（@kata_sainokuni・@slo1_tyousataiZ・@daiya_）",
+    "第三者評価 S 15.3（hall-navi）"
    ]
   },
   {
@@ -44,27 +64,13 @@
    "area": "馬橋・車25分",
    "score": 83.0,
    "scoreLabel": "期待度 非常に高い",
-   "rank": "対抗",
+   "rank": "穴",
    "kishu": [],
    "checks": [
     "周年月間（ベイズ勝率 0.56・5回中4回）",
     "公式Xで取材、来店、スロパチ（台数・抽選時刻）",
     "晒し屋2件が言及（@slotchousatai・@slotchousatai）",
     "第三者評価 S 12.6（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "para-misato",
-   "storeName": "パラッツォ三郷中央",
-   "area": "三郷・車10分",
-   "score": 67.0,
-   "scoreLabel": "期待度 高い",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "月周年日（ベイズ勝率 0.60・6回中5回）",
-    "晒し屋3件が言及（@kata_sainokuni・@slo1_tyousataiZ・@daiya_）",
-    "第三者評価 S 15.3（hall-navi）"
    ]
   },
   {
@@ -83,7 +89,7 @@
     "帝界の王（ベイズ勝率 0.31・9回中3回）",
     "公式Xで取材、応援団の告知あり",
     "晒し屋2件が言及（@amakusayasuwo・@amakusayasuwo）",
-    "第三者評価 A 11.3（hall-navi）"
+    "第三者評価 A 11.8（hall-navi）"
    ]
   },
   {
@@ -115,7 +121,7 @@
    "kishu": [],
    "checks": [
     "公式Xで取材、来店、調査（抽選時刻）",
-    "第三者評価 A 9.4（hall-navi）"
+    "第三者評価 A 9.9（hall-navi）"
    ]
   },
   {
@@ -164,11 +170,12 @@
    "scoreLabel": "様子見",
    "rank": "その他",
    "kishu": [
-    "リオ"
+    "リオ",
+    "喰種"
    ],
    "checks": [
     "晒し屋@chiba_pachislo（信頼度A）で取材、来店、収録の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ]
   },
@@ -182,11 +189,12 @@
    "kishu": [
     "リオ",
     "ミリオンゴッド",
-    "ゴッド"
+    "ゴッド",
+    "喰種"
    ],
    "checks": [
     "公式Xで取材の告知あり",
-    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "晒し屋3件が言及（@chiba_pachislo・@ainavipachislot・@chiba_）",
     "第三者評価 C 8.6（hall-navi）"
    ]
   },
