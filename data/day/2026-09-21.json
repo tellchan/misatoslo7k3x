@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-21",
  "targetDateLabel": "9/21(月)",
- "updatedAt": "9/21 00:12 更新",
+ "updatedAt": "9/21 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -27,12 +27,14 @@
    "rank": "本命",
    "kishu": [
     "ファンキー",
-    "エヴァ"
+    "エヴァ",
+    "リコリス",
+    "喰種"
    ],
    "checks": [
     "周年月間（ベイズ勝率 0.56・5回中4回）",
     "公式Xで取材、来店、スロパチ（抽選時刻）",
-    "晒し屋2件が言及（@slo1_tyousataiZ・@PAA_pmportal）",
+    "晒し屋3件が言及（@slo1_tyousataiZ・@PAA_pmportal・@slo1_tyo）",
     "第三者評価 B 7.0（hall-navi）"
    ]
   },
@@ -40,7 +42,7 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 74.3,
+   "score": 76.3,
    "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [
@@ -52,7 +54,7 @@
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
     "公式Xで来店の告知あり",
-    "晒し屋3件が言及（@kata_sainokuni・@kata_sainokuni・@kata_sa）",
+    "晒し屋5件が言及（@kata_sainokuni・@kata_sainokuni・@kata_sa）",
     "第三者評価 B 9.2（hall-navi）"
    ]
   },
@@ -66,12 +68,13 @@
    "kishu": [
     "ゴッド",
     "ジャグラー",
-    "リオ"
+    "リオ",
+    "P調査隊チームZZ"
    ],
    "checks": [
     "東京喰種インパクト（ベイズ勝率 0.50・6回中4回）",
     "公式Xで来店（抽選時刻）",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 無印 8.5（hall-navi）"
    ]
   },
@@ -105,11 +108,12 @@
    "kishu": [
     "喰種",
     "エヴァ",
+    "カバネリ",
     "ジャグラー"
    ],
    "checks": [
     "公式Xで取材、来店（台数）",
-    "晒し屋5件が言及（@kata_sainokuni・@amakusayasuwo・@slo1_tyo）",
+    "晒し屋7件が言及（@kata_sainokuni・@amakusayasuwo・@slo1_tyo）",
     "第三者評価 S 15.8（hall-navi）"
    ]
   },
@@ -122,11 +126,13 @@
    "rank": "その他",
    "kishu": [
     "喰種",
-    "エヴァ"
+    "エヴァ",
+    "リコリス",
+    "P調査隊チームZZ"
    ],
    "checks": [
     "公式Xで取材（抽選時刻）",
-    "晒し屋2件が言及（@slo1_tyousataiZ・@daiya_saitama）",
+    "晒し屋3件が言及（@slo1_tyousataiZ・@daiya_saitama・@slo1_ty）",
     "第三者評価 A 14.8（hall-navi）"
    ]
   },
@@ -160,11 +166,11 @@
     "ゴッド",
     "ジャグラー",
     "リオ",
-    "エヴァ"
+    "P調査隊チームZZ"
    ],
    "checks": [
     "晒し屋@chiba_pachislo（信頼度A）で取材、来店、収録の告知あり",
-    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "晒し屋3件が言及（@chiba_pachislo・@ainavipachislot・@chiba_）",
     "第三者評価 medium"
    ]
   },
@@ -193,7 +199,7 @@
    "checks": [
     "晒し屋@PAA_pmportal（信頼度A）で取材、来店、収録の告知あり",
     "晒し屋1件が言及（@PAA_pmportal）",
-    "第三者評価 無印 4.6（hall-navi）"
+    "第三者評価 無印 4.8（hall-navi）"
    ]
   },
   {
