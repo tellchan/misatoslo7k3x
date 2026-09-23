@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-24",
  "targetDateLabel": "9/24(木)",
- "updatedAt": "9/23 21:00 更新",
+ "updatedAt": "9/24 00:53 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -96,8 +96,8 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（2件）",
-     "body": "公式X 1件／晒し屋 1件 が 取材・来店、抽選時刻。",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 2件／晒し屋 1件 が 取材・来店、抽選時刻。",
      "kishu": [],
      "posts": [
       {
@@ -109,6 +109,11 @@
        "who": "公式@palazzo_misato 09/23 18:22",
        "text": "「SAP・パラミサ共闘軍」。抽選時刻",
        "url": "https://x.com/palazzo_misato/status/2102689930967171536"
+      },
+      {
+       "who": "公式@palazzo_misato 09/23 21:39",
+       "text": "「本日9/23水」",
+       "url": "https://x.com/palazzo_misato/status/2102739675639394416"
       }
      ]
     },
@@ -127,6 +132,10 @@
     {
      "label": "@palazzo_misato 09/23 18:22",
      "url": "https://x.com/palazzo_misato/status/2102689930967171536"
+    },
+    {
+     "label": "@palazzo_misato 09/23 21:39",
+     "url": "https://x.com/palazzo_misato/status/2102739675639394416"
     }
    ],
    "scores": {
@@ -146,17 +155,18 @@
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 55.3,
+   "score": 60.3,
    "scoreLabel": "期待度 やや高い",
    "rank": "穴",
    "kishu": [
-    "リオ"
+    "リオ",
+    "ジャグラー"
    ],
    "checks": [
     "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
-    "第三者評価 single"
+    "公式Xで来店の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 medium"
    ],
    "basis": [
     {
@@ -165,16 +175,27 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（1件）",
-     "body": "晒し屋 1件 が 取材・来店・調査・実践。",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 1件／晒し屋 2件 が 取材・来店・調査・実践、台数・抽選時刻。",
      "kishu": [
-      "リオ"
+      "リオ",
+      "ジャグラー"
      ],
      "posts": [
       {
        "who": "晒し屋@chiba_pachislo(A) 09/23 19:00",
        "text": "取材・来店・調査の情報「明日9/24(木) 千葉注目ホールまとめ」",
        "url": "https://x.com/chiba_pachislo/status/2102699501181915515"
+      },
+      {
+       "who": "晒し屋@ainavipachislot(B) 09/23 20:44",
+       "text": "来店の情報「9/24(木)」。台数・抽選時刻",
+       "url": "https://x.com/ainavipachislot/status/2102725735383552473"
+      },
+      {
+       "who": "公式@XAmatsudo 09/23 21:00",
+       "text": "来店を告知「明日9月24日木曜日の」",
+       "url": "https://x.com/XAmatsudo/status/2102729705690726803"
       }
      ]
     }
@@ -185,19 +206,27 @@
     {
      "label": "@chiba_pachislo 09/23 19:00",
      "url": "https://x.com/chiba_pachislo/status/2102699501181915515"
+    },
+    {
+     "label": "@ainavipachislot 09/23 20:44",
+     "url": "https://x.com/ainavipachislot/status/2102725735383552473"
+    },
+    {
+     "label": "@XAmatsudo 09/23 21:00",
+     "url": "https://x.com/XAmatsudo/status/2102729705690726803"
     }
    ],
    "scores": {
-    "v1": 55.3,
-    "v1_third_avg": 54.3,
+    "v1": 60.3,
+    "v1_third_avg": 63.5,
     "v2": null,
     "star_v1": 3
    },
    "breakdown": {
     "rank": 11,
     "rule": 19.3,
-    "kokuchi": 17,
-    "third": 8
+    "kokuchi": 20,
+    "third": 10
    }
   },
   {
@@ -660,14 +689,44 @@
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "北斗",
+    "ジャグラー",
+    "乙女",
+    "喰種"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 抽選時刻。",
+     "kishu": [
+      "北斗",
+      "ジャグラー",
+      "乙女",
+      "喰種",
+      "戦国"
+     ],
+     "posts": [
+      {
+       "who": "公式@yasuda_misato 09/23 20:35",
+       "text": "「明日9月24日」。抽選時刻",
+       "url": "https://x.com/yasuda_misato/status/2102723401630572556"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@yasuda_misato 09/23 20:35",
+     "url": "https://x.com/yasuda_misato/status/2102723401630572556"
+    }
+   ],
    "scores": {
     "v1": 11.0,
     "v1_third_avg": null,
