@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-25",
  "targetDateLabel": "9/25(金)",
- "updatedAt": "9/24 21:00 更新",
+ "updatedAt": "9/25 01:15 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -37,15 +37,17 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 65.5,
+   "score": 73.5,
    "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [
-    "リオ"
+    "リオ",
+    "ジャグラー",
+    "マイジャグ"
    ],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）",
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、応援団の告知あり",
+    "公式Xで新台入替（台数・抽選時刻）",
     "晒し屋1件が言及（@chiba_pachislo）",
     "第三者評価 single"
    ]
@@ -67,12 +69,32 @@
    ]
   },
   {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 59.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [
+    "リコリコ",
+    "喰種",
+    "ファンキー",
+    "eリコリコ"
+   ],
+   "checks": [
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
+    "晒し屋@slo1_tyousataiZ（信頼度B）で告知の告知あり",
+    "晒し屋2件が言及（@kata_sainokuni・@slo1_tyousataiZ）",
+    "第三者評価 medium"
+   ]
+  },
+  {
    "storeId": "peark-soka",
    "storeName": "ピーアーク草加",
    "area": "草加・車20分",
    "score": 50.0,
    "scoreLabel": "期待度 やや高い",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [
     "\nP抽選91人",
     "\nS抽選216人",
@@ -80,9 +102,28 @@
     "SAO"
    ],
    "checks": [
-    "晒し屋@kata_sainokuni（信頼度A）で取材、来店、強化（台数・抽選人数）",
-    "晒し屋5件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、強化（並び・台数・時差開放）",
+    "晒し屋7件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
     "第三者評価 S 12.5（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 46.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リオ",
+    "SAO",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
+   "checks": [
+    "公式Xで来店の告知あり",
+    "晒し屋3件が言及（@chiba_pachislo・@slo1_tyousataiZ・@ainavi）",
+    "第三者評価 B 12.1（hall-navi）"
    ]
   },
   {
@@ -113,36 +154,6 @@
    "checks": [
     "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）",
     "公式Xで取材の告知あり"
-   ]
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 40.0,
-   "scoreLabel": "様子見",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
-    "晒し屋1件が言及（@kata_sainokuni）",
-    "第三者評価 single"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 38.0,
-   "scoreLabel": "様子見",
-   "rank": "その他",
-   "kishu": [
-    "リオ"
-   ],
-   "checks": [
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、応援団の告知あり",
-    "晒し屋2件が言及（@chiba_pachislo・@slo1_tyousataiZ）",
-    "第三者評価 B 12.1（hall-navi）"
    ]
   },
   {
