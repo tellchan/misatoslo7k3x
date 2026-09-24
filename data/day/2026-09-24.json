@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-24",
  "targetDateLabel": "9/24(木)",
- "updatedAt": "9/24 00:53 更新",
+ "updatedAt": "9/24 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -30,9 +30,27 @@
    ],
    "checks": [
     "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、応援団の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 65.3,
+   "scoreLabel": "期待度 高い",
+   "rank": "対抗",
+   "kishu": [
+    "リオ",
+    "ジャグラー"
+   ],
+   "checks": [
+    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
+    "公式Xで来店の告知あり",
+    "晒し屋4件が言及（@chiba_pachislo・@ainavipachislot・@chiba_）",
+    "第三者評価 strong"
    ]
   },
   {
@@ -41,30 +59,12 @@
    "area": "三郷・車10分",
    "score": 61.3,
    "scoreLabel": "期待度 やや高い",
-   "rank": "対抗",
+   "rank": "穴",
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
-    "晒し屋1件が言及（@daiya_saitama）",
+    "晒し屋2件が言及（@daiya_saitama・@slo1_tyousataiZ）",
     "第三者評価 S 15.0（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 60.3,
-   "scoreLabel": "期待度 やや高い",
-   "rank": "穴",
-   "kishu": [
-    "リオ",
-    "ジャグラー"
-   ],
-   "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
-    "公式Xで来店の告知あり",
-    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
-    "第三者評価 medium"
    ]
   },
   {
@@ -115,7 +115,7 @@
    ],
    "checks": [
     "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、サキドリ（台数・時差開放）",
-    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "晒し屋2件が言及（@slo1_tyousataiZ・@slo1_tyousataiZ）",
     "第三者評価 無印 6.2（hall-navi）"
    ]
   },
@@ -149,10 +149,27 @@
    ]
   },
   {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "北斗",
+    "ジャグラー",
+    "乙女",
+    "喰種"
+   ],
+   "checks": [
+    "公式Xで取材（抽選時刻）"
+   ]
+  },
+  {
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 25.0,
+   "score": 33.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [
@@ -162,7 +179,8 @@
     "ゴッド"
    ],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 無印 8.3（hall-navi）"
    ]
   },
   {
@@ -177,23 +195,6 @@
     "ミリオンゴッド",
     "ゴッド",
     "番長"
-   ],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [
-    "北斗",
-    "ジャグラー",
-    "乙女",
-    "喰種"
    ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
