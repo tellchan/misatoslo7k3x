@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-25",
  "targetDateLabel": "9/25(金)",
- "updatedAt": "9/25 01:15 更新",
+ "updatedAt": "9/25 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -25,11 +25,14 @@
    "score": 86.3,
    "scoreLabel": "期待度 非常に高い",
    "rank": "本命",
-   "kishu": [],
+   "kishu": [
+    "喰種",
+    "エヴァ"
+   ],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
     "公式Xで取材、来店、ナイト（抽選時刻）",
-    "晒し屋3件が言及（@surotore8192・@slo1_tyousataiZ・@daiya_sa）",
+    "晒し屋4件が言及（@surotore8192・@slo1_tyousataiZ・@daiya_sa）",
     "第三者評価 S 14.8（hall-navi）"
    ],
    "basis": [
@@ -39,9 +42,12 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（4件）",
-     "body": "公式X 1件／晒し屋 3件 が 調査・取材・来店・スロパチ、抽選時刻。",
-     "kishu": [],
+     "title": "X告知・示唆まとめ（6件）",
+     "body": "公式X 2件／晒し屋 4件 が 調査・取材・来店・スロパチ、抽選時刻・抽選人数。",
+     "kishu": [
+      "喰種",
+      "エヴァ"
+     ],
      "posts": [
       {
        "who": "晒し屋@surotore8192(A) 09/24 16:36",
@@ -59,9 +65,19 @@
        "url": "https://x.com/daiya_saitama/status/2103078039328616958"
       },
       {
+       "who": "晒し屋@slo1_tyousataiZ(B) 09/25 19:00",
+       "text": "取材・来店・応援団の情報「9/26 注目ホール40選」。抽選人数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2103424327551275114"
+      },
+      {
        "who": "公式@palazzo_misato 09/24 18:22",
        "text": "取材・来店・ナイトを告知「9/25金 10:00 OPEN」。抽選時刻",
        "url": "https://x.com/palazzo_misato/status/2103052318577229987"
+      },
+      {
+       "who": "公式@palazzo_misato 09/25 18:22",
+       "text": "取材・スロパチを告知「9月26日土」。抽選時刻",
+       "url": "https://x.com/palazzo_misato/status/2103414706660610252"
       }
      ]
     },
@@ -86,8 +102,16 @@
      "url": "https://x.com/daiya_saitama/status/2103078039328616958"
     },
     {
+     "label": "@slo1_tyousataiZ 09/25 19:00",
+     "url": "https://x.com/slo1_tyousataiZ/status/2103424327551275114"
+    },
+    {
      "label": "@palazzo_misato 09/24 18:22",
      "url": "https://x.com/palazzo_misato/status/2103052318577229987"
+    },
+    {
+     "label": "@palazzo_misato 09/25 18:22",
+     "url": "https://x.com/palazzo_misato/status/2103414706660610252"
     }
    ],
    "scores": {
@@ -112,13 +136,14 @@
    "rank": "対抗",
    "kishu": [
     "リオ",
+    "リコリコ",
     "ジャグラー",
     "マイジャグ"
    ],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）",
     "公式Xで新台入替（台数・抽選時刻）",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ],
    "basis": [
@@ -128,10 +153,11 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（2件）",
-     "body": "公式X 1件／晒し屋 1件 が 取材・来店・応援団・調査、台数・抽選時刻。",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 1件／晒し屋 2件 が 取材・来店・応援団・調査、台数・抽選時刻。",
      "kishu": [
       "リオ",
+      "リコリコ",
       "ジャグラー",
       "マイジャグ"
      ],
@@ -140,6 +166,11 @@
        "who": "晒し屋@chiba_pachislo(A) 09/24 18:00",
        "text": "取材・来店・応援団の情報「明日9/25(金) 千葉注目ホールまとめ」",
        "url": "https://x.com/chiba_pachislo/status/2103046799569138173"
+      },
+      {
+       "who": "晒し屋@chiba_pachislo(A) 09/25 18:00",
+       "text": "取材・来店・調査の情報「明日9/26(土) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2103409186763592132"
       },
       {
        "who": "公式@kicona_matsudo 09/24 20:39",
@@ -155,6 +186,10 @@
     {
      "label": "@chiba_pachislo 09/24 18:00",
      "url": "https://x.com/chiba_pachislo/status/2103046799569138173"
+    },
+    {
+     "label": "@chiba_pachislo 09/25 18:00",
+     "url": "https://x.com/chiba_pachislo/status/2103409186763592132"
     },
     {
      "label": "@kicona_matsudo 09/24 20:39",
@@ -187,13 +222,13 @@
    "checks": [
     "公式Xで取材、来店（台数・抽選時刻）",
     "晒し屋3件が言及（@kata_sainokuni・@slo1_tyousataiZ・@daiya_）",
-    "第三者評価 S 15.4（hall-navi）"
+    "第三者評価 S 15.9（hall-navi）"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（5件）",
-     "body": "公式X 2件／晒し屋 3件 が 取材・来店・強化・スロパチ、台数・抽選時刻。",
+     "title": "X告知・示唆まとめ（6件）",
+     "body": "公式X 3件／晒し屋 3件 が 取材・来店・強化・スロパチ、台数・抽選時刻。",
      "kishu": [
       "ジャグラー"
      ],
@@ -222,11 +257,16 @@
        "who": "公式@g_yashio 09/24 19:59",
        "text": "「9月24日(木)のランキング発表」",
        "url": "https://x.com/g_yashio/status/2103076786414489627"
+      },
+      {
+       "who": "公式@g_yashio 09/25 20:00",
+       "text": "「9月25日(金)のランキング発表」",
+       "url": "https://x.com/g_yashio/status/2103439374364905852"
       }
      ]
     },
     {
-     "title": "第三者評価: S 15.4",
+     "title": "第三者評価: S 15.9",
      "body": "hall-navi の9/25の評価。対象: S級ヒーロー調査。出典: スロカワ文庫"
     }
    ],
@@ -252,6 +292,10 @@
     {
      "label": "@g_yashio 09/24 19:59",
      "url": "https://x.com/g_yashio/status/2103076786414489627"
+    },
+    {
+     "label": "@g_yashio 09/25 20:00",
+     "url": "https://x.com/g_yashio/status/2103439374364905852"
     }
    ],
    "scores": {
@@ -366,14 +410,14 @@
    ],
    "checks": [
     "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、強化（並び・台数・時差開放）",
-    "晒し屋7件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
+    "晒し屋8件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
     "第三者評価 S 12.5（hall-navi）"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（8件）",
-     "body": "公式X 1件／晒し屋 7件 が 取材・来店・スロパチ・強化、抽選人数・台数・並び・時差開放。",
+     "title": "X告知・示唆まとめ（9件）",
+     "body": "公式X 1件／晒し屋 8件 が 取材・来店・スロパチ・強化、抽選人数・台数・並び・時差開放。",
      "kishu": [
       "\nP抽選91人",
       "\nS抽選216人",
@@ -419,6 +463,11 @@
        "url": "https://x.com/slotchousatai/status/2103092333126226115"
       },
       {
+       "who": "晒し屋@kata_sainokuni(A) 09/25 08:00",
+       "text": "取材・来店・周年の情報「【9/25 埼玉快便ホールマップ】」",
+       "url": "https://x.com/kata_sainokuni/status/2103258184303743265"
+      },
+      {
        "who": "公式@P_Ark_Soka 09/24 19:00",
        "text": "「自分はここに背脂トッピング」",
        "url": "https://x.com/P_Ark_Soka/status/2103061882127229290"
@@ -462,6 +511,10 @@
      "url": "https://x.com/slotchousatai/status/2103092333126226115"
     },
     {
+     "label": "@kata_sainokuni 09/25 08:00",
+     "url": "https://x.com/kata_sainokuni/status/2103258184303743265"
+    },
+    {
      "label": "@P_Ark_Soka 09/24 19:00",
      "url": "https://x.com/P_Ark_Soka/status/2103061882127229290"
     }
@@ -494,20 +547,21 @@
    ],
    "checks": [
     "公式Xで来店の告知あり",
-    "晒し屋3件が言及（@chiba_pachislo・@slo1_tyousataiZ・@ainavi）",
-    "第三者評価 B 12.1（hall-navi）"
+    "晒し屋4件が言及（@chiba_pachislo・@slo1_tyousataiZ・@ainavi）",
+    "第三者評価 B 12.2（hall-navi）"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（4件）",
-     "body": "公式X 1件／晒し屋 3件 が 取材・来店・応援団・調査、抽選時刻。",
+     "title": "X告知・示唆まとめ（6件）",
+     "body": "公式X 2件／晒し屋 4件 が 取材・来店・応援団・調査、抽選時刻。",
      "kishu": [
       "リオ",
       "SAO",
       "ミリオンゴッド",
       "ゴッド",
-      "ジャグラー"
+      "ジャグラー",
+      "リコリコ"
      ],
      "posts": [
       {
@@ -526,14 +580,24 @@
        "url": "https://x.com/ainavipachislot/status/2103102526631608561"
       },
       {
+       "who": "晒し屋@chiba_pachislo(A) 09/25 18:00",
+       "text": "取材・来店・調査の情報「明日9/26(土) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2103409186763592132"
+      },
+      {
        "who": "公式@XAmatsudo 09/24 21:00",
        "text": "来店を告知「明日9月25日金曜日の」",
        "url": "https://x.com/XAmatsudo/status/2103092088384737475"
+      },
+      {
+       "who": "公式@XAmatsudo 09/25 09:00",
+       "text": "「9月25日」",
+       "url": "https://x.com/XAmatsudo/status/2103273281650352324"
       }
      ]
     },
     {
-     "title": "第三者評価: B 12.1",
+     "title": "第三者評価: B 12.2",
      "body": "hall-navi の9/25の評価。対象: ナビ子AI予想【機種仕掛け】★2 (5のつく日)。"
     }
    ],
@@ -553,8 +617,16 @@
      "url": "https://x.com/ainavipachislot/status/2103102526631608561"
     },
     {
+     "label": "@chiba_pachislo 09/25 18:00",
+     "url": "https://x.com/chiba_pachislo/status/2103409186763592132"
+    },
+    {
      "label": "@XAmatsudo 09/24 21:00",
      "url": "https://x.com/XAmatsudo/status/2103092088384737475"
+    },
+    {
+     "label": "@XAmatsudo 09/25 09:00",
+     "url": "https://x.com/XAmatsudo/status/2103273281650352324"
     }
    ],
    "scores": {
@@ -650,14 +722,19 @@
     },
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（1件）",
-     "body": "公式X 1件 が 取材。",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 2件 が 取材。",
      "kishu": [],
      "posts": [
       {
        "who": "公式@yasuda_yashio 09/24 19:55",
        "text": "取材を告知「やすだ八潮店です」",
        "url": "https://x.com/yasuda_yashio/status/2103075722827038750"
+      },
+      {
+       "who": "公式@yasuda_yashio 09/25 08:55",
+       "text": "取材を告知「やすだ八潮店です」",
+       "url": "https://x.com/yasuda_yashio/status/2103272016425943347"
       }
      ]
     }
@@ -668,6 +745,10 @@
     {
      "label": "@yasuda_yashio 09/24 19:55",
      "url": "https://x.com/yasuda_yashio/status/2103075722827038750"
+    },
+    {
+     "label": "@yasuda_yashio 09/25 08:55",
+     "url": "https://x.com/yasuda_yashio/status/2103272016425943347"
     }
    ],
    "scores": {

@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-25",
  "targetDateLabel": "9/25(金)",
- "updatedAt": "9/25 01:15 更新",
+ "updatedAt": "9/25 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -25,11 +25,14 @@
    "score": 86.3,
    "scoreLabel": "期待度 非常に高い",
    "rank": "本命",
-   "kishu": [],
+   "kishu": [
+    "喰種",
+    "エヴァ"
+   ],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
     "公式Xで取材、来店、ナイト（抽選時刻）",
-    "晒し屋3件が言及（@surotore8192・@slo1_tyousataiZ・@daiya_sa）",
+    "晒し屋4件が言及（@surotore8192・@slo1_tyousataiZ・@daiya_sa）",
     "第三者評価 S 14.8（hall-navi）"
    ]
   },
@@ -42,13 +45,14 @@
    "rank": "対抗",
    "kishu": [
     "リオ",
+    "リコリコ",
     "ジャグラー",
     "マイジャグ"
    ],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）",
     "公式Xで新台入替（台数・抽選時刻）",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ]
   },
@@ -65,7 +69,7 @@
    "checks": [
     "公式Xで取材、来店（台数・抽選時刻）",
     "晒し屋3件が言及（@kata_sainokuni・@slo1_tyousataiZ・@daiya_）",
-    "第三者評価 S 15.4（hall-navi）"
+    "第三者評価 S 15.9（hall-navi）"
    ]
   },
   {
@@ -103,7 +107,7 @@
    ],
    "checks": [
     "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、強化（並び・台数・時差開放）",
-    "晒し屋7件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
+    "晒し屋8件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
     "第三者評価 S 12.5（hall-navi）"
    ]
   },
@@ -122,8 +126,8 @@
    ],
    "checks": [
     "公式Xで来店の告知あり",
-    "晒し屋3件が言及（@chiba_pachislo・@slo1_tyousataiZ・@ainavi）",
-    "第三者評価 B 12.1（hall-navi）"
+    "晒し屋4件が言及（@chiba_pachislo・@slo1_tyousataiZ・@ainavi）",
+    "第三者評価 B 12.2（hall-navi）"
    ]
   },
   {
