@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-09-26",
  "targetDateLabel": "9/26(土)",
- "updatedAt": "9/26 01:15 更新",
+ "updatedAt": "9/26 21:01 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -34,7 +34,7 @@
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
     "公式Xで取材、スロパチ（抽選時刻）",
-    "晒し屋6件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
+    "晒し屋8件が言及（@slotchousatai・@kata_sainokuni・@kata_sai）",
     "第三者評価 S 14.8（hall-navi）"
    ]
   },
@@ -47,12 +47,13 @@
    "rank": "対抗",
    "kishu": [
     "リコリコ",
-    "リオ"
+    "リオ",
+    "ジャグラー"
    ],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）",
     "公式Xで取材（抽選時刻）",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 無印 9.0（hall-navi）"
    ]
   },
@@ -73,7 +74,7 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 53.0,
+   "score": 55.0,
    "scoreLabel": "期待度 やや高い",
    "rank": "穴",
    "kishu": [
@@ -84,7 +85,7 @@
    ],
    "checks": [
     "公式Xで取材、来店の告知あり",
-    "晒し屋2件が言及（@kata_sainokuni・@kata_sainokuni）",
+    "晒し屋3件が言及（@kata_sainokuni・@kata_sainokuni・@slo1_ty）",
     "第三者評価 無印 8.3（hall-navi）"
    ]
   },
@@ -150,7 +151,7 @@
    "kishu": [],
    "checks": [
     "公式Xで取材の告知あり",
-    "第三者評価 無印 10.4（hall-navi）"
+    "第三者評価 無印 9.9（hall-navi）"
    ]
   },
   {
@@ -162,12 +163,13 @@
    "rank": "その他",
    "kishu": [
     "リコリコ",
-    "リオ"
+    "リオ",
+    "ジャグラー"
    ],
    "checks": [
     "6の日/新生夏開幕（未実測・事前確率 0.20）",
     "晒し屋@chiba_pachislo（信頼度A）で取材、来店、調査の告知あり",
-    "晒し屋1件が言及（@chiba_pachislo）",
+    "晒し屋2件が言及（@chiba_pachislo・@chiba_pachislo）",
     "第三者評価 single"
    ]
   },
