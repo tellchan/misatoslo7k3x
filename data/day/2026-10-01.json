@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-01",
  "targetDateLabel": "10/1(木)",
- "updatedAt": "9/30 02:25 更新",
+ "updatedAt": "10/1 02:22 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,12 +22,17 @@
    "storeId": "yasuda-yashio",
    "storeName": "やすだ八潮",
    "area": "八潮・車15分",
-   "score": 39.0,
-   "scoreLabel": "様子見",
+   "score": 69.0,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
-   "kishu": [],
+   "kishu": [
+    "北斗",
+    "喰種"
+   ],
    "checks": [
     "ガブっとセブン取材（ベイズ勝率 0.40・1回中1回）",
+    "公式Xで周年の告知あり",
+    "晒し屋4件が言及（@pachi_seven・@pachi_seven・@amakusayasuwo）",
     "第三者評価 A 10.9（hall-navi）"
    ]
   },
@@ -35,12 +40,19 @@
    "storeId": "yasuda-misato",
    "storeName": "やすだ三郷",
    "area": "三郷・車10分",
-   "score": 39.0,
-   "scoreLabel": "様子見",
+   "score": 69.0,
+   "scoreLabel": "期待度 高い",
    "rank": "対抗",
-   "kishu": [],
+   "kishu": [
+    "北斗",
+    "喰種",
+    "カバネリ",
+    "マイジャグ"
+   ],
    "checks": [
     "始まりノ刻（ベイズ勝率 0.40・1回中1回）",
+    "公式Xで取材、周年（抽選時刻）",
+    "晒し屋4件が言及（@pachi_seven・@pachi_seven・@amakusayasuwo）",
     "第三者評価 A 8.8（hall-navi）"
    ]
   },
@@ -48,11 +60,12 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
+   "score": 58.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "穴",
    "kishu": [],
    "checks": [
+    "公式Xで取材、来店、降臨（抽選時刻）",
     "第三者評価 B 9.2（hall-navi）"
    ]
   },
@@ -60,36 +73,106 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
+   "score": 58.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "穴",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "海門",
+    "カバネリ海門決戦",
+    "海門決戦"
+   ],
    "checks": [
+    "公式Xで取材（台数）",
+    "晒し屋1件が言及（@surotore8192）",
     "第三者評価 B 8.4（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 13.1（hall-navi）"
    ]
   },
   {
    "storeId": "sap-soka",
    "storeName": "SAP草加",
    "area": "草加・車20分",
-   "score": 28.0,
-   "scoreLabel": "見送り",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
    "kishu": [],
    "checks": [
+    "公式Xで取材（抽選時刻）",
+    "晒し屋1件が言及（@daiya_saitama）",
     "第三者評価 A 13.1（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "SAO",
+    "リコリコ",
+    "ミリオンゴッド"
+   ],
+   "checks": [
+    "晒し屋@slot_channel_（信頼度B）で取材、来店、スロパチ（台数・抽選時刻）",
+    "晒し屋4件が言及（@slotchousatai・@slotchousatai・@daiya_sai）",
+    "第三者評価 S 13.1（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 46.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リオ",
+    "ジャグラー",
+    "マイジャグ",
+    "かぐや"
+   ],
+   "checks": [
+    "公式Xで来店の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 medium"
+   ]
+  },
+  {
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リオ"
+   ],
+   "checks": [
+    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、収録の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 無印 9.5（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "ゴッド",
+    "乙女",
+    "炎炎"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で来店、大戦（並び・台数）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 S 14.9（hall-navi）"
    ]
   },
   {
@@ -101,31 +184,8 @@
    "rank": "その他",
    "kishu": [],
    "checks": [
+    "晒し屋1件が言及（@daiya_saitama）",
     "第三者評価 A 14.5（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "kicona-matsudo",
-   "storeName": "キコーナ松戸",
-   "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 無印 9.5（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 15.0（hall-navi）"
    ]
   },
   {
@@ -135,19 +195,10 @@
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "北斗",
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
