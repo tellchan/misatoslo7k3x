@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-09",
  "targetDateLabel": "10/9(金)",
- "updatedAt": "10/8 03:14 更新",
+ "updatedAt": "10/9 03:16 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,60 +22,69 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 48.5,
-   "scoreLabel": "様子見",
+   "score": 65.5,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
-   "kishu": [],
+   "kishu": [
+    "喰種",
+    "リオ"
+   ],
    "checks": [
     "東京喰種インパクト（ベイズ勝率 0.50・6回中4回）",
+    "晒し屋@chiba_pachislo（信頼度A）で取材、来店、収録（台数）",
+    "晒し屋1件が言及（@chiba_pachislo）",
     "第三者評価 B 12.5（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 60.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
+   "kishu": [
+    "ジャグラー",
+    "マイジャグ",
+    "喰種",
+    "モンハン"
+   ],
+   "checks": [
+    "公式Xで来店、収録の告知あり",
+    "晒し屋1件が言及（@daiya_saitama）",
+    "第三者評価 A 13.1（hall-navi）"
    ]
   },
   {
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
    "kishu": [],
    "checks": [
+    "公式Xで取材、来店、スロパチの告知あり",
+    "晒し屋3件が言及（@slotchousatai・@slotchousatai・@daiya_sai）",
     "第三者評価 S 15.1（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "第三者評価 B 6.6（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 13.7（hall-navi）"
    ]
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "炎炎",
+    "喰種"
+   ],
    "checks": [
+    "公式Xで来店（抽選方法）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 S 15.0（hall-navi）"
    ]
   },
@@ -83,47 +92,82 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "SAO"
+   ],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "公式Xで取材、ナイト（時差開放）"
    ]
   },
   {
-   "storeId": "garden-yashio",
-   "storeName": "新!ガーデン八潮",
-   "area": "八潮・車15分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 46.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "喰種",
+    "リオ",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "公式Xで取材、来店、スロパチの告知あり",
+    "晒し屋4件が言及（@slotchousatai・@chiba_pachislo・@slotchou）",
+    "第三者評価 S 13.7（hall-navi）"
    ]
   },
   {
    "storeId": "yasuda-yashio",
    "storeName": "やすだ八潮",
    "area": "八潮・車15分",
-   "score": 21.0,
-   "scoreLabel": "見送り",
+   "score": 46.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "転生"
+   ],
    "checks": [
+    "公式Xで取材、応援団、周年の告知あり",
+    "晒し屋3件が言及（@pachi_seven・@amakusayasuwo・@daiya_saita）",
     "第三者評価 A 11.3（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 45.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "マイジャグ",
+    "炎炎"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、フラゲ（時差開放）",
+    "晒し屋2件が言及（@slo1_tyousataiZ・@daiya_saitama）",
+    "第三者評価 B 6.7（hall-navi）"
    ]
   },
   {
    "storeId": "yasuda-misato",
    "storeName": "やすだ三郷",
    "area": "三郷・車10分",
-   "score": 19.0,
-   "scoreLabel": "見送り",
+   "score": 44.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "転生"
+   ],
    "checks": [
+    "公式Xで取材、周年の告知あり",
     "第三者評価 B 6.6（hall-navi）"
    ]
   },
@@ -146,7 +190,11 @@
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "ジャグラー",
+    "リオ",
+    "エヴァ"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
