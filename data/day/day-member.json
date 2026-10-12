@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-13",
- "targetDateLabel": "10/13(火)",
- "updatedAt": "10/12 02:09 更新",
+ "targetDate": "2026-10-14",
+ "targetDateLabel": "10/14(水)",
+ "updatedAt": "10/13 05:41 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,104 +22,99 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 50.5,
-   "scoreLabel": "期待度 やや高い",
+   "score": 40.5,
+   "scoreLabel": "様子見",
    "rank": "本命",
    "kishu": [],
    "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "第三者評価 A 14.1（hall-navi）"
+    "KO取材（ベイズ勝率 0.50・6回中4回）"
    ],
    "basis": [
     {
      "title": "法則: KO取材",
      "body": "開催パターン「13日・23日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
-    },
-    {
-     "title": "第三者評価: A 14.1",
-     "body": "hall-navi の10/13の評価。対象: スクープTV他媒体収録。出典: ※『寺井一択』"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 50.5,
-    "v1_third_avg": 58.6,
+    "v1": 40.5,
+    "v1_third_avg": null,
     "v2": null,
-    "star_v1": 3
+    "star_v1": 2
    },
    "breakdown": {
     "rank": 18,
     "rule": 22.5,
     "kokuchi": 0,
-    "third": 10
+    "third": 0
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 30.3,
+   "scoreLabel": "見送り",
+   "rank": "対抗",
+   "kishu": [],
+   "checks": [
+    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 剛腕のリアル",
+     "body": "開催パターン「4日・14日・24日」。日付で該当。10回適用して5回成功、ベイズ勝率 0.429（Tier2）。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 30.3,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 19.3,
+    "kokuchi": 0,
+    "third": 0
    }
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 32.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 日替わりテーマ",
-     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 32.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 21.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 29.0,
+   "score": 26.0,
    "scoreLabel": "見送り",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "ガブっとセブン取材（ベイズ勝率 0.40・1回中1回）"
+    "第三者評価 S 15.3（hall-navi）"
    ],
    "basis": [
     {
-     "title": "法則: ガブっとセブン取材",
-     "body": "開催パターン「12日・2日頃」。日付で該当。1回適用して1回成功、ベイズ勝率 0.400（Tier3）。"
+     "title": "第三者評価: S 15.3",
+     "body": "hall-navi の10/14の評価。対象: ナビ子AI予想【差枚プラス】★3 (4のつく日)。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 29.0,
-    "v1_third_avg": null,
+    "v1": 26.0,
+    "v1_third_avg": 63.0,
     "v2": null,
     "star_v1": 1
    },
    "breakdown": {
     "rank": 11,
-    "rule": 18.0,
+    "rule": 0.0,
     "kokuchi": 0,
-    "third": 0
+    "third": 15
    }
   },
   {
@@ -291,9 +286,9 @@
    }
   },
   {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
