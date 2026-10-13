@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-14",
- "targetDateLabel": "10/14(水)",
- "updatedAt": "10/13 05:41 更新",
+ "targetDate": "2026-10-15",
+ "targetDateLabel": "10/15(木)",
+ "updatedAt": "10/14 03:44 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,39 +19,39 @@
  "locked": false,
  "predictions": [
   {
-   "storeId": "kicona-matsudo",
-   "storeName": "キコーナ松戸",
-   "area": "松戸・車25分",
-   "score": 40.5,
-   "scoreLabel": "様子見",
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 33.0,
+   "scoreLabel": "見送り",
    "rank": "本命",
    "kishu": [],
    "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 30.3,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）"
+    "第三者評価 S 13.7（hall-navi）"
    ]
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
+   "score": 32.0,
+   "scoreLabel": "見送り",
+   "rank": "対抗",
+   "kishu": [],
+   "checks": [
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
+   ]
+  },
+  {
+   "storeId": "rakuen",
+   "storeName": "楽園南越谷",
+   "area": "南越谷・車20分",
    "score": 26.0,
    "scoreLabel": "見送り",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.3（hall-navi）"
+    "第三者評価 無印 10.4（hall-navi）"
    ]
   },
   {
@@ -79,6 +79,18 @@
    ]
   },
   {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 19.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "第三者評価 B 11.9（hall-navi）"
+   ]
+  },
+  {
    "storeId": "sap-soka",
    "storeName": "SAP草加",
    "area": "草加・車20分",
@@ -91,9 +103,9 @@
    ]
   },
   {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
@@ -106,18 +118,6 @@
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "rakuen",
-   "storeName": "楽園南越谷",
-   "area": "南越谷・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",

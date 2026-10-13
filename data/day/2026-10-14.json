@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-14",
  "targetDateLabel": "10/14(水)",
- "updatedAt": "10/13 05:41 更新",
+ "updatedAt": "10/14 03:44 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,51 +19,113 @@
  "locked": false,
  "predictions": [
   {
-   "storeId": "kicona-matsudo",
-   "storeName": "キコーナ松戸",
-   "area": "松戸・車25分",
-   "score": 40.5,
-   "scoreLabel": "様子見",
-   "rank": "本命",
-   "kishu": [],
-   "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）"
-   ]
-  },
-  {
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 30.3,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
+   "score": 50.3,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
    "kishu": [],
    "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）"
-   ]
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 15.3（hall-navi）"
+    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）",
+    "公式Xで来店の告知あり"
    ]
   },
   {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
+   "kishu": [
+    "エヴァ"
+   ],
+   "checks": [
+    "公式Xで取材の告知あり"
+   ]
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
    "rank": "穴",
+   "kishu": [
+    "転生",
+    "女神のカフェテラス",
+    "\ne女神"
+   ],
+   "checks": [
+    "公式Xで周年（抽選時刻）",
+    "晒し屋2件が言及（@pachi_seven・@PAA_pmportal）",
+    "第三者評価 無印 4.6（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "リコリス",
+    "リコリコ"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、サキドリの告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 無印 6.3（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "乙女",
+    "喰種"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で周年、祭の告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 S 15.3（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
+   "score": 40.5,
+   "scoreLabel": "様子見",
+   "rank": "その他",
    "kishu": [],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "KO取材（ベイズ勝率 0.50・6回中4回）"
+   ]
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リコリス",
+    "リコリコ"
+   ],
+   "checks": [
+    "公式Xで周年の告知あり"
    ]
   },
   {
@@ -73,7 +135,12 @@
    "score": 25.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "リコリス",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
@@ -91,25 +158,16 @@
    ]
   },
   {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "リコリス",
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
@@ -119,30 +177,6 @@
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
    "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
