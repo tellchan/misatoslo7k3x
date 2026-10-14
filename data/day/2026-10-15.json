@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-15",
  "targetDateLabel": "10/15(木)",
- "updatedAt": "10/14 03:44 更新",
+ "updatedAt": "10/15 01:16 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,39 +19,120 @@
  "locked": false,
  "predictions": [
   {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
-   "rank": "本命",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 13.7（hall-navi）"
-   ]
-  },
-  {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 32.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
+   "score": 57.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
+   "kishu": [
+    "SAO",
+    "リコリコ",
+    "喰種",
+    "ファンキー"
+   ],
    "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
+    "晒し屋@slo1_tyousataiZ（信頼度B）で告知の告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
+   "kishu": [
+    "\nP抽選101人",
+    "\nS抽選216人",
+    "ゴッド",
+    "ジャグラー"
+   ],
+   "checks": [
+    "晒し屋@slotchousatai（信頼度A）で取材、来店、スロパチ（抽選人数）",
+    "晒し屋3件が言及（@slotchousatai・@slotchousatai・@PAA_pmpor）",
+    "第三者評価 S 13.7（hall-navi）"
    ]
   },
   {
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "score": 46.0,
+   "scoreLabel": "様子見",
    "rank": "穴",
    "kishu": [],
    "checks": [
+    "公式Xでナイトの告知あり",
     "第三者評価 無印 10.4（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "ジャグラー",
+    "リコリス"
+   ],
+   "checks": [
+    "公式Xで取材の告知あり",
+    "晒し屋2件が言及（@pachi_seven・@pachi_seven）",
+    "第三者評価 C 7.7（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "転生"
+   ],
+   "checks": [
+    "公式Xで取材、周年（抽選時刻）",
+    "晒し屋1件が言及（@pachi_seven）",
+    "第三者評価 C 5.6（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "喰種"
+   ],
+   "checks": [
+    "公式Xで新台入替の告知あり"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 41.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "リオ",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
+   "checks": [
+    "公式Xで来店の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 B 11.9（hall-navi）"
    ]
   },
   {
@@ -60,8 +141,10 @@
    "area": "三郷・車10分",
    "score": 25.0,
    "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
+   "rank": "その他",
+   "kishu": [
+    "エヴァ"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
@@ -73,31 +156,10 @@
    "score": 25.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 19.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 B 11.9（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "sap-soka",
-   "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "喰種"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]
@@ -121,31 +183,9 @@
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]

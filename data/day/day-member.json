@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-15",
- "targetDateLabel": "10/15(木)",
- "updatedAt": "10/14 03:44 更新",
+ "targetDate": "2026-10-16",
+ "targetDateLabel": "10/16(金)",
+ "updatedAt": "10/15 01:16 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,28 +19,61 @@
  "locked": false,
  "predictions": [
   {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 35.0,
+   "scoreLabel": "様子見",
    "rank": "本命",
    "kishu": [],
    "checks": [
-    "第三者評価 S 13.7（hall-navi）"
+    "第三者評価 A 12.7（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 13.7",
-     "body": "hall-navi の10/15の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
+     "title": "第三者評価: A 12.7",
+     "body": "hall-navi の10/16の評価。対象: オクトパスデー。出典: サプライズ調査隊"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 33.0,
-    "v1_third_avg": 66.5,
+    "v1": 35.0,
+    "v1_third_avg": 50.9,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 25,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 10
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 26.0,
+   "scoreLabel": "見送り",
+   "rank": "対抗",
+   "kishu": [],
+   "checks": [
+    "第三者評価 B 6.3（hall-navi）"
+   ],
+   "basis": [
+    {
+     "title": "第三者評価: B 6.3",
+     "body": "hall-navi の10/16の評価。対象: フラゲ★来店取材。出典: フラゲ★来店取材"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 26.0,
+    "v1_third_avg": 39.6,
     "v2": null,
     "star_v1": 1
    },
@@ -48,40 +81,7 @@
     "rank": 18,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 15
-   }
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 32.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 日替わりテーマ",
-     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 32.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 21.0,
-    "kokuchi": 0,
-    "third": 0
+    "third": 8
    }
   },
   {
@@ -98,7 +98,7 @@
    "basis": [
     {
      "title": "第三者評価: 無印 10.4",
-     "body": "hall-navi の10/15の評価。対象: スロトレ調査団 パンプキンディバイド取材。出典: ※『初調査』"
+     "body": "hall-navi の10/16の評価。対象: スロトレ調査団 連続攻撃。出典: ※『初調査』"
     }
    ],
    "chusen": "",
@@ -146,64 +146,69 @@
    }
   },
   {
-   "storeId": "garden-yashio",
-   "storeName": "新!ガーデン八潮",
-   "area": "八潮・車15分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 25.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 25,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 19.0,
+   "score": 20.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 B 11.9（hall-navi）"
+    "6の日/新生夏開幕（未実測・事前確率 0.20）"
    ],
    "basis": [
     {
-     "title": "第三者評価: B 11.9",
-     "body": "hall-navi の10/15の評価。対象: ナビ子AI予想【機種仕掛け】★2 (5のつく日)。"
+     "title": "法則: 6の日/新生夏開幕",
+     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 19.0,
-    "v1_third_avg": 36.1,
+    "v1": 20.0,
+    "v1_third_avg": null,
     "v2": null,
     "star_v1": 1
    },
    "breakdown": {
     "rank": 11,
-    "rule": 0.0,
+    "rule": 9.0,
     "kokuchi": 0,
-    "third": 8
+    "third": 0
+   }
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 20.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
+   ],
+   "basis": [
+    {
+     "title": "法則: ⑥のつく日 フリースタイル",
+     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 20.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 9.0,
+    "kokuchi": 0,
+    "third": 0
    }
   },
   {
