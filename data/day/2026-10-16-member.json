@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-16",
  "targetDateLabel": "10/16(金)",
- "updatedAt": "10/15 01:16 更新",
+ "updatedAt": "10/16 01:04 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,126 +22,124 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 35.0,
-   "scoreLabel": "様子見",
+   "score": 65.0,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "ジャグラー",
+    "喰種"
+   ],
    "checks": [
-    "第三者評価 A 12.7（hall-navi）"
+    "公式Xで来店（台数）",
+    "第三者評価 S 15.2（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: A 12.7",
-     "body": "hall-navi の10/16の評価。対象: オクトパスデー。出典: サプライズ調査隊"
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 2件 が 来店、台数。",
+     "kishu": [
+      "カバネリ",
+      "ジャグラー",
+      "喰種"
+     ],
+     "posts": [
+      {
+       "who": "公式@g_yashio 10/15 16:56",
+       "text": "来店を告知「10月16日(金)」。台数",
+       "url": "https://x.com/g_yashio/status/2110640923776536685"
+      },
+      {
+       "who": "公式@g_yashio 10/15 20:00",
+       "text": "「10月15日(木)のランキング発表」",
+       "url": "https://x.com/g_yashio/status/2110687143303721367"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: S 15.2",
+     "body": "hall-navi の10/16の評価。対象: 進撃のドリル。出典: スロカワ文庫"
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@g_yashio 10/15 16:56",
+     "url": "https://x.com/g_yashio/status/2110640923776536685"
+    },
+    {
+     "label": "@g_yashio 10/15 20:00",
+     "url": "https://x.com/g_yashio/status/2110687143303721367"
+    }
+   ],
    "scores": {
-    "v1": 35.0,
-    "v1_third_avg": 50.9,
+    "v1": 65.0,
+    "v1_third_avg": 82.5,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 25,
     "rule": 0.0,
-    "kokuchi": 0,
-    "third": 10
-   }
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "第三者評価 B 6.3（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: B 6.3",
-     "body": "hall-navi の10/16の評価。対象: フラゲ★来店取材。出典: フラゲ★来店取材"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 39.6,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 8
-   }
-  },
-  {
-   "storeId": "rakuen",
-   "storeName": "楽園南越谷",
-   "area": "南越谷・車20分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "第三者評価 無印 10.4（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: 無印 10.4",
-     "body": "hall-navi の10/16の評価。対象: スロトレ調査団 連続攻撃。出典: ※『初調査』"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 39.6,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 8
+    "kokuchi": 25,
+    "third": 15
    }
   },
   {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
    "kishu": [],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "公式Xで取材（抽選時刻・時差開放）"
    ],
-   "basis": [],
-   "chusen": "",
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 2件 が 取材、抽選時刻・時差開放。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@palazzo_misato 10/15 18:22",
+       "text": "取材を告知「10/16金10時開店」。抽選時刻・時差開放",
+       "url": "https://x.com/palazzo_misato/status/2110662463674798459"
+      },
+      {
+       "who": "公式@palazzo_misato 10/15 21:52",
+       "text": "「10/15木」",
+       "url": "https://x.com/palazzo_misato/status/2110715315676160266"
+      }
+     ]
+    }
+   ],
+   "chusen": "入場抽選 9:40",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_misato 10/15 18:22",
+     "url": "https://x.com/palazzo_misato/status/2110662463674798459"
+    },
+    {
+     "label": "@palazzo_misato 10/15 21:52",
+     "url": "https://x.com/palazzo_misato/status/2110715315676160266"
+    }
+   ],
    "scores": {
-    "v1": 25.0,
+    "v1": 50.0,
     "v1_third_avg": null,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 25,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 0
    }
   },
@@ -149,66 +147,371 @@
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [
+    "ジャグラー",
+    "喰種",
+    "リオ",
+    "カバネリ"
+   ],
    "checks": [
-    "6の日/新生夏開幕（未実測・事前確率 0.20）"
+    "6の日/新生夏開幕（未実測・事前確率 0.20）",
+    "公式Xで来店、周年の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 無印 7.4（hall-navi）"
    ],
    "basis": [
     {
      "title": "法則: 6の日/新生夏開幕",
      "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 1件／晒し屋 2件 が 取材・来店・調査・スロパチ、台数・抽選時刻。",
+     "kishu": [
+      "ジャグラー",
+      "喰種",
+      "リオ",
+      "カバネリ",
+      "番長",
+      "海門"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@chiba_pachislo(A) 10/15 17:00",
+       "text": "取材・来店・調査の情報「明日10/16(金) 千葉注目ホールまとめ」。台数",
+       "url": "https://x.com/chiba_pachislo/status/2110641833315373156"
+      },
+      {
+       "who": "晒し屋@ainavipachislot(B) 10/15 21:19",
+       "text": "来店・周年の情報「10/16(金)」。台数・抽選時刻",
+       "url": "https://x.com/ainavipachislot/status/2110707099902886236"
+      },
+      {
+       "who": "公式@XAmatsudo 10/15 21:00",
+       "text": "来店・周年を告知「明日10月16日金曜日のエクス松戸店は」",
+       "url": "https://x.com/XAmatsudo/status/2110702231909494965"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: 無印 7.4",
+     "body": "hall-navi の10/16の評価。対象: 祝音ノ証。出典: セブンラッシュ"
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@chiba_pachislo 10/15 17:00",
+     "url": "https://x.com/chiba_pachislo/status/2110641833315373156"
+    },
+    {
+     "label": "@ainavipachislot 10/15 21:19",
+     "url": "https://x.com/ainavipachislot/status/2110707099902886236"
+    },
+    {
+     "label": "@XAmatsudo 10/15 21:00",
+     "url": "https://x.com/XAmatsudo/status/2110702231909494965"
+    }
+   ],
    "scores": {
-    "v1": 20.0,
-    "v1_third_avg": null,
+    "v1": 50.0,
+    "v1_third_avg": 58.4,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 11,
     "rule": 9.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 20,
+    "third": 10
+   }
+  },
+  {
+   "storeId": "rakuen",
+   "storeName": "楽園南越谷",
+   "area": "南越谷・車20分",
+   "score": 46.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "公式Xでイベントの告知あり",
+    "晒し屋1件が言及（@surotore8192）",
+    "第三者評価 無印 10.4（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 調査・イベント、抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "晒し屋@surotore8192(A) 10/15 15:43",
+       "text": "調査の情報「スロトレ調査団」。抽選時刻",
+       "url": "https://x.com/surotore8192/status/2110622562439090648"
+      },
+      {
+       "who": "公式@mkg_rakuen 10/15 20:00",
+       "text": "イベントを告知「10月16日(金)18:00スタート!」",
+       "url": "https://x.com/mkg_rakuen/status/2110687143974629534"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: 無印 10.4",
+     "body": "hall-navi の10/16の評価。対象: スロトレ調査団 連続攻撃。出典: ※『初調査』"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@surotore8192 10/15 15:43",
+     "url": "https://x.com/surotore8192/status/2110622562439090648"
+    },
+    {
+     "label": "@mkg_rakuen 10/15 20:00",
+     "url": "https://x.com/mkg_rakuen/status/2110687143974629534"
+    }
+   ],
+   "scores": {
+    "v1": 46.0,
+    "v1_third_avg": 49.6,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 20,
+    "third": 8
    }
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
+   "score": 45.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "SAO",
+    "リコリコ",
+    "喰種",
+    "ヴヴヴ"
+   ],
    "checks": [
-    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
+    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）",
+    "晒し屋@slo1_tyousataiZ（信頼度B）で告知の告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
    ],
    "basis": [
     {
      "title": "法則: ⑥のつく日 フリースタイル",
      "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 抽選方法。",
+     "kishu": [
+      "SAO",
+      "リコリコ",
+      "喰種",
+      "ヴヴヴ",
+      "番長",
+      "攻殻"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 10/15 21:01",
+       "text": "「10/16」",
+       "url": "https://x.com/slo1_tyousataiZ/status/2110702687545446535"
+      },
+      {
+       "who": "公式@maruhan_kameari 10/15 19:10",
+       "text": "「明日10月16日金」。抽選方法",
+       "url": "https://x.com/maruhan_kameari/status/2110674543400345891"
+      }
+     ]
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 10/15 21:01",
+     "url": "https://x.com/slo1_tyousataiZ/status/2110702687545446535"
+    },
+    {
+     "label": "@maruhan_kameari 10/15 19:10",
+     "url": "https://x.com/maruhan_kameari/status/2110674543400345891"
+    }
+   ],
    "scores": {
-    "v1": 20.0,
-    "v1_third_avg": null,
+    "v1": 45.0,
+    "v1_third_avg": 49.1,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 2
    },
    "breakdown": {
     "rank": 11,
     "rule": 9.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 17,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 44.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "ジャグラー",
+    "リオ",
+    "エヴァ",
+    "転生"
+   ],
+   "checks": [
+    "公式Xで周年（抽選時刻）",
+    "晒し屋1件が言及（@PAA_pmportal）",
+    "第三者評価 無印 4.6（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 2件／晒し屋 1件 が 取材・来店・収録・スロパチ、抽選時刻。",
+     "kishu": [
+      "ジャグラー",
+      "リオ",
+      "エヴァ",
+      "転生"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@PAA_pmportal(A) 10/15 21:19",
+       "text": "取材・来店・収録の情報「明日 2026/10/16(金)」",
+       "url": "https://x.com/PAA_pmportal/status/2110707251413692876"
+      },
+      {
+       "who": "公式@yasuda_misato 10/15 20:25",
+       "text": "周年を告知「やすだ創業月間」",
+       "url": "https://x.com/yasuda_misato/status/2110693417940345098"
+      },
+      {
+       "who": "公式@yasuda_misato 10/15 20:35",
+       "text": "周年を告知「やすだ創業月間」。抽選時刻",
+       "url": "https://x.com/yasuda_misato/status/2110695934518608163"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: 無印 4.6",
+     "body": "hall-navi の10/16の評価。対象: YASUマガリサーチ来店取材。出典: ※『くまちゃむ』"
+    }
+   ],
+   "chusen": "入場抽選 9:40",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@PAA_pmportal 10/15 21:19",
+     "url": "https://x.com/PAA_pmportal/status/2110707251413692876"
+    },
+    {
+     "label": "@yasuda_misato 10/15 20:25",
+     "url": "https://x.com/yasuda_misato/status/2110693417940345098"
+    },
+    {
+     "label": "@yasuda_misato 10/15 20:35",
+     "url": "https://x.com/yasuda_misato/status/2110695934518608163"
+    }
+   ],
+   "scores": {
+    "v1": 44.0,
+    "v1_third_avg": 48.6,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 25,
+    "third": 8
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
+   "checks": [
+    "晒し屋@slot_channel_（信頼度B）で取材、来店、フラゲ（台数・抽選時刻・時差開放）",
+    "晒し屋1件が言及（@slot_channel_）",
+    "第三者評価 B 6.3（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "晒し屋 1件 が 取材・来店・フラゲ・サキドリ、台数・抽選時刻・時差開放。",
+     "kishu": [
+      "カバネリ",
+      "リコリコ",
+      "ミリオンゴッド",
+      "ゴッド",
+      "マイジャグ",
+      "炎炎"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@slot_channel_(B) 10/15 21:42",
+       "text": "取材・来店・フラゲの情報「10/16(金) ピーアーク草加」。台数・抽選時刻・時差開放",
+       "url": "https://x.com/slot_channel_/status/2110713036541682066"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: B 6.3",
+     "body": "hall-navi の10/16の評価。対象: フラゲ★来店取材。出典: フラゲ★来店取材"
+    }
+   ],
+   "chusen": "入場抽選 18:20",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slot_channel_ 10/15 21:42",
+     "url": "https://x.com/slot_channel_/status/2110713036541682066"
+    }
+   ],
+   "scores": {
+    "v1": 43.0,
+    "v1_third_avg": 48.1,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 17,
+    "third": 8
    }
   },
   {
@@ -274,14 +577,39 @@
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "リコリス",
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 抽選時刻。",
+     "kishu": [
+      "リコリス",
+      "ジャグラー"
+     ],
+     "posts": [
+      {
+       "who": "公式@palazzo_mabashi 10/15 20:00",
+       "text": "「「#萬馬軒」さんを訪問」。抽選時刻",
+       "url": "https://x.com/palazzo_mabashi/status/2110687139386056807"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_mabashi 10/15 20:00",
+     "url": "https://x.com/palazzo_mabashi/status/2110687139386056807"
+    }
+   ],
    "scores": {
     "v1": 18.0,
     "v1_third_avg": null,
@@ -302,42 +630,37 @@
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "リコリス"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 11.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 抽選時刻。",
+     "kishu": [
+      "リコリス"
+     ],
+     "posts": [
+      {
+       "who": "公式@yasuda_yashio 10/15 18:16",
+       "text": "「やすだ八潮店です」。抽選時刻",
+       "url": "https://x.com/yasuda_yashio/status/2110660953901826278"
+      }
+     ]
+    }
    ],
-   "basis": [],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@yasuda_yashio 10/15 18:16",
+     "url": "https://x.com/yasuda_yashio/status/2110660953901826278"
+    }
+   ],
    "scores": {
     "v1": 11.0,
     "v1_third_avg": null,
