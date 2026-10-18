@@ -1,0 +1,198 @@
+{
+ "targetDate": "2026-10-19",
+ "targetDateLabel": "10/19(月)",
+ "updatedAt": "10/19 00:11 更新",
+ "model": "v1",
+ "jisseki": {
+  "maru": 0,
+  "maru2": 0,
+  "batsu": 0,
+  "since": ""
+ },
+ "analysis": {
+  "stores": 11,
+  "laws": 62,
+  "accounts": 64,
+  "years": 6
+ },
+ "kekka": [],
+ "locked": false,
+ "predictions": [
+  {
+   "storeId": "rakuen",
+   "storeName": "楽園南越谷",
+   "area": "南越谷・車20分",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
+   "kishu": [
+    "カバネリ",
+    "SAO",
+    "喰種",
+    "海門"
+   ],
+   "checks": [
+    "公式Xで取材、来店、スロパチの告知あり",
+    "晒し屋4件が言及（@kata_sainokuni・@slotchousatai・@kata_sai）",
+    "第三者評価 S 15.2（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
+   "kishu": [
+    "喰種",
+    "SAO",
+    "リコリコ",
+    "ミリオンゴッド"
+   ],
+   "checks": [
+    "公式Xで取材、来店、スロパチの告知あり",
+    "晒し屋4件が言及（@chiba_pachislo・@slotchousatai・@slotchou）",
+    "第三者評価 S 13.6（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "kicona-matsudo",
+   "storeName": "キコーナ松戸",
+   "area": "松戸・車25分",
+   "score": 48.5,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "東京喰種インパクト（ベイズ勝率 0.50・6回中4回）",
+    "第三者評価 B 12.6（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 45.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "北斗",
+    "リコリコ",
+    "ゴッド"
+   ],
+   "checks": [
+    "晒し屋@slot_channel_（信頼度B）で取材、来店、サキドリ（台数・抽選時刻・時差開放）",
+    "晒し屋2件が言及（@slo1_tyousataiZ・@slot_channel_）",
+    "第三者評価 無印 6.3（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 41.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "SAO",
+    "リコリコ",
+    "喰種",
+    "かぐや"
+   ],
+   "checks": [
+    "公式Xで来店、新台入替の告知あり",
+    "晒し屋3件が言及（@kata_sainokuni・@slo1_tyousataiZ・@kata_s）",
+    "第三者評価 medium"
+   ]
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "転生"
+   ],
+   "checks": [
+    "公式Xで周年（抽選時刻）"
+   ]
+  },
+  {
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 25.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [
+    "喰種",
+    "\nSランキング上位"
+   ],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ]
+  },
+  {
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 25.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ]
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 24.8,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "無職転生",
+    "甲鉄城",
+    "転生"
+   ],
+   "checks": [
+    "帝界の王（ベイズ勝率 0.31・9回中3回）"
+   ]
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
+   "area": "草加・車20分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ]
+  },
+  {
+   "storeId": "para-mabashi",
+   "storeName": "パラッツォ馬橋駅前",
+   "area": "馬橋・車25分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [
+    "ジャグラー",
+    "マイジャグ",
+    "リオ",
+    "エヴァ"
+   ],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ]
+  }
+ ]
+}
