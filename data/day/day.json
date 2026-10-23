@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-24",
- "targetDateLabel": "10/24(土)",
- "updatedAt": "10/23 01:24 更新",
+ "targetDate": "2026-10-25",
+ "targetDateLabel": "10/25(日)",
+ "updatedAt": "10/24 01:13 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -28,32 +28,31 @@
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
-    "第三者評価 S 14.9（hall-navi）"
+    "第三者評価 S 14.3（hall-navi）"
    ]
   },
   {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 48.5,
+   "score": 40.5,
    "scoreLabel": "様子見",
    "rank": "対抗",
    "kishu": [],
    "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "第三者評価 B 11.0（hall-navi）"
+    "MONSTER（ベイズ勝率 0.50・6回中4回）"
    ]
   },
   {
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 40.0,
+   "score": 35.0,
    "scoreLabel": "様子見",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.2（hall-navi）"
+    "第三者評価 A 12.7（hall-navi）"
    ]
   },
   {
@@ -65,31 +64,43 @@
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 12.6（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 30.3,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）"
+    "第三者評価 S 12.8（hall-navi）"
    ]
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 26.0,
+   "score": 32.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.4（hall-navi）"
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 21.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "第三者評価 A 13.6（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 20.6,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）"
    ]
   },
   {
@@ -121,18 +132,6 @@
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
    "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],

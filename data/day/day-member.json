@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-24",
- "targetDateLabel": "10/24(土)",
- "updatedAt": "10/23 01:24 更新",
+ "targetDate": "2026-10-25",
+ "targetDateLabel": "10/25(日)",
+ "updatedAt": "10/24 01:13 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -28,7 +28,7 @@
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
-    "第三者評価 S 14.9（hall-navi）"
+    "第三者評価 S 14.3（hall-navi）"
    ],
    "basis": [
     {
@@ -36,8 +36,8 @@
      "body": "開催パターン「2のつく日」。日付で該当。15回適用して8回成功、ベイズ勝率 0.474（Tier2）。"
     },
     {
-     "title": "第三者評価: S 14.9",
-     "body": "hall-navi の10/24の評価。対象: ナビ子AI予想【機種仕掛け】★5 (毎週 土曜日)。"
+     "title": "第三者評価: S 14.3",
+     "body": "hall-navi の10/25の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
     }
    ],
    "chusen": "",
@@ -60,30 +60,25 @@
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 48.5,
+   "score": 40.5,
    "scoreLabel": "様子見",
    "rank": "対抗",
    "kishu": [],
    "checks": [
-    "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "第三者評価 B 11.0（hall-navi）"
+    "MONSTER（ベイズ勝率 0.50・6回中4回）"
    ],
    "basis": [
     {
-     "title": "法則: KO取材",
-     "body": "開催パターン「13日・23日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
-    },
-    {
-     "title": "第三者評価: B 11.0",
-     "body": "hall-navi の10/24の評価。対象: めなこ来店。出典: その他取材・企画"
+     "title": "法則: MONSTER",
+     "body": "開催パターン「月1(26日頃)」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 48.5,
-    "v1_third_avg": 50.9,
+    "v1": 40.5,
+    "v1_third_avg": null,
     "v2": null,
     "star_v1": 2
    },
@@ -91,32 +86,32 @@
     "rank": 18,
     "rule": 22.5,
     "kokuchi": 0,
-    "third": 8
+    "third": 0
    }
   },
   {
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 40.0,
+   "score": 35.0,
    "scoreLabel": "様子見",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.2（hall-navi）"
+    "第三者評価 A 12.7（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 15.2",
-     "body": "hall-navi の10/24の評価。対象: スロパチステーション来店取材(オレンジ)。出典: スロパチステーション"
+     "title": "第三者評価: A 12.7",
+     "body": "hall-navi の10/25の評価。対象: オクトパスデー。出典: サプライズ調査隊"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 40.0,
-    "v1_third_avg": 70.0,
+    "v1": 35.0,
+    "v1_third_avg": 50.9,
     "v2": null,
     "star_v1": 2
    },
@@ -124,7 +119,7 @@
     "rank": 25,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 15
+    "third": 10
    }
   },
   {
@@ -136,12 +131,12 @@
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 12.6（hall-navi）"
+    "第三者評価 S 12.8（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 12.6",
-     "body": "hall-navi の10/24の評価。対象: スロパチガール来店S。出典: スロパチステーション"
+     "title": "第三者評価: S 12.8",
+     "body": "hall-navi の10/25の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
     }
    ],
    "chusen": "",
@@ -161,61 +156,61 @@
    }
   },
   {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 30.3,
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 32.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "剛腕のリアル（ベイズ勝率 0.43・10回中5回）"
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
    ],
    "basis": [
     {
-     "title": "法則: 剛腕のリアル",
-     "body": "開催パターン「4日・14日・24日」。日付で該当。10回適用して5回成功、ベイズ勝率 0.429（Tier2）。"
+     "title": "法則: 日替わりテーマ",
+     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 30.3,
+    "v1": 32.0,
     "v1_third_avg": null,
     "v2": null,
     "star_v1": 1
    },
    "breakdown": {
     "rank": 11,
-    "rule": 19.3,
+    "rule": 21.0,
     "kokuchi": 0,
     "third": 0
    }
   },
   {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 26.0,
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 21.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.4（hall-navi）"
+    "第三者評価 A 13.6（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 15.4",
-     "body": "hall-navi の10/24の評価。対象: ナビ子AI予想【差枚プラス】★5 (4のつく日)。"
+     "title": "第三者評価: A 13.6",
+     "body": "hall-navi の10/25の評価。対象: ナビ子AI予想【機種仕掛け】★4 (毎週 日曜日)。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 63.0,
+    "v1": 21.0,
+    "v1_third_avg": 43.9,
     "v2": null,
     "star_v1": 1
    },
@@ -223,7 +218,40 @@
     "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 15
+    "third": 10
+   }
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 20.6,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 沖ドキ!取材",
+     "body": "開催パターン「12日・26日頃」。日付で該当。10回適用して2回成功、ベイズ勝率 0.214（Tier2）。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 20.6,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 9.6,
+    "kokuchi": 0,
+    "third": 0
    }
   },
   {
@@ -305,34 +333,6 @@
    },
    "breakdown": {
     "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 11.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
     "third": 0
