@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-26",
- "targetDateLabel": "10/26(月)",
- "updatedAt": "10/25 00:10 更新",
+ "targetDate": "2026-10-27",
+ "targetDateLabel": "10/27(火)",
+ "updatedAt": "10/26 00:22 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,12 +19,50 @@
  "locked": false,
  "predictions": [
   {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
+   "kishu": [],
+   "checks": [
+    "7のつく日（ベイズ勝率 0.60・6回中5回）",
+    "第三者評価 S 15.0（hall-navi）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 7のつく日",
+     "body": "開催パターン「7日・17日・27日」。日付で該当。6回適用して5回成功、ベイズ勝率 0.600（Tier2）。"
+    },
+    {
+     "title": "第三者評価: S 15.0",
+     "body": "hall-navi の10/27の評価。対象: ナビ子AI予想【差枚プラス】★5 (7のつく日)。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 53.0,
+    "v1_third_avg": 76.5,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 27.0,
+    "kokuchi": 0,
+    "third": 15
+   }
+  },
+  {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
    "score": 46.3,
    "scoreLabel": "様子見",
-   "rank": "本命",
+   "rank": "対抗",
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）"
@@ -57,7 +95,7 @@
    "area": "松戸・車25分",
    "score": 40.5,
    "scoreLabel": "様子見",
-   "rank": "対抗",
+   "rank": "穴",
    "kishu": [],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）"
@@ -88,33 +126,28 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 35.0,
-   "scoreLabel": "様子見",
+   "score": 25.0,
+   "scoreLabel": "見送り",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 A 12.7（hall-navi）"
+    "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [
-    {
-     "title": "第三者評価: A 12.7",
-     "body": "hall-navi の10/26の評価。対象: オクトパスデー。出典: サプライズ調査隊"
-    }
-   ],
+   "basis": [],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 35.0,
-    "v1_third_avg": 50.9,
+    "v1": 25.0,
+    "v1_third_avg": null,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 1
    },
    "breakdown": {
     "rank": 25,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 10
+    "third": 0
    }
   },
   {
@@ -123,7 +156,7 @@
    "area": "八潮・車15分",
    "score": 20.6,
    "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）"
@@ -146,72 +179,6 @@
    "breakdown": {
     "rank": 11,
     "rule": 9.6,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "6の日/新生夏開幕（未実測・事前確率 0.20）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 6の日/新生夏開幕",
-     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 20.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 9.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
-   ],
-   "basis": [
-    {
-     "title": "法則: ⑥のつく日 フリースタイル",
-     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 20.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 9.0,
     "kokuchi": 0,
     "third": 0
    }
@@ -323,6 +290,34 @@
    },
    "breakdown": {
     "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 11.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 11.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
     "third": 0

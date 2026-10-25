@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-10-26",
- "targetDateLabel": "10/26(月)",
- "updatedAt": "10/25 00:10 更新",
+ "targetDate": "2026-10-27",
+ "targetDateLabel": "10/27(火)",
+ "updatedAt": "10/26 00:22 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,12 +19,25 @@
  "locked": false,
  "predictions": [
   {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
+   "kishu": [],
+   "checks": [
+    "7のつく日（ベイズ勝率 0.60・6回中5回）",
+    "第三者評価 S 15.0（hall-navi）"
+   ]
+  },
+  {
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
    "score": 46.3,
    "scoreLabel": "様子見",
-   "rank": "本命",
+   "rank": "対抗",
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）"
@@ -36,7 +49,7 @@
    "area": "松戸・車25分",
    "score": 40.5,
    "scoreLabel": "様子見",
-   "rank": "対抗",
+   "rank": "穴",
    "kishu": [],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）"
@@ -46,12 +59,12 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 35.0,
-   "scoreLabel": "様子見",
+   "score": 25.0,
+   "scoreLabel": "見送り",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 A 12.7（hall-navi）"
+    "該当法則なし・告知なし。店格のみでの評価"
    ]
   },
   {
@@ -60,34 +73,10 @@
    "area": "八潮・車15分",
    "score": 20.6,
    "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "6の日/新生夏開幕（未実測・事前確率 0.20）"
-   ]
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
    ]
   },
   {
@@ -131,6 +120,18 @@
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
    "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
