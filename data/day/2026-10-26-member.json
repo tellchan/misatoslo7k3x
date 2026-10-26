@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-10-26",
  "targetDateLabel": "10/26(月)",
- "updatedAt": "10/26 00:22 更新",
+ "updatedAt": "10/26 21:00 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -110,17 +110,23 @@
    ],
    "checks": [
     "公式Xで取材、来店（抽選時刻）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 S 15.2（hall-navi）"
    ],
    "basis": [
     {
      "kind": "tweets",
-     "title": "X告知・示唆まとめ（2件）",
-     "body": "公式X 2件 が 取材・来店、抽選時刻。",
+     "title": "X告知・示唆まとめ（4件）",
+     "body": "公式X 3件／晒し屋 1件 が 取材・来店・収録・応援団、抽選人数・抽選時刻。",
      "kishu": [
       "喰種"
      ],
      "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 10/26 19:08",
+       "text": "取材・来店・収録の情報「10/27 注目ホール40選」。抽選人数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2114660484708512203"
+      },
       {
        "who": "公式@g_yashio 10/25 17:25",
        "text": "取材・来店を告知「10月26日(月)」。抽選時刻",
@@ -130,6 +136,11 @@
        "who": "公式@g_yashio 10/25 20:00",
        "text": "",
        "url": "https://x.com/g_yashio/status/2114311013416030538"
+      },
+      {
+       "who": "公式@g_yashio 10/26 20:04",
+       "text": "「10月26日(月)のランキング発表 19時00分時点での 差枚差玉ランキングとなります。」",
+       "url": "https://x.com/g_yashio/status/2114674611061415980"
       }
      ]
     },
@@ -142,12 +153,20 @@
    "narabi": "",
    "sources": [
     {
+     "label": "@slo1_tyousataiZ 10/26 19:08",
+     "url": "https://x.com/slo1_tyousataiZ/status/2114660484708512203"
+    },
+    {
      "label": "@g_yashio 10/25 17:25",
      "url": "https://x.com/g_yashio/status/2114272167991119935"
     },
     {
      "label": "@g_yashio 10/25 20:00",
      "url": "https://x.com/g_yashio/status/2114311013416030538"
+    },
+    {
+     "label": "@g_yashio 10/26 20:04",
+     "url": "https://x.com/g_yashio/status/2114674611061415980"
     }
    ],
    "scores": {
@@ -645,10 +664,29 @@
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が言及。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@mkg_rakuen 10/26 12:00",
+       "text": "「楽園南越谷店です!」",
+       "url": "https://x.com/mkg_rakuen/status/2114552613135900681"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@mkg_rakuen 10/26 12:00",
+     "url": "https://x.com/mkg_rakuen/status/2114552613135900681"
+    }
+   ],
    "scores": {
     "v1": 18.0,
     "v1_third_avg": null,
