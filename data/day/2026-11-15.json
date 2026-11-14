@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-11-15",
  "targetDateLabel": "11/15(日)",
- "updatedAt": "11/14 04:01 更新",
+ "updatedAt": "11/15 02:31 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,12 +22,14 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 49.0,
-   "scoreLabel": "様子見",
+   "score": 74.0,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
    "kishu": [],
    "checks": [
     "ナビ子AI予想【機種仕掛け】★5(毎週日曜日)（未実測・事前確率 0.20）",
+    "公式Xで取材、来店、スロパチ（抽選時刻）",
+    "晒し屋2件が言及（@slotchousatai・@slotchousatai）",
     "第三者評価 S 14.6（hall-navi）"
    ]
   },
@@ -35,11 +37,13 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 40.0,
-   "scoreLabel": "様子見",
+   "score": 65.0,
+   "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [],
    "checks": [
+    "公式Xで取材、来店、スロパチ（抽選時刻）",
+    "晒し屋2件が言及（@slotchousatai・@slotchousatai）",
     "第三者評価 S 14.9（hall-navi）"
    ]
   },
@@ -47,12 +51,80 @@
    "storeId": "peark-soka",
    "storeName": "ピーアーク草加",
    "area": "草加・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "穴",
-   "kishu": [],
+   "kishu": [
+    "\nP抽選101人",
+    "\nS抽選216人"
+   ],
    "checks": [
+    "晒し屋@slotchousatai（信頼度A）で取材、来店、スロパチ（抽選人数）",
+    "晒し屋2件が言及（@slotchousatai・@slotchousatai）",
     "第三者評価 S 12.7（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "para-mabashi",
+   "storeName": "パラッツォ馬橋駅前",
+   "area": "馬橋・車25分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "ジャグラー"
+   ],
+   "checks": [
+    "公式Xで取材、来店（台数・抽選時刻）"
+   ]
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 41.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "ジャグラー",
+    "リオ",
+    "ヴヴヴ"
+   ],
+   "checks": [
+    "公式Xで来店の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 A 12.0（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "yasuda-yashio",
+   "storeName": "やすだ八潮",
+   "area": "八潮・車15分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "ジャグラー"
+   ],
+   "checks": [
+    "公式Xで取材、調査の告知あり"
+   ]
+  },
+  {
+   "storeId": "yasuda-misato",
+   "storeName": "やすだ三郷",
+   "area": "三郷・車10分",
+   "score": 36.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "ジャグラー",
+    "ファンキー",
+    "モンハン",
+    "エヴァ"
+   ],
+   "checks": [
+    "公式Xで取材（抽選時刻）"
    ]
   },
   {
@@ -61,22 +133,10 @@
    "area": "亀有・車30分",
    "score": 32.0,
    "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
-   ]
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 21.0,
-   "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 A 12.0（hall-navi）"
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）"
    ]
   },
   {
@@ -104,46 +164,10 @@
    ]
   },
   {
-   "storeId": "para-mabashi",
-   "storeName": "パラッツォ馬橋駅前",
-   "area": "馬橋・車25分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
    "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-yashio",
-   "storeName": "やすだ八潮",
-   "area": "八潮・車15分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "yasuda-misato",
-   "storeName": "やすだ三郷",
-   "area": "三郷・車10分",
-   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
