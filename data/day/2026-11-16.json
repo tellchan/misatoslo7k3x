@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-11-16",
  "targetDateLabel": "11/16(月)",
- "updatedAt": "11/15 02:31 更新",
+ "updatedAt": "11/16 03:19 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,65 +22,89 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 35.0,
-   "scoreLabel": "様子見",
+   "score": 60.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "本命",
    "kishu": [],
    "checks": [
+    "公式Xで取材、来店（抽選時刻）",
     "第三者評価 A 12.8（hall-navi）"
-   ]
-  },
-  {
-   "storeId": "para-misato",
-   "storeName": "パラッツォ三郷中央",
-   "area": "三郷・車10分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
    ]
   },
   {
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
+   "score": 55.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
+   "kishu": [
+    "ミリオンゴッド",
+    "ゴッド",
+    "ヴヴヴ",
+    "リオ"
+   ],
    "checks": [
-    "6の日/新生夏開幕（未実測・事前確率 0.20）"
+    "6の日/新生夏開幕（未実測・事前確率 0.20）",
+    "公式Xで取材、来店の告知あり",
+    "晒し屋2件が言及（@chiba_pachislo・@ainavipachislot）",
+    "第三者評価 無印 6.5（hall-navi）"
    ]
   },
   {
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
+   "score": 53.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "穴",
-   "kishu": [],
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "ゴッド",
+    "喰種"
+   ],
    "checks": [
-    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
+    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）",
+    "公式Xで新台入替の告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
    ]
   },
   {
-   "storeId": "sap-soka",
-   "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
    "kishu": [],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "公式Xで取材、スロパチ（抽選時刻）"
    ]
   },
   {
    "storeId": "peark-soka",
    "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "リコリコ",
+    "ミリオンゴッド",
+    "ゴッド"
+   ],
+   "checks": [
+    "晒し屋@slot_channel_（信頼度B）で取材、来店、サキドリ（台数・抽選時刻・時差開放）",
+    "晒し屋1件が言及（@slot_channel_）",
+    "第三者評価 無印 6.2（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
    "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
