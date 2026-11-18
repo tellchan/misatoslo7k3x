@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-11-19",
  "targetDateLabel": "11/19(木)",
- "updatedAt": "11/18 05:18 更新",
+ "updatedAt": "11/19 04:48 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -19,15 +19,28 @@
  "locked": false,
  "predictions": [
   {
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "本命",
+   "kishu": [],
+   "checks": [
+    "公式Xで来店（抽選時刻）"
+   ]
+  },
+  {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
    "score": 48.5,
    "scoreLabel": "様子見",
-   "rank": "本命",
+   "rank": "対抗",
    "kishu": [],
    "checks": [
     "東京喰種インパクト（ベイズ勝率 0.50・6回中4回）",
+    "晒し屋1件が言及（@chiba_pachislo）",
     "第三者評価 B 12.6（hall-navi）"
    ]
   },
@@ -35,12 +48,38 @@
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "対抗",
-   "kishu": [],
+   "score": 46.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "ミリオンゴッド",
+    "ゴッド",
+    "ヴヴヴ",
+    "リオ"
+   ],
    "checks": [
+    "公式Xで取材、来店、スロパチの告知あり",
+    "晒し屋5件が言及（@slotchousatai・@slotchousatai・@chiba_pac）",
     "第三者評価 S 12.5（hall-navi）"
+   ]
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 43.0,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [
+    "カバネリ",
+    "SAO",
+    "リコリコ",
+    "マイジャグ"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、サキドリ（台数・時差開放）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 C 6.2（hall-navi）"
    ]
   },
   {
@@ -49,19 +88,7 @@
    "area": "三郷・車10分",
    "score": 25.0,
    "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
-   "storeId": "garden-yashio",
-   "storeName": "新!ガーデン八潮",
-   "area": "八潮・車15分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
@@ -104,18 +131,6 @@
    ]
   },
   {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ]
-  },
-  {
    "storeId": "para-mabashi",
    "storeName": "パラッツォ馬橋駅前",
    "area": "馬橋・車25分",
@@ -146,7 +161,9 @@
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ]

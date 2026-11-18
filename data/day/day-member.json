@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-11-19",
- "targetDateLabel": "11/19(木)",
- "updatedAt": "11/18 05:18 更新",
+ "targetDate": "2026-11-20",
+ "targetDateLabel": "11/20(金)",
+ "updatedAt": "11/19 04:48 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -28,7 +28,7 @@
    "kishu": [],
    "checks": [
     "東京喰種インパクト（ベイズ勝率 0.50・6回中4回）",
-    "第三者評価 B 12.6（hall-navi）"
+    "第三者評価 B 11.1（hall-navi）"
    ],
    "basis": [
     {
@@ -36,8 +36,8 @@
      "body": "開催パターン「10日・20日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
     },
     {
-     "title": "第三者評価: B 12.6",
-     "body": "hall-navi の11/19の評価。対象: ナビ子AI予想【機種仕掛け】★2 (9のつく日)。"
+     "title": "第三者評価: B 11.1",
+     "body": "hall-navi の11/20の評価。対象: 東京喰種インパクト来店取材12。出典: スロノトリガー"
     }
    ],
    "chusen": "",
@@ -57,20 +57,91 @@
    }
   },
   {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "storeId": "para-misato",
+   "storeName": "パラッツォ三郷中央",
+   "area": "三郷・車10分",
+   "score": 46.3,
+   "scoreLabel": "様子見",
    "rank": "対抗",
    "kishu": [],
    "checks": [
-    "第三者評価 S 12.5（hall-navi）"
+    "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 12.5",
-     "body": "hall-navi の11/19の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
+     "title": "法則: 特定日/BIGBOSS",
+     "body": "開催パターン「2のつく日」。日付で該当。15回適用して8回成功、ベイズ勝率 0.474（Tier2）。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 46.3,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 25,
+    "rule": 21.3,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 43.5,
+   "scoreLabel": "様子見",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "0のつく日（ベイズ勝率 0.50・10回中6回）",
+    "第三者評価 A 12.5（hall-navi）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 0のつく日",
+     "body": "開催パターン「10日・20日・30日」。日付で該当。10回適用して6回成功、ベイズ勝率 0.500（Tier2）。"
+    },
+    {
+     "title": "第三者評価: A 12.5",
+     "body": "hall-navi の11/20の評価。対象: ナビ子AI予想【機種仕掛け】★4 (0のつく日)。"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 43.5,
+    "v1_third_avg": 55.1,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 22.5,
+    "kokuchi": 0,
+    "third": 10
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 26.0,
+   "scoreLabel": "見送り",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "第三者評価 B 6.3（hall-navi）"
+   ],
+   "basis": [
+    {
+     "title": "第三者評価: B 6.3",
+     "body": "hall-navi の11/20の評価。対象: フラゲ★来店取材。出典: フラゲ★来店取材"
     }
    ],
    "chusen": "",
@@ -78,43 +149,15 @@
    "sources": [],
    "scores": {
     "v1": 26.0,
-    "v1_third_avg": 63.0,
+    "v1_third_avg": 39.6,
     "v2": null,
     "star_v1": 1
    },
    "breakdown": {
-    "rank": 11,
+    "rank": 18,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 15
-   }
-  },
-  {
-   "storeId": "para-misato",
-   "storeName": "パラッツォ三郷中央",
-   "area": "三郷・車10分",
-   "score": 25.0,
-   "scoreLabel": "見送り",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 25.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 25,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
+    "third": 8
    }
   },
   {
@@ -123,7 +166,7 @@
    "area": "八潮・車15分",
    "score": 25.0,
    "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
@@ -179,69 +222,8 @@
    }
   },
   {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 21.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 A 14.6（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: A 14.6",
-     "body": "hall-navi の11/19の評価。対象: ナビ子AI予想【差枚プラス】★1 (9のつく日)。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 21.0,
-    "v1_third_avg": 43.9,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 10
-   }
-  },
-  {
    "storeId": "sap-soka",
    "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 18.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
-   ],
-   "basis": [],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 18.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
    "area": "草加・車20分",
    "score": 18.0,
    "scoreLabel": "見送り",
@@ -327,6 +309,34 @@
    "storeId": "yasuda-misato",
    "storeName": "やすだ三郷",
    "area": "三郷・車10分",
+   "score": 11.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 11.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
    "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
