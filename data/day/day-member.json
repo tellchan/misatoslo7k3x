@@ -1,7 +1,7 @@
 {
- "targetDate": "2026-11-22",
- "targetDateLabel": "11/22(日)",
- "updatedAt": "11/21 04:29 更新",
+ "targetDate": "2026-11-23",
+ "targetDateLabel": "11/23(月)",
+ "updatedAt": "11/22 03:31 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -28,7 +28,7 @@
    "kishu": [],
    "checks": [
     "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
-    "第三者評価 S 15.1（hall-navi）"
+    "第三者評価 S 14.7（hall-navi）"
    ],
    "basis": [
     {
@@ -36,8 +36,8 @@
      "body": "開催パターン「2のつく日」。日付で該当。15回適用して8回成功、ベイズ勝率 0.474（Tier2）。"
     },
     {
-     "title": "第三者評価: S 15.1",
-     "body": "hall-navi の11/22の評価。対象: ナビ子AI予想【機種仕掛け】★5 (2のつく日)。"
+     "title": "第三者評価: S 14.7",
+     "body": "hall-navi の11/23の評価。対象: スロパチステーション来店取材(紫)。出典: スロパチステーション"
     }
    ],
    "chusen": "",
@@ -57,54 +57,16 @@
    }
   },
   {
-   "storeId": "para-mabashi",
-   "storeName": "パラッツォ馬橋駅前",
-   "area": "馬橋・車25分",
-   "score": 49.6,
-   "scoreLabel": "様子見",
-   "rank": "対抗",
-   "kishu": [],
-   "checks": [
-    "2のつく日（ベイズ勝率 0.52・17回中10回）",
-    "第三者評価 B 8.1（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 2のつく日",
-     "body": "開催パターン「2日・12日・22日」。日付で該当。17回適用して10回成功、ベイズ勝率 0.524（Tier2）。"
-    },
-    {
-     "title": "第三者評価: B 8.1",
-     "body": "hall-navi の11/22の評価。対象: ナビ子AI予想【機種仕掛け】★2 (2のつく日)。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 49.6,
-    "v1_third_avg": 51.5,
-    "v2": null,
-    "star_v1": 2
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 23.6,
-    "kokuchi": 0,
-    "third": 8
-   }
-  },
-  {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 48.5,
-   "scoreLabel": "様子見",
-   "rank": "穴",
+   "score": 50.5,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "対抗",
    "kishu": [],
    "checks": [
     "KO取材（ベイズ勝率 0.50・6回中4回）",
-    "第三者評価 B 11.1（hall-navi）"
+    "第三者評価 A 13.6（hall-navi）"
    ],
    "basis": [
     {
@@ -112,57 +74,62 @@
      "body": "開催パターン「13日・23日頃」。日付で該当。6回適用して4回成功、ベイズ勝率 0.500（Tier2）。"
     },
     {
-     "title": "第三者評価: B 11.1",
-     "body": "hall-navi の11/22の評価。対象: もうちゃん来店。出典: ペカる★TV"
+     "title": "第三者評価: A 13.6",
+     "body": "hall-navi の11/23の評価。対象: ナビ子AI予想【機種仕掛け】★3 (3のつく日)。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 48.5,
-    "v1_third_avg": 50.9,
+    "v1": 50.5,
+    "v1_third_avg": 58.6,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 18,
     "rule": 22.5,
     "kokuchi": 0,
-    "third": 8
+    "third": 10
    }
   },
   {
-   "storeId": "garden-yashio",
-   "storeName": "新!ガーデン八潮",
-   "area": "八潮・車15分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 42.0,
+   "scoreLabel": "様子見",
    "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 B 8.4（hall-navi）"
+    "日替わりテーマ（ベイズ勝率 0.47・11回中6回）",
+    "第三者評価 A 14.2（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: B 8.4",
-     "body": "hall-navi の11/22の評価。対象: シャルの優良店舗徹底取材。出典: オープンチャット「シャル抜粋〜優良店舗の集い〜」"
+     "title": "法則: 日替わりテーマ",
+     "body": "開催パターン「3の日/5の日/7の日」。日付で該当。11回適用して6回成功、ベイズ勝率 0.467（Tier2）。"
+    },
+    {
+     "title": "第三者評価: A 14.2",
+     "body": "hall-navi の11/23の評価。対象: ナビ子AI予想【差枚プラス】★1 (3のつく日)。"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 33.0,
-    "v1_third_avg": 43.1,
+    "v1": 42.0,
+    "v1_third_avg": 54.4,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 2
    },
    "breakdown": {
-    "rank": 25,
-    "rule": 0.0,
+    "rank": 11,
+    "rule": 21.0,
     "kokuchi": 0,
-    "third": 8
+    "third": 10
    }
   },
   {
@@ -171,15 +138,15 @@
    "area": "草加・車20分",
    "score": 33.0,
    "scoreLabel": "見送り",
-   "rank": "その他",
+   "rank": "穴",
    "kishu": [],
    "checks": [
-    "第三者評価 S 13.2（hall-navi）"
+    "第三者評価 S 13.5（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 13.2",
-     "body": "hall-navi の11/22の評価。対象: スロパチステーション来店取材(オレンジ)。出典: スロパチステーション"
+     "title": "第三者評価: S 13.5",
+     "body": "hall-navi の11/23の評価。対象: スロパチガール来店S。出典: スロパチステーション"
     }
    ],
    "chusen": "",
@@ -199,20 +166,20 @@
    }
   },
   {
-   "storeId": "rakuen",
-   "storeName": "楽園南越谷",
-   "area": "南越谷・車20分",
+   "storeId": "para-mabashi",
+   "storeName": "パラッツォ馬橋駅前",
+   "area": "馬橋・車25分",
    "score": 33.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 S 15.6（hall-navi）"
+    "第三者評価 S 12.7（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: S 15.6",
-     "body": "hall-navi の11/22の評価。対象: ナビ子AI予想【機種仕掛け】★5 (ゾロ目の日)。"
+     "title": "第三者評価: S 12.7",
+     "body": "hall-navi の11/23の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
     }
    ],
    "chusen": "",
@@ -232,127 +199,56 @@
    }
   },
   {
-   "storeId": "sap-soka",
-   "storeName": "SAP草加",
-   "area": "草加・車20分",
-   "score": 26.0,
+   "storeId": "garden-yashio",
+   "storeName": "新!ガーデン八潮",
+   "area": "八潮・車15分",
+   "score": 25.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 B 11.4（hall-navi）"
+    "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [
-    {
-     "title": "第三者評価: B 11.4",
-     "body": "hall-navi の11/22の評価。対象: シャルの優良店舗徹底取材。出典: オープンチャット「シャル抜粋〜優良店舗の集い〜」"
-    }
-   ],
+   "basis": [],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 39.6,
+    "v1": 25.0,
+    "v1_third_avg": null,
     "v2": null,
     "star_v1": 1
    },
    "breakdown": {
-    "rank": 18,
+    "rank": 25,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 8
-   }
-  },
-  {
-   "storeId": "exarena",
-   "storeName": "エクスアリーナ松戸",
-   "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 12.6（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: S 12.6",
-     "body": "hall-navi の11/22の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 63.0,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 15
-   }
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 15.2（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: S 15.2",
-     "body": "hall-navi の11/22の評価。対象: ナビ子AI予想【差枚プラス】★3 (ゾロ目の日)。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 63.0,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 15
+    "third": 0
    }
   },
   {
    "storeId": "yasuda-yashio",
    "storeName": "やすだ八潮",
    "area": "八潮・車15分",
-   "score": 19.0,
+   "score": 21.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 B 8.3（hall-navi）"
+    "第三者評価 A 11.2（hall-navi）"
    ],
    "basis": [
     {
-     "title": "第三者評価: B 8.3",
-     "body": "hall-navi の11/22の評価。対象: ナビ子AI予想【機種仕掛け】★2 (ゾロ目の日)。"
+     "title": "第三者評価: A 11.2",
+     "body": "hall-navi の11/23の評価。対象: 天草覇道ホール応援団来店。出典: パーフェクトリサーチ"
     }
    ],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 19.0,
-    "v1_third_avg": 36.1,
+    "v1": 21.0,
+    "v1_third_avg": 43.9,
     "v2": null,
     "star_v1": 1
    },
@@ -360,32 +256,111 @@
     "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 8
+    "third": 10
+   }
+  },
+  {
+   "storeId": "sap-soka",
+   "storeName": "SAP草加",
+   "area": "草加・車20分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 18.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "rakuen",
+   "storeName": "楽園南越谷",
+   "area": "南越谷・車20分",
+   "score": 18.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 18.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
+   }
+  },
+  {
+   "storeId": "exarena",
+   "storeName": "エクスアリーナ松戸",
+   "area": "松戸・車25分",
+   "score": 11.0,
+   "scoreLabel": "見送り",
+   "rank": "その他",
+   "kishu": [],
+   "checks": [
+    "該当法則なし・告知なし。店格のみでの評価"
+   ],
+   "basis": [],
+   "chusen": "",
+   "narabi": "",
+   "sources": [],
+   "scores": {
+    "v1": 11.0,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 1
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 0.0,
+    "kokuchi": 0,
+    "third": 0
    }
   },
   {
    "storeId": "yasuda-misato",
    "storeName": "やすだ三郷",
    "area": "三郷・車10分",
-   "score": 19.0,
+   "score": 11.0,
    "scoreLabel": "見送り",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "第三者評価 B 6.1（hall-navi）"
+    "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [
-    {
-     "title": "第三者評価: B 6.1",
-     "body": "hall-navi の11/22の評価。対象: ヒカルの一挙両得（スロミュー×ヒカル）。出典: スロミューSNS"
-    }
-   ],
+   "basis": [],
    "chusen": "",
    "narabi": "",
    "sources": [],
    "scores": {
-    "v1": 19.0,
-    "v1_third_avg": 36.1,
+    "v1": 11.0,
+    "v1_third_avg": null,
     "v2": null,
     "star_v1": 1
    },
@@ -393,7 +368,7 @@
     "rank": 11,
     "rule": 0.0,
     "kokuchi": 0,
-    "third": 8
+    "third": 0
    }
   }
  ],
