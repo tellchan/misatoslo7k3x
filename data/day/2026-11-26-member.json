@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-11-26",
  "targetDateLabel": "11/26(木)",
- "updatedAt": "11/25 06:48 更新",
+ "updatedAt": "11/26 05:55 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,33 +22,136 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 46.3,
-   "scoreLabel": "様子見",
+   "score": 66.3,
+   "scoreLabel": "期待度 高い",
    "rank": "本命",
    "kishu": [],
    "checks": [
-    "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）"
+    "特定日/BIGBOSS（ベイズ勝率 0.47・15回中8回）",
+    "公式Xでナイトの告知あり"
    ],
    "basis": [
     {
      "title": "法則: 特定日/BIGBOSS",
      "body": "開催パターン「2のつく日」。日付で該当。15回適用して8回成功、ベイズ勝率 0.474（Tier2）。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 2件 が ナイト。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@palazzo_misato 11/25 20:22",
+       "text": "ナイトを告知「11月も後半戦」",
+       "url": "https://x.com/palazzo_misato/status/2125550565383901243"
+      },
+      {
+       "who": "公式@palazzo_misato 11/25 21:55",
+       "text": "「11/25水ランキング」",
+       "url": "https://x.com/palazzo_misato/status/2125574019974123621"
+      }
+     ]
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_misato 11/25 20:22",
+     "url": "https://x.com/palazzo_misato/status/2125550565383901243"
+    },
+    {
+     "label": "@palazzo_misato 11/25 21:55",
+     "url": "https://x.com/palazzo_misato/status/2125574019974123621"
+    }
+   ],
    "scores": {
-    "v1": 46.3,
+    "v1": 66.3,
     "v1_third_avg": null,
     "v2": null,
-    "star_v1": 2
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 25,
     "rule": 21.3,
-    "kokuchi": 0,
+    "kokuchi": 20,
     "third": 0
+   }
+  },
+  {
+   "storeId": "maruhan-kameari",
+   "storeName": "マルハン亀有",
+   "area": "亀有・車30分",
+   "score": 45.0,
+   "scoreLabel": "様子見",
+   "rank": "対抗",
+   "kishu": [
+    "リコリコ",
+    "ゴッド",
+    "喰種",
+    "ヴヴヴ"
+   ],
+   "checks": [
+    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）",
+    "晒し屋@slo1_tyousataiZ（信頼度B）で告知（台数）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
+    "第三者評価 single"
+   ],
+   "basis": [
+    {
+     "title": "法則: ⑥のつく日 フリースタイル",
+     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 台数。",
+     "kishu": [
+      "リコリコ",
+      "ゴッド",
+      "喰種",
+      "ヴヴヴ",
+      "攻殻",
+      "リオ"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 11/25 21:24",
+       "text": "「11/26」。台数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2125566334268592548"
+      },
+      {
+       "who": "公式@maruhan_kameari 11/25 19:10",
+       "text": "「明日11月26日木」",
+       "url": "https://x.com/maruhan_kameari/status/2125532445709828130"
+      }
+     ]
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 11/25 21:24",
+     "url": "https://x.com/slo1_tyousataiZ/status/2125566334268592548"
+    },
+    {
+     "label": "@maruhan_kameari 11/25 19:10",
+     "url": "https://x.com/maruhan_kameari/status/2125532445709828130"
+    }
+   ],
+   "scores": {
+    "v1": 45.0,
+    "v1_third_avg": 49.1,
+    "v2": null,
+    "star_v1": 2
+   },
+   "breakdown": {
+    "rank": 11,
+    "rule": 9.0,
+    "kokuchi": 17,
+    "third": 8
    }
   },
   {
@@ -57,7 +160,7 @@
    "area": "松戸・車25分",
    "score": 40.5,
    "scoreLabel": "様子見",
-   "rank": "対抗",
+   "rank": "穴",
    "kishu": [],
    "checks": [
     "MONSTER（ベイズ勝率 0.50・6回中4回）"
@@ -95,10 +198,29 @@
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が言及。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@g_yashio 11/25 20:00",
+       "text": "「11月25日(水)のランキング発表」",
+       "url": "https://x.com/g_yashio/status/2125545045717635089"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@g_yashio 11/25 20:00",
+     "url": "https://x.com/g_yashio/status/2125545045717635089"
+    }
+   ],
    "scores": {
     "v1": 25.0,
     "v1_third_avg": null,
@@ -118,7 +240,7 @@
    "area": "八潮・車15分",
    "score": 20.6,
    "scoreLabel": "見送り",
-   "rank": "穴",
+   "rank": "その他",
    "kishu": [],
    "checks": [
     "沖ドキ!取材（ベイズ勝率 0.21・10回中2回）"
@@ -127,11 +249,29 @@
     {
      "title": "法則: 沖ドキ!取材",
      "body": "開催パターン「12日・26日頃」。日付で該当。10回適用して2回成功、ベイズ勝率 0.214（Tier2）。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が言及。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@yasuda_yashio 11/25 18:30",
+       "text": "「グァーハッハハ」",
+       "url": "https://x.com/yasuda_yashio/status/2125522382697681042"
+      }
+     ]
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@yasuda_yashio 11/25 18:30",
+     "url": "https://x.com/yasuda_yashio/status/2125522382697681042"
+    }
+   ],
    "scores": {
     "v1": 20.6,
     "v1_third_avg": null,
@@ -160,44 +300,29 @@
     {
      "title": "法則: 6の日/新生夏開幕",
      "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 20.0,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 11,
-    "rule": 9.0,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "maruhan-kameari",
-   "storeName": "マルハン亀有",
-   "area": "亀有・車30分",
-   "score": 20.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "⑥のつく日 フリースタイル（未実測・事前確率 0.20）"
-   ],
-   "basis": [
+    },
     {
-     "title": "法則: ⑥のつく日 フリースタイル",
-     "body": "開催パターン「6日・16日・26日」。日付で該当。実績未測定のため事前確率 0.20 を使用（Tier3）。主根拠にはしない。"
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が言及。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@XAmatsudo 11/25 21:00",
+       "text": "「明日11月26日木曜日のエクス松戸は」",
+       "url": "https://x.com/XAmatsudo/status/2125560128313127195"
+      }
+     ]
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@XAmatsudo 11/25 21:00",
+     "url": "https://x.com/XAmatsudo/status/2125560128313127195"
+    }
+   ],
    "scores": {
     "v1": 20.0,
     "v1_third_avg": null,
@@ -274,14 +399,39 @@
    "score": 18.0,
    "scoreLabel": "見送り",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "リコリス",
+    "ジャグラー"
+   ],
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 台数・抽選時刻。",
+     "kishu": [
+      "リコリス",
+      "ジャグラー"
+     ],
+     "posts": [
+      {
+       "who": "公式@palazzo_mabashi 11/25 20:00",
+       "text": "「現代人が1日に触れる情報量は」。台数・抽選時刻",
+       "url": "https://x.com/palazzo_mabashi/status/2125545030160876002"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@palazzo_mabashi 11/25 20:00",
+     "url": "https://x.com/palazzo_mabashi/status/2125545030160876002"
+    }
+   ],
    "scores": {
     "v1": 18.0,
     "v1_third_avg": null,
@@ -334,10 +484,29 @@
    "checks": [
     "該当法則なし・告知なし。店格のみでの評価"
    ],
-   "basis": [],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@yasuda_misato 11/25 20:00",
+       "text": "「明日11月26日」。抽選時刻",
+       "url": "https://x.com/yasuda_misato/status/2125545032941711796"
+      }
+     ]
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@yasuda_misato 11/25 20:00",
+     "url": "https://x.com/yasuda_misato/status/2125545032941711796"
+    }
+   ],
    "scores": {
     "v1": 11.0,
     "v1_third_avg": null,
