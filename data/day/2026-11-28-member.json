@@ -1,7 +1,7 @@
 {
  "targetDate": "2026-11-28",
  "targetDateLabel": "11/28(土)",
- "updatedAt": "11/27 05:47 更新",
+ "updatedAt": "11/28 05:31 更新",
  "model": "v1",
  "jisseki": {
   "maru": 0,
@@ -22,12 +22,14 @@
    "storeId": "para-misato",
    "storeName": "パラッツォ三郷中央",
    "area": "三郷・車10分",
-   "score": 66.6,
-   "scoreLabel": "期待度 高い",
+   "score": 91.6,
+   "scoreLabel": "期待度 非常に高い",
    "rank": "本命",
    "kishu": [],
    "checks": [
     "シン特定日/BUZZ（ベイズ勝率 0.59・18回中12回）",
+    "公式Xで来店、収録（抽選人数・抽選時刻）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 S 15.8（hall-navi）"
    ],
    "basis": [
@@ -36,23 +38,59 @@
      "body": "開催パターン「8のつく日」。日付で該当。18回適用して12回成功、ベイズ勝率 0.591（Tier2）。"
     },
     {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 2件／晒し屋 1件 が 取材・来店・応援団・調査、抽選人数・抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 11/27 21:49",
+       "text": "取材・来店・応援団の情報「11/28 注目ホール40選」。抽選人数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+      },
+      {
+       "who": "公式@palazzo_misato 11/27 18:08",
+       "text": "来店・収録を告知「空前絶後のォォォ!!」。抽選人数・抽選時刻",
+       "url": "https://x.com/palazzo_misato/status/2126241618881864021"
+      },
+      {
+       "who": "公式@palazzo_misato 11/27 21:49",
+       "text": "「11/27金」。抽選人数・抽選時刻",
+       "url": "https://x.com/palazzo_misato/status/2126297276595474579"
+      }
+     ]
+    },
+    {
      "title": "第三者評価: S 15.8",
      "body": "hall-navi の11/28の評価。対象: ワロス来店実践。出典: セブンズTV"
     }
    ],
-   "chusen": "",
+   "chusen": "入場抽選 9:30分",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 11/27 21:49",
+     "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+    },
+    {
+     "label": "@palazzo_misato 11/27 18:08",
+     "url": "https://x.com/palazzo_misato/status/2126241618881864021"
+    },
+    {
+     "label": "@palazzo_misato 11/27 21:49",
+     "url": "https://x.com/palazzo_misato/status/2126297276595474579"
+    }
+   ],
    "scores": {
-    "v1": 66.6,
-    "v1_third_avg": 83.3,
+    "v1": 91.6,
+    "v1_third_avg": 95.8,
     "v2": null,
-    "star_v1": 4
+    "star_v1": 5
    },
    "breakdown": {
     "rank": 25,
     "rule": 26.6,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 15
    }
   },
@@ -60,12 +98,14 @@
    "storeId": "garden-yashio",
    "storeName": "新!ガーデン八潮",
    "area": "八潮・車15分",
-   "score": 59.6,
-   "scoreLabel": "期待度 やや高い",
+   "score": 79.6,
+   "scoreLabel": "期待度 高い",
    "rank": "対抗",
    "kishu": [],
    "checks": [
     "スロパチ来店in埼玉（ベイズ勝率 0.59・18回中12回）",
+    "公式Xで周年の告知あり",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 B 8.4（hall-navi）"
    ],
    "basis": [
@@ -74,24 +114,103 @@
      "body": "開催パターン「8日・18日・28日」。日付で該当。18回適用して12回成功、ベイズ勝率 0.591（Tier2）。"
     },
     {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 取材・来店・応援団・調査、抽選人数。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 11/27 21:49",
+       "text": "取材・来店・応援団の情報「11/28 注目ホール40選」。抽選人数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+      },
+      {
+       "who": "公式@g_yashio 11/27 19:28",
+       "text": "周年を告知「いよいよ、あと1日。」",
+       "url": "https://x.com/g_yashio/status/2126261751406878769"
+      }
+     ]
+    },
+    {
      "title": "第三者評価: B 8.4",
      "body": "hall-navi の11/28の評価。対象: シャルの優良店舗徹底取材。出典: オープンチャット「シャル抜粋〜優良店舗の集い〜」"
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 11/27 21:49",
+     "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+    },
+    {
+     "label": "@g_yashio 11/27 19:28",
+     "url": "https://x.com/g_yashio/status/2126261751406878769"
+    }
+   ],
    "scores": {
-    "v1": 59.6,
-    "v1_third_avg": 56.5,
+    "v1": 79.6,
+    "v1_third_avg": 66.4,
     "v2": null,
-    "star_v1": 3
+    "star_v1": 4
    },
    "breakdown": {
     "rank": 25,
     "rule": 26.6,
-    "kokuchi": 0,
+    "kokuchi": 20,
     "third": 8
+   }
+  },
+  {
+   "storeId": "para-mabashi",
+   "storeName": "パラッツォ馬橋駅前",
+   "area": "馬橋・車25分",
+   "score": 61.9,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "穴",
+   "kishu": [],
+   "checks": [
+    "8のつく日（ベイズ勝率 0.42・15回中7回）",
+    "公式Xで取材、来店（抽選時刻）"
+   ],
+   "basis": [
+    {
+     "title": "法則: 8のつく日",
+     "body": "開催パターン「8日・18日・28日」。日付で該当。15回適用して7回成功、ベイズ勝率 0.421（Tier2）。"
+    },
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 取材・来店、抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@palazzo_mabashi 11/27 20:00",
+       "text": "取材・来店を告知「11月28日」。抽選時刻",
+       "url": "https://x.com/palazzo_mabashi/status/2126269823416193083"
+      }
+     ]
+    }
+   ],
+   "chusen": "入場抽選 9:45",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@palazzo_mabashi 11/27 20:00",
+     "url": "https://x.com/palazzo_mabashi/status/2126269823416193083"
+    }
+   ],
+   "scores": {
+    "v1": 61.9,
+    "v1_third_avg": null,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 18.9,
+    "kokuchi": 25,
+    "third": 0
    }
   },
   {
@@ -112,13 +231,31 @@
      "body": "開催パターン「毎月28日」。日付で該当。7回適用して5回成功、ベイズ勝率 0.545（Tier2）。"
     },
     {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 台数。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@SAPsouka 11/27 19:00",
+       "text": "「11.28 SATURDAY」。台数",
+       "url": "https://x.com/SAPsouka/status/2126254704891969797"
+      }
+     ]
+    },
+    {
      "title": "第三者評価: A 13.5",
      "body": "hall-navi の11/28の評価。対象: SAP取材。出典: DMMぱちタウン"
     }
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@SAPsouka 11/27 19:00",
+     "url": "https://x.com/SAPsouka/status/2126254704891969797"
+    }
+   ],
    "scores": {
     "v1": 52.5,
     "v1_third_avg": 59.6,
@@ -133,83 +270,43 @@
    }
   },
   {
-   "storeId": "para-mabashi",
-   "storeName": "パラッツォ馬橋駅前",
-   "area": "馬橋・車25分",
-   "score": 36.9,
-   "scoreLabel": "様子見",
-   "rank": "穴",
-   "kishu": [],
-   "checks": [
-    "8のつく日（ベイズ勝率 0.42・15回中7回）"
-   ],
-   "basis": [
-    {
-     "title": "法則: 8のつく日",
-     "body": "開催パターン「8日・18日・28日」。日付で該当。15回適用して7回成功、ベイズ勝率 0.421（Tier2）。"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 36.9,
-    "v1_third_avg": null,
-    "v2": null,
-    "star_v1": 2
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 18.9,
-    "kokuchi": 0,
-    "third": 0
-   }
-  },
-  {
-   "storeId": "peark-soka",
-   "storeName": "ピーアーク草加",
-   "area": "草加・車20分",
-   "score": 33.0,
-   "scoreLabel": "見送り",
-   "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "第三者評価 S 13.2（hall-navi）"
-   ],
-   "basis": [
-    {
-     "title": "第三者評価: S 13.2",
-     "body": "hall-navi の11/28の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
-    }
-   ],
-   "chusen": "",
-   "narabi": "",
-   "sources": [],
-   "scores": {
-    "v1": 33.0,
-    "v1_third_avg": 66.5,
-    "v2": null,
-    "star_v1": 1
-   },
-   "breakdown": {
-    "rank": 18,
-    "rule": 0.0,
-    "kokuchi": 0,
-    "third": 15
-   }
-  },
-  {
    "storeId": "kicona-matsudo",
    "storeName": "キコーナ松戸",
    "area": "松戸・車25分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
-   "kishu": [],
+   "kishu": [
+    "ジャグラー",
+    "喰種"
+   ],
    "checks": [
+    "公式Xで来店（抽選時刻）",
+    "晒し屋1件が言及（@chiba_pachislo）",
     "第三者評価 無印 9.6（hall-navi）"
    ],
    "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 取材・来店・応援団・調査、抽選時刻。",
+     "kishu": [
+      "ジャグラー",
+      "喰種"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@chiba_pachislo(A) 11/27 17:00",
+       "text": "取材・来店・応援団の情報「明日11/28(土) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2126224522772938828"
+      },
+      {
+       "who": "公式@kicona_matsudo 11/27 20:39",
+       "text": "来店を告知「キコーナ松戸店です」。抽選時刻",
+       "url": "https://x.com/kicona_matsudo/status/2126279619162857884"
+      }
+     ]
+    },
     {
      "title": "第三者評価: 無印 9.6",
      "body": "hall-navi の11/28の評価。対象: つばさ来店。出典: その他取材・企画"
@@ -217,17 +314,26 @@
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@chiba_pachislo 11/27 17:00",
+     "url": "https://x.com/chiba_pachislo/status/2126224522772938828"
+    },
+    {
+     "label": "@kicona_matsudo 11/27 20:39",
+     "url": "https://x.com/kicona_matsudo/status/2126279619162857884"
+    }
+   ],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 39.6,
+    "v1": 51.0,
+    "v1_third_avg": 52.1,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 18,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 8
    }
   },
@@ -235,32 +341,70 @@
    "storeId": "yasuda-yashio",
    "storeName": "やすだ八潮",
    "area": "八潮・車15分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
    "kishu": [],
    "checks": [
+    "公式Xで取材、応援団（抽選時刻）",
+    "晒し屋2件が言及（@amakusayasuwo・@amakusayasuwo）",
     "第三者評価 S 13.5（hall-navi）"
    ],
    "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "公式X 1件／晒し屋 2件 が 来店・応援団・取材・調査、抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "晒し屋@amakusayasuwo(B) 11/27 18:20",
+       "text": "来店・応援団の情報「11/28埼玉・千葉・東海の企画!!」",
+       "url": "https://x.com/amakusayasuwo/status/2126244773451477371"
+      },
+      {
+       "who": "晒し屋@amakusayasuwo(B) 11/27 20:20",
+       "text": "取材・来店・応援団の情報「明日11/28は来店取材21店舗!!」",
+       "url": "https://x.com/amakusayasuwo/status/2126274918706749609"
+      },
+      {
+       "who": "公式@yasuda_yashio 11/27 19:00",
+       "text": "取材・応援団を告知「やすだ八潮店です」。抽選時刻",
+       "url": "https://x.com/yasuda_yashio/status/2126254715931357326"
+      }
+     ]
+    },
     {
      "title": "第三者評価: S 13.5",
      "body": "hall-navi の11/28の評価。対象: 天草極上ホール応援団来店。出典: パーフェクトリサーチ"
     }
    ],
-   "chusen": "",
+   "chusen": "入場抽選 9:30",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@amakusayasuwo 11/27 18:20",
+     "url": "https://x.com/amakusayasuwo/status/2126244773451477371"
+    },
+    {
+     "label": "@amakusayasuwo 11/27 20:20",
+     "url": "https://x.com/amakusayasuwo/status/2126274918706749609"
+    },
+    {
+     "label": "@yasuda_yashio 11/27 19:00",
+     "url": "https://x.com/yasuda_yashio/status/2126254715931357326"
+    }
+   ],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 63.0,
+    "v1": 51.0,
+    "v1_third_avg": 75.5,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 11,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 15
    }
   },
@@ -268,32 +412,51 @@
    "storeId": "rakuen",
    "storeName": "楽園南越谷",
    "area": "南越谷・車20分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
    "kishu": [],
    "checks": [
+    "公式Xで取材（抽選時刻）",
     "第三者評価 無印 10.0（hall-navi）"
    ],
    "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 取材、抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@mkg_rakuen 11/27 20:00",
+       "text": "取材を告知「いよいよ待ちに待った週末」。抽選時刻",
+       "url": "https://x.com/mkg_rakuen/status/2126269806278021447"
+      }
+     ]
+    },
     {
      "title": "第三者評価: 無印 10.0",
      "body": "hall-navi の11/28の評価。対象: 千客万来。出典: DMMぱちタウン"
     }
    ],
-   "chusen": "",
+   "chusen": "入場抽選 9:20",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@mkg_rakuen 11/27 20:00",
+     "url": "https://x.com/mkg_rakuen/status/2126269806278021447"
+    }
+   ],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 39.6,
+    "v1": 51.0,
+    "v1_third_avg": 52.1,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 18,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 8
    }
   },
@@ -301,14 +464,34 @@
    "storeId": "maruhan-kameari",
    "storeName": "マルハン亀有",
    "area": "亀有・車30分",
-   "score": 26.0,
-   "scoreLabel": "見送り",
+   "score": 51.0,
+   "scoreLabel": "期待度 やや高い",
    "rank": "その他",
    "kishu": [],
    "checks": [
+    "公式Xで来店（抽選方法）",
+    "晒し屋1件が言及（@slo1_tyousataiZ）",
     "第三者評価 S 15.4（hall-navi）"
    ],
    "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 取材・来店・応援団・調査、抽選人数・抽選方法。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 11/27 21:49",
+       "text": "取材・来店・応援団の情報「11/28 注目ホール40選」。抽選人数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+      },
+      {
+       "who": "公式@maruhan_kameari 11/27 19:10",
+       "text": "来店を告知「葛飾区の大型店」。抽選方法",
+       "url": "https://x.com/maruhan_kameari/status/2126257221788942447"
+      }
+     ]
+    },
     {
      "title": "第三者評価: S 15.4",
      "body": "hall-navi の11/28の評価。対象: ナビ子AI予想【差枚プラス】★3 (毎週 土曜日)。"
@@ -316,17 +499,109 @@
    ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@slo1_tyousataiZ 11/27 21:49",
+     "url": "https://x.com/slo1_tyousataiZ/status/2126297265421840552"
+    },
+    {
+     "label": "@maruhan_kameari 11/27 19:10",
+     "url": "https://x.com/maruhan_kameari/status/2126257221788942447"
+    }
+   ],
    "scores": {
-    "v1": 26.0,
-    "v1_third_avg": 63.0,
+    "v1": 51.0,
+    "v1_third_avg": 75.5,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 3
    },
    "breakdown": {
     "rank": 11,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
+    "third": 15
+   }
+  },
+  {
+   "storeId": "peark-soka",
+   "storeName": "ピーアーク草加",
+   "area": "草加・車20分",
+   "score": 50.0,
+   "scoreLabel": "期待度 やや高い",
+   "rank": "その他",
+   "kishu": [
+    "カバネリ",
+    "SAO",
+    "リコリス",
+    "リコリコ"
+   ],
+   "checks": [
+    "晒し屋@slo1_tyousataiZ（信頼度B）で取材、来店、周年（台数）",
+    "晒し屋3件が言及（@slotchousatai・@slotchousatai・@slo1_tyou）",
+    "第三者評価 S 13.2（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（3件）",
+     "body": "晒し屋 3件 が 取材・来店・スロパチ・実践、抽選人数・台数。",
+     "kishu": [
+      "カバネリ",
+      "SAO",
+      "リコリス",
+      "リコリコ",
+      "ゴッド",
+      "マイジャグ"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@slotchousatai(A) 11/27 17:40",
+       "text": "取材・来店・スロパチの情報「11/28 埼玉スロパチ.攻略」。抽選人数",
+       "url": "https://x.com/slotchousatai/status/2126234572249878563"
+      },
+      {
+       "who": "晒し屋@slotchousatai(A) 11/27 20:24",
+       "text": "取材・来店・実践の情報「11/28 まとめ1~5(1)」",
+       "url": "https://x.com/slotchousatai/status/2126275844511584674"
+      },
+      {
+       "who": "晒し屋@slo1_tyousataiZ(B) 11/27 20:45",
+       "text": "取材・来店・周年の情報「11/28」。台数",
+       "url": "https://x.com/slo1_tyousataiZ/status/2126281373300486247"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: S 13.2",
+     "body": "hall-navi の11/28の評価。対象: スロパチステーション来店取材(青)。出典: スロパチステーション"
+    }
+   ],
+   "chusen": "",
+   "narabi": "",
+   "sources": [
+    {
+     "label": "@slotchousatai 11/27 17:40",
+     "url": "https://x.com/slotchousatai/status/2126234572249878563"
+    },
+    {
+     "label": "@slotchousatai 11/27 20:24",
+     "url": "https://x.com/slotchousatai/status/2126275844511584674"
+    },
+    {
+     "label": "@slo1_tyousataiZ 11/27 20:45",
+     "url": "https://x.com/slo1_tyousataiZ/status/2126281373300486247"
+    }
+   ],
+   "scores": {
+    "v1": 50.0,
+    "v1_third_avg": 75.0,
+    "v2": null,
+    "star_v1": 3
+   },
+   "breakdown": {
+    "rank": 18,
+    "rule": 0.0,
+    "kokuchi": 17,
     "third": 15
    }
   },
@@ -334,55 +609,114 @@
    "storeId": "exarena",
    "storeName": "エクスアリーナ松戸",
    "area": "松戸・車25分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
+   "score": 39.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
-   "kishu": [],
-   "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+   "kishu": [
+    "ジャグラー",
+    "喰種"
    ],
-   "basis": [],
+   "checks": [
+    "公式Xで来店、実践の告知あり",
+    "晒し屋1件が言及（@chiba_pachislo）",
+    "第三者評価 無印 7.5（hall-navi）"
+   ],
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（2件）",
+     "body": "公式X 1件／晒し屋 1件 が 取材・来店・応援団・調査。",
+     "kishu": [
+      "ジャグラー",
+      "喰種"
+     ],
+     "posts": [
+      {
+       "who": "晒し屋@chiba_pachislo(A) 11/27 17:00",
+       "text": "取材・来店・応援団の情報「明日11/28(土) 千葉注目ホールまとめ」",
+       "url": "https://x.com/chiba_pachislo/status/2126224522772938828"
+      },
+      {
+       "who": "公式@XAmatsudo 11/27 21:00",
+       "text": "来店・実践を告知「明日11月28日土曜日のエクス松戸は」",
+       "url": "https://x.com/XAmatsudo/status/2126284919651328439"
+      }
+     ]
+    },
+    {
+     "title": "第三者評価: 無印 7.5",
+     "body": "hall-navi の11/28の評価。対象: 結城りこ来店。出典: その他取材・企画"
+    }
+   ],
    "chusen": "",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@chiba_pachislo 11/27 17:00",
+     "url": "https://x.com/chiba_pachislo/status/2126224522772938828"
+    },
+    {
+     "label": "@XAmatsudo 11/27 21:00",
+     "url": "https://x.com/XAmatsudo/status/2126284919651328439"
+    }
+   ],
    "scores": {
-    "v1": 11.0,
-    "v1_third_avg": null,
+    "v1": 39.0,
+    "v1_third_avg": 46.1,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 2
    },
    "breakdown": {
     "rank": 11,
     "rule": 0.0,
-    "kokuchi": 0,
-    "third": 0
+    "kokuchi": 20,
+    "third": 8
    }
   },
   {
    "storeId": "yasuda-misato",
    "storeName": "やすだ三郷",
    "area": "三郷・車10分",
-   "score": 11.0,
-   "scoreLabel": "見送り",
+   "score": 36.0,
+   "scoreLabel": "様子見",
    "rank": "その他",
    "kishu": [],
    "checks": [
-    "該当法則なし・告知なし。店格のみでの評価"
+    "公式Xで取材（抽選時刻）"
    ],
-   "basis": [],
-   "chusen": "",
+   "basis": [
+    {
+     "kind": "tweets",
+     "title": "X告知・示唆まとめ（1件）",
+     "body": "公式X 1件 が 取材、抽選時刻。",
+     "kishu": [],
+     "posts": [
+      {
+       "who": "公式@yasuda_misato 11/27 20:00",
+       "text": "取材を告知「明日11月28日」。抽選時刻",
+       "url": "https://x.com/yasuda_misato/status/2126269826398360047"
+      }
+     ]
+    }
+   ],
+   "chusen": "入場抽選 9:40",
    "narabi": "",
-   "sources": [],
+   "sources": [
+    {
+     "label": "@yasuda_misato 11/27 20:00",
+     "url": "https://x.com/yasuda_misato/status/2126269826398360047"
+    }
+   ],
    "scores": {
-    "v1": 11.0,
+    "v1": 36.0,
     "v1_third_avg": null,
     "v2": null,
-    "star_v1": 1
+    "star_v1": 2
    },
    "breakdown": {
     "rank": 11,
     "rule": 0.0,
-    "kokuchi": 0,
+    "kokuchi": 25,
     "third": 0
    }
   }
